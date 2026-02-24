@@ -1,65 +1,3764 @@
 [
-  {"name":"Hugging Face","slug":"hugging-face","developer":"Hugging Face","description":"Open-source AI platform hosting 500K+ models, datasets, and ML demos.","website":"https://huggingface.co","rating":4.7,"reviewCount":8500,"views":680000,"clicks":195000,"isFeatured":true,"platforms":"Web, API","categories":["Developer Tools","Open Source"],"industries":["Technology","Education"],"tags":["open-source","models","ml"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Unlimited models|Community support","isPopular":true},{"name":"Pro","price":9,"period":"month","features":"Private repos|Compute credits","isPopular":false}],"features":[{"name":"Model Hub","description":"Access 500K+ pre-trained AI models"},{"name":"Spaces","description":"Host ML demos and applications"}],"useCases":[{"title":"Model Deployment","description":"Deploy AI models to production","icon":"Server"}],"pros":"Massive model library|Free hosting|Great community","cons":"Free compute limited|Complex for beginners"},
-  {"name":"Slack AI","slug":"slack-ai","developer":"Salesforce","description":"AI features in Slack for channel summaries, thread recaps, and intelligent search.","website":"https://slack.com/features/ai","rating":4.3,"reviewCount":5200,"views":420000,"clicks":110000,"isFeatured":false,"platforms":"Web, Desktop, iOS, Android","categories":["Productivity","Automation"],"industries":["Technology","Marketing"],"tags":["slack","communication","productivity"],"pricingPlans":[{"name":"AI Add-on","price":10,"period":"month/user","features":"Channel summaries|Thread recaps|AI search","isPopular":true}],"features":[{"name":"Channel Summaries","description":"AI-generated summaries of channel activity"},{"name":"AI Search","description":"Find information across all channels"}],"useCases":[{"title":"Team Catch-up","description":"Stay updated without reading every message","icon":"MessageSquare"}],"pros":"Seamless integration|Great summaries|Saves time","cons":"Expensive add-on|US-only initially"},
-  {"name":"Salesforce Einstein","slug":"salesforce-einstein","developer":"Salesforce","description":"AI layer for Salesforce CRM with predictive analytics and generative AI for sales.","website":"https://salesforce.com/einstein","rating":4.3,"reviewCount":6800,"views":380000,"clicks":98000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["CRM","Sales"],"industries":["Sales","Finance"],"tags":["salesforce","crm","predictive-analytics"],"pricingPlans":[{"name":"Einstein for Sales","price":50,"period":"month/user","features":"Lead scoring|Opportunity insights|Email AI","isPopular":true}],"features":[{"name":"Predictive Lead Scoring","description":"AI ranks leads by conversion probability"},{"name":"Einstein GPT","description":"Generate personalized emails and content"}],"useCases":[{"title":"Sales Forecasting","description":"Predict revenue with AI-driven forecasts","icon":"TrendingUp"}],"pros":"Deep CRM integration|Powerful predictions","cons":"Very expensive|Complex setup"},
-  {"name":"Tableau AI","slug":"tableau-ai","developer":"Salesforce","description":"AI-powered data visualization and analytics with natural language queries.","website":"https://tableau.com","rating":4.5,"reviewCount":9200,"views":520000,"clicks":135000,"isFeatured":false,"platforms":"Web, Desktop","categories":["Data & Analytics","Productivity"],"industries":["Finance","Technology","Healthcare"],"tags":["data-visualization","analytics","dashboards"],"pricingPlans":[{"name":"Explorer","price":42,"period":"month/user","features":"Create visualizations|AI insights|Data prep","isPopular":true}],"features":[{"name":"Ask Data","description":"Query data using natural language"},{"name":"Explain Data","description":"AI explanations for data points"}],"useCases":[{"title":"Business Dashboards","description":"Create interactive executive dashboards","icon":"BarChart"}],"pros":"Best-in-class visualization|AI insights","cons":"Expensive|Steep learning curve"},
-  {"name":"Stripe Radar","slug":"stripe-radar","developer":"Stripe","description":"AI-powered fraud detection trained on billions of transactions.","website":"https://stripe.com/radar","rating":4.6,"reviewCount":12000,"views":580000,"clicks":165000,"isFeatured":false,"platforms":"API, Web","categories":["Automation","Data & Analytics"],"industries":["E-commerce","Finance"],"tags":["fraud-detection","payments","fintech"],"pricingPlans":[{"name":"Included","price":0,"period":null,"features":"Basic fraud detection|ML scoring","isPopular":true}],"features":[{"name":"Radar ML","description":"ML fraud detection on billions of transactions"},{"name":"Adaptive Acceptance","description":"ML increases payment success rates"}],"useCases":[{"title":"Fraud Prevention","description":"Block fraud while approving legitimate payments","icon":"Shield"}],"pros":"Industry-leading detection|Massive training data","cons":"Only for Stripe users|Advanced features extra"},
-  {"name":"Intercom Fin","slug":"intercom-fin","developer":"Intercom","description":"AI customer service agent resolving 50%+ of support queries instantly.","website":"https://intercom.com/fin","rating":4.4,"reviewCount":3800,"views":260000,"clicks":68000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["Customer Support","Automation"],"industries":["E-commerce","Technology"],"tags":["customer-service","chatbot","helpdesk"],"pricingPlans":[{"name":"Fin AI","price":0.99,"period":"per resolution","features":"AI answers|Human handoff|Multi-language","isPopular":true}],"features":[{"name":"AI Resolution","description":"Resolve queries from your knowledge base"},{"name":"Human Handoff","description":"Transfer to agents when needed"}],"useCases":[{"title":"24/7 Support","description":"Instant customer support around the clock","icon":"Clock"}],"pros":"High resolution rate|Easy setup","cons":"Per-resolution costs add up|Needs good KB"},
-  {"name":"Zendesk AI","slug":"zendesk-ai","developer":"Zendesk","description":"AI-powered customer service with intelligent triage and agent assistance.","website":"https://zendesk.com/ai","rating":4.3,"reviewCount":8500,"views":380000,"clicks":95000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["Customer Support","Automation"],"industries":["E-commerce","Technology","Finance"],"tags":["customer-service","zendesk","ticketing"],"pricingPlans":[{"name":"Suite Growth","price":89,"period":"month/agent","features":"AI triage|CSAT surveys|Multiple SLAs","isPopular":true}],"features":[{"name":"AI Triage","description":"Auto classify and route tickets"},{"name":"Agent Assist","description":"AI suggestions for agents"}],"useCases":[{"title":"Support Triage","description":"Auto-route and prioritize tickets","icon":"Filter"}],"pros":"Comprehensive platform|Good AI features","cons":"Expensive per-agent|Complex to configure"},
-  {"name":"Figma AI","slug":"figma-ai","developer":"Figma","description":"AI-powered design features in Figma for auto-layout and content generation.","website":"https://figma.com","rating":4.7,"reviewCount":18000,"views":820000,"clicks":245000,"isFeatured":false,"platforms":"Web, Desktop","categories":["Design","Productivity"],"industries":["Design & Creative","Technology"],"tags":["design","figma","ui-ux","prototyping"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"3 files|Unlimited personal","isPopular":false},{"name":"Professional","price":12,"period":"month/editor","features":"Unlimited files|AI features|Dev mode","isPopular":true}],"features":[{"name":"AI Design Generation","description":"Generate UI designs from text"},{"name":"Auto Layout","description":"Smart responsive layouts"}],"useCases":[{"title":"UI/UX Design","description":"Design interfaces with AI tools","icon":"Layout"}],"pros":"Best collaborative design|Excellent plugins","cons":"AI features still basic|Can be slow"},
-  {"name":"Adobe Firefly","slug":"adobe-firefly","developer":"Adobe","description":"Adobe's generative AI for creating and editing images within Creative Cloud.","website":"https://firefly.adobe.com","rating":4.4,"reviewCount":6500,"views":420000,"clicks":115000,"isFeatured":false,"platforms":"Web, Desktop","categories":["Image Generation","Design"],"industries":["Design & Creative","Marketing"],"tags":["adobe","firefly","generative-ai","creative-cloud"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"25 credits/month|Basic features","isPopular":false},{"name":"Premium","price":9.99,"period":"month","features":"100 credits|Adobe Fonts","isPopular":true}],"features":[{"name":"Text-to-Image","description":"Commercially safe image generation"},{"name":"Generative Fill","description":"Add/remove content in images with AI"}],"useCases":[{"title":"Photo Editing","description":"Modify photos with generative AI","icon":"Image"}],"pros":"Commercially safe|Great Photoshop integration","cons":"Credit limits|Less creative than Midjourney"},
-  {"name":"Leonardo AI","slug":"leonardo-ai","developer":"Leonardo AI","description":"AI image generation focused on game assets, concept art, and creative content.","website":"https://leonardo.ai","rating":4.4,"reviewCount":5200,"views":320000,"clicks":85000,"isFeatured":false,"platforms":"Web, API","categories":["Image Generation","Design"],"industries":["Entertainment","Design & Creative"],"tags":["image-generation","game-assets","concept-art"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"150 tokens/day|Basic models","isPopular":false},{"name":"Apprentice","price":12,"period":"month","features":"8500 tokens/month|All models","isPopular":true}],"features":[{"name":"AI Image Generation","description":"Multiple model options for different styles"},{"name":"AI Canvas","description":"Real-time AI editing and inpainting"}],"useCases":[{"title":"Game Development","description":"Create game assets and environments","icon":"Gamepad"}],"pros":"Great for game assets|Good free tier","cons":"Token system limiting|Quality inconsistent"},
-  {"name":"Pika","slug":"pika","developer":"Pika Labs","description":"AI video generation from text, images, or existing video clips.","website":"https://pika.art","rating":4.3,"reviewCount":2800,"views":220000,"clicks":58000,"isFeatured":false,"platforms":"Web","categories":["Video Generation","Design"],"industries":["Entertainment","Marketing"],"tags":["video-generation","text-to-video","creative"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"250 credits|3-second videos","isPopular":false},{"name":"Standard","price":8,"period":"month","features":"700 credits|No watermark","isPopular":true}],"features":[{"name":"Text-to-Video","description":"Generate videos from text descriptions"},{"name":"Image-to-Video","description":"Animate still images"}],"useCases":[{"title":"Social Content","description":"Create short-form video for social platforms","icon":"Share2"}],"pros":"Easy to use|Good quality for price","cons":"Short video length|Credit system"},
-  {"name":"Suno AI","slug":"suno-ai","developer":"Suno","description":"AI music generation creating full songs with vocals and instruments from text.","website":"https://suno.com","rating":4.5,"reviewCount":4200,"views":280000,"clicks":72000,"isFeatured":false,"platforms":"Web","categories":["Audio & Speech","Content Creation"],"industries":["Entertainment","Marketing"],"tags":["music-generation","ai-music","song-creation"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"50 credits/day|Non-commercial","isPopular":false},{"name":"Pro","price":8,"period":"month","features":"2500 credits|Commercial license","isPopular":true}],"features":[{"name":"Text-to-Song","description":"Generate full songs from descriptions"},{"name":"Multiple Genres","description":"Pop, rock, jazz, electronic, and more"}],"useCases":[{"title":"Content Creation","description":"Background music for videos and podcasts","icon":"Music"}],"pros":"Impressive song generation|Great vocals","cons":"Sometimes repetitive|Copyright gray area"},
-  {"name":"Notion","slug":"notion","developer":"Notion Labs","description":"All-in-one workspace for notes, docs, databases, and project management.","website":"https://notion.so","rating":4.6,"reviewCount":25000,"views":880000,"clicks":280000,"isFeatured":false,"platforms":"Web, Desktop, iOS, Android","categories":["Productivity","Knowledge Management"],"industries":["Technology","Education"],"tags":["workspace","project-management","notes"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Unlimited pages|7-day history","isPopular":false},{"name":"Plus","price":8,"period":"month","features":"Unlimited uploads|30-day history","isPopular":true}],"features":[{"name":"Flexible Workspace","description":"Docs, databases, kanban, calendars"},{"name":"Templates","description":"Thousands of templates"}],"useCases":[{"title":"Team Wiki","description":"Centralized knowledge base","icon":"BookOpen"}],"pros":"Incredibly flexible|Great free tier","cons":"Can be slow|Learning curve"},
-  {"name":"Linear","slug":"linear","developer":"Linear","description":"AI-powered project management for software teams with auto-triage.","website":"https://linear.app","rating":4.7,"reviewCount":4200,"views":280000,"clicks":72000,"isFeatured":false,"platforms":"Web, Desktop, iOS, Android","categories":["Productivity","Developer Tools"],"industries":["Technology"],"tags":["project-management","issue-tracking","agile"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Unlimited issues|250 active","isPopular":false},{"name":"Standard","price":8,"period":"month/user","features":"Unlimited everything|All integrations","isPopular":true}],"features":[{"name":"AI Auto-Triage","description":"Auto categorize and prioritize issues"},{"name":"Cycles","description":"Time-boxed sprints"}],"useCases":[{"title":"Issue Tracking","description":"Fast keyboard-driven issue tracking","icon":"Bug"}],"pros":"Incredibly fast UI|Great shortcuts","cons":"Opinionated workflow|Limited non-dev"},
-  {"name":"Codeium","slug":"codeium","developer":"Exafunction","description":"Free AI code completion supporting 70+ languages.","website":"https://codeium.com","rating":4.5,"reviewCount":4800,"views":310000,"clicks":82000,"isFeatured":false,"platforms":"VS Code, JetBrains, Neovim, Web","categories":["Code Assistant","Developer Tools"],"industries":["Technology"],"tags":["code-completion","free","ai-coding"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Unlimited completions|Chat|70+ languages","isPopular":true}],"features":[{"name":"Code Completion","description":"Fast suggestions in 70+ languages"},{"name":"AI Chat","description":"Ask questions about code"}],"useCases":[{"title":"Code Writing","description":"Write code faster with AI completions","icon":"Code"}],"pros":"Completely free|Fast|Wide IDE support","cons":"Less accurate than Copilot sometimes"},
-  {"name":"Replit AI","slug":"replit-ai","developer":"Replit","description":"Cloud IDE with AI code generation and one-click deployment.","website":"https://replit.com","rating":4.4,"reviewCount":8200,"views":450000,"clicks":125000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["Code Assistant","Developer Tools"],"industries":["Technology","Education"],"tags":["cloud-ide","ai-coding","deployment"],"pricingPlans":[{"name":"Starter","price":0,"period":"month","features":"Basic AI|Public repls","isPopular":false},{"name":"Core","price":25,"period":"month","features":"Advanced AI|Private repls|Deployments","isPopular":true}],"features":[{"name":"Replit Agent","description":"AI builds entire apps from descriptions"},{"name":"Instant Deploy","description":"Deploy with one click"}],"useCases":[{"title":"Learning to Code","description":"Learn programming with AI assistance","icon":"GraduationCap"}],"pros":"No setup required|AI builds full apps","cons":"Limited free tier|Not for large projects"},
-  {"name":"Shopify Magic","slug":"shopify-magic","developer":"Shopify","description":"AI tools in Shopify for product descriptions, chat support, and store optimization.","website":"https://shopify.com/magic","rating":4.3,"reviewCount":6500,"views":380000,"clicks":98000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["E-commerce Tools","Content Creation"],"industries":["E-commerce"],"tags":["shopify","e-commerce","product-descriptions"],"pricingPlans":[{"name":"Basic","price":29,"period":"month","features":"Magic included|Basic reports","isPopular":false},{"name":"Shopify","price":79,"period":"month","features":"Pro reports|5 staff","isPopular":true}],"features":[{"name":"Product Descriptions","description":"AI-generated descriptions from keywords"},{"name":"Sidekick","description":"AI assistant for store management"}],"useCases":[{"title":"Product Listings","description":"Generate compelling descriptions at scale","icon":"ShoppingBag"}],"pros":"Seamless integration|Free with Shopify","cons":"Only for Shopify|AI quality varies"},
-  {"name":"Semrush","slug":"semrush","developer":"Semrush","description":"All-in-one SEO and digital marketing platform with AI content creation.","website":"https://semrush.com","rating":4.5,"reviewCount":11000,"views":520000,"clicks":145000,"isFeatured":false,"platforms":"Web","categories":["SEO","Marketing","Data & Analytics"],"industries":["Marketing","E-commerce"],"tags":["seo","keyword-research","competitive-analysis"],"pricingPlans":[{"name":"Pro","price":129.95,"period":"month","features":"5 projects|500 keywords","isPopular":false},{"name":"Guru","price":249.95,"period":"month","features":"15 projects|Content tools","isPopular":true}],"features":[{"name":"AI Writing Assistant","description":"Generate SEO-optimized content"},{"name":"Site Audit","description":"Technical SEO auditing"}],"useCases":[{"title":"SEO Strategy","description":"Develop SEO strategies with AI","icon":"TrendingUp"}],"pros":"Most comprehensive SEO tool|Great analysis","cons":"Very expensive|Overwhelming for beginners"},
-  {"name":"Ahrefs","slug":"ahrefs","developer":"Ahrefs","description":"SEO toolset for backlink analysis, keyword research, and content optimization.","website":"https://ahrefs.com","rating":4.6,"reviewCount":9500,"views":480000,"clicks":130000,"isFeatured":false,"platforms":"Web","categories":["SEO","Marketing"],"industries":["Marketing","E-commerce"],"tags":["seo","backlinks","keyword-research"],"pricingPlans":[{"name":"Lite","price":99,"period":"month","features":"5 projects|750 keywords","isPopular":false},{"name":"Standard","price":199,"period":"month","features":"20 projects|2000 keywords","isPopular":true}],"features":[{"name":"Site Explorer","description":"Backlink and organic traffic analysis"},{"name":"Keywords Explorer","description":"Keyword research with difficulty scores"}],"useCases":[{"title":"Link Building","description":"Find backlink opportunities","icon":"Link"}],"pros":"Best backlink database|Accurate data","cons":"Expensive|Limited AI features"},
-  {"name":"Supabase","slug":"supabase","developer":"Supabase","description":"Open-source Firebase alternative with PostgreSQL and AI vector capabilities.","website":"https://supabase.com","rating":4.6,"reviewCount":5200,"views":380000,"clicks":98000,"isFeatured":false,"platforms":"Web, API","categories":["Developer Tools","Data & Analytics"],"industries":["Technology"],"tags":["database","postgres","backend","open-source"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"500MB database|50K auth users","isPopular":false},{"name":"Pro","price":25,"period":"month","features":"8GB database|Unlimited auth","isPopular":true}],"features":[{"name":"PostgreSQL","description":"Full PostgreSQL with real-time"},{"name":"Vector Store","description":"pgvector for AI embeddings"}],"useCases":[{"title":"App Backend","description":"Full-stack apps with managed PostgreSQL","icon":"Server"}],"pros":"Open-source|Great PostgreSQL|Built-in auth","cons":"Free tier limited|Some features maturing"},
-  {"name":"Mistral AI","slug":"mistral-ai","developer":"Mistral AI","description":"Powerful open and commercial language models with excellent performance-to-cost.","website":"https://mistral.ai","rating":4.5,"reviewCount":2800,"views":220000,"clicks":58000,"isFeatured":false,"platforms":"API, Self-hosted","categories":["LLM & Chatbot","Open Source"],"industries":["Technology","Finance"],"tags":["llm","open-source","language-model"],"pricingPlans":[{"name":"Open Models","price":0,"period":null,"features":"Mistral 7B|Mixtral|Self-hosted","isPopular":true}],"features":[{"name":"Mistral Large","description":"High-performance commercial model"},{"name":"Open Models","description":"Free open-source models"}],"useCases":[{"title":"Self-hosted AI","description":"Run LLMs on your infrastructure","icon":"Server"}],"pros":"Excellent performance-to-cost|Open models","cons":"Smaller ecosystem|Fewer features than OpenAI"},
-  {"name":"Llama (Meta)","slug":"llama-meta","developer":"Meta","description":"Open-source large language models for research and commercial use.","website":"https://llama.meta.com","rating":4.5,"reviewCount":5200,"views":380000,"clicks":98000,"isFeatured":false,"platforms":"Self-hosted","categories":["LLM & Chatbot","Open Source"],"industries":["Technology","Education"],"tags":["llm","open-source","meta"],"pricingPlans":[{"name":"Open Source","price":0,"period":null,"features":"Full weights|Commercial license","isPopular":true}],"features":[{"name":"Llama 3.1","description":"Up to 405B parameters"},{"name":"Code Llama","description":"Specialized for code generation"}],"useCases":[{"title":"Self-hosted AI","description":"Run powerful LLM on own infrastructure","icon":"Server"}],"pros":"Free|Competitive with GPT-4|Multiple sizes","cons":"Requires infrastructure|Resource intensive"},
-  {"name":"Groq","slug":"groq","developer":"Groq Inc.","description":"Ultra-fast AI inference on custom LPU hardware for near-instant responses.","website":"https://groq.com","rating":4.5,"reviewCount":2200,"views":190000,"clicks":52000,"isFeatured":false,"platforms":"API, Web","categories":["Developer Tools","LLM & Chatbot"],"industries":["Technology"],"tags":["inference","fast-ai","hardware"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Rate-limited|Open models","isPopular":false},{"name":"Pay-as-you-go","price":null,"period":"per token","features":"High limits|All models","isPopular":true}],"features":[{"name":"LPU Inference","description":"10x faster than GPUs"},{"name":"Low Latency","description":"Sub-second responses"}],"useCases":[{"title":"Real-time AI","description":"Apps requiring instant AI responses","icon":"Zap"}],"pros":"Fastest inference|OpenAI-compatible API","cons":"Limited models|New platform"},
-  {"name":"Consensus","slug":"consensus","developer":"Consensus","description":"AI academic search extracting findings from peer-reviewed papers.","website":"https://consensus.app","rating":4.5,"reviewCount":2800,"views":180000,"clicks":48000,"isFeatured":false,"platforms":"Web","categories":["Search & Research","Education"],"industries":["Education","Healthcare"],"tags":["research","academic","evidence-based"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"20 AI searches/month","isPopular":false},{"name":"Premium","price":8.99,"period":"month","features":"Unlimited AI|GPT-4 analysis","isPopular":true}],"features":[{"name":"Evidence Search","description":"Find scientific evidence for any question"},{"name":"Consensus Meter","description":"See paper agreement percentages"}],"useCases":[{"title":"Fact Checking","description":"Verify claims with scientific evidence","icon":"CheckCircle"}],"pros":"Evidence-based|Great for researchers","cons":"Academic papers only|English focused"},
-  {"name":"Krisp","slug":"krisp","developer":"Krisp Technologies","description":"AI noise cancellation for calls and recordings in real-time.","website":"https://krisp.ai","rating":4.5,"reviewCount":5800,"views":280000,"clicks":72000,"isFeatured":false,"platforms":"Desktop, iOS","categories":["Audio & Speech","Productivity"],"industries":["Technology","Sales"],"tags":["noise-cancellation","audio","remote-work"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"60 min/day","isPopular":false},{"name":"Pro","price":8,"period":"month","features":"Unlimited|Transcription|AI notes","isPopular":true}],"features":[{"name":"Noise Cancellation","description":"Remove background noise from calls"},{"name":"AI Meeting Notes","description":"Auto summaries and action items"}],"useCases":[{"title":"Remote Work","description":"Clear calls from anywhere","icon":"Home"}],"pros":"Excellent cancellation|Works with any app","cons":"Free tier limited|Subscription needed"},
-  {"name":"Algolia","slug":"algolia","developer":"Algolia","description":"AI search and recommendation platform for fast, relevant search in apps.","website":"https://algolia.com","rating":4.5,"reviewCount":3800,"views":240000,"clicks":65000,"isFeatured":false,"platforms":"API, Web","categories":["Search & Research","Developer Tools"],"industries":["E-commerce","Technology"],"tags":["search","api","recommendations"],"pricingPlans":[{"name":"Build","price":0,"period":"month","features":"10K requests/month|1M records","isPopular":true}],"features":[{"name":"Instant Search","description":"Sub-50ms results with typo tolerance"},{"name":"AI Re-Ranking","description":"ML-optimized result relevance"}],"useCases":[{"title":"E-commerce Search","description":"Fast product search experiences","icon":"ShoppingBag"}],"pros":"Incredibly fast|Great DX|Generous free tier","cons":"Expensive at scale|Complex pricing"},
-  {"name":"Pinecone","slug":"pinecone","developer":"Pinecone","description":"Vector database for AI apps with similarity search and RAG.","website":"https://pinecone.io","rating":4.4,"reviewCount":2100,"views":180000,"clicks":48000,"isFeatured":false,"platforms":"API","categories":["Developer Tools","Data & Analytics"],"industries":["Technology"],"tags":["vector-database","embeddings","rag"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"5M vectors|100K queries","isPopular":true}],"features":[{"name":"Vector Search","description":"Sub-100ms similarity search"},{"name":"Serverless","description":"Auto-scaling architecture"}],"useCases":[{"title":"RAG Applications","description":"Build retrieval-augmented generation apps","icon":"Database"}],"pros":"Purpose-built|Easy to use|Good free tier","cons":"Single-purpose|Expensive at scale"},
-  {"name":"Webflow","slug":"webflow","developer":"Webflow","description":"Visual web design platform with AI for building responsive websites without code.","website":"https://webflow.com","rating":4.5,"reviewCount":7200,"views":420000,"clicks":112000,"isFeatured":false,"platforms":"Web","categories":["Design","No-Code/Low-Code"],"industries":["Design & Creative","Marketing"],"tags":["web-design","no-code","cms"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"2 pages|Webflow subdomain","isPopular":false},{"name":"CMS","price":23,"period":"month","features":"2000 CMS items|100K visits","isPopular":true}],"features":[{"name":"Visual Designer","description":"Pixel-perfect visual website builder"},{"name":"CMS","description":"Dynamic content management"}],"useCases":[{"title":"Marketing Sites","description":"Beautiful marketing sites without code","icon":"Globe"}],"pros":"Professional output|Powerful CMS","cons":"Steep learning curve|Expensive"},
-  {"name":"Framer","slug":"framer","developer":"Framer B.V.","description":"AI-powered website builder generating professional sites from text.","website":"https://framer.com","rating":4.6,"reviewCount":4200,"views":280000,"clicks":72000,"isFeatured":false,"platforms":"Web","categories":["Design","No-Code/Low-Code"],"industries":["Design & Creative","Technology"],"tags":["website-builder","no-code","ai-website"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Subdomain|1000 visitors","isPopular":false},{"name":"Basic","price":15,"period":"month","features":"Custom domain|10K visitors","isPopular":true}],"features":[{"name":"AI Website Generation","description":"Generate sites from text descriptions"},{"name":"Animations","description":"Advanced animation capabilities"}],"useCases":[{"title":"Portfolio Sites","description":"Stunning portfolio websites with AI","icon":"Globe"}],"pros":"Beautiful design|AI generation|Great animations","cons":"Limited e-commerce|CMS basic"},
-  {"name":"Retool","slug":"retool","developer":"Retool","description":"Low-code platform for internal tools with AI-powered features.","website":"https://retool.com","rating":4.4,"reviewCount":3500,"views":240000,"clicks":62000,"isFeatured":false,"platforms":"Web","categories":["No-Code/Low-Code","Developer Tools"],"industries":["Technology","Finance"],"tags":["internal-tools","low-code","admin-panels"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"5 users|Unlimited apps","isPopular":false},{"name":"Team","price":10,"period":"month/user","features":"AI features|Version history","isPopular":true}],"features":[{"name":"AI Actions","description":"Add AI to internal tools"},{"name":"Drag-and-Drop","description":"100+ UI components"}],"useCases":[{"title":"Admin Panels","description":"Custom admin dashboards","icon":"Layout"}],"pros":"Fast tool building|Great DB connectors","cons":"Not customer-facing|Expensive for large teams"},
-  {"name":"AssemblyAI","slug":"assembly-ai","developer":"AssemblyAI","description":"Speech-to-text API with high accuracy and content intelligence.","website":"https://assemblyai.com","rating":4.5,"reviewCount":2400,"views":170000,"clicks":45000,"isFeatured":false,"platforms":"API","categories":["Audio & Speech","Developer Tools"],"industries":["Technology","Healthcare"],"tags":["speech-to-text","transcription","audio-intelligence"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"100 hours/month|Core transcription","isPopular":false},{"name":"Pay-per-use","price":0.37,"period":"per hour","features":"All features|Speaker detection","isPopular":true}],"features":[{"name":"Speech-to-Text","description":"Industry-leading transcription accuracy"},{"name":"Speaker Diarization","description":"Identify different speakers"}],"useCases":[{"title":"Call Analytics","description":"Transcribe and analyze calls at scale","icon":"Phone"}],"pros":"High accuracy|Great DX|Generous free tier","cons":"English-focused|API only"},
-  {"name":"Deepgram","slug":"deepgram","developer":"Deepgram","description":"Fast, accurate speech recognition and text-to-speech via API.","website":"https://deepgram.com","rating":4.5,"reviewCount":2100,"views":150000,"clicks":40000,"isFeatured":false,"platforms":"API","categories":["Audio & Speech","Developer Tools"],"industries":["Technology","Healthcare"],"tags":["speech-to-text","voice-api","real-time"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"$200 credit|All models","isPopular":true}],"features":[{"name":"Nova-2","description":"State-of-the-art speech recognition"},{"name":"Real-time Streaming","description":"Live transcription with low latency"}],"useCases":[{"title":"Voice AI Apps","description":"Voice-enabled applications","icon":"Mic"}],"pros":"Very fast|Good accuracy|Competitive pricing","cons":"API only|Custom models limited"},
-  {"name":"Cohere","slug":"cohere","developer":"Cohere","description":"Enterprise LLMs for text generation, embedding, and classification.","website":"https://cohere.com","rating":4.4,"reviewCount":2400,"views":180000,"clicks":48000,"isFeatured":false,"platforms":"API","categories":["LLM & Chatbot","Developer Tools"],"industries":["Technology","Finance"],"tags":["llm","embeddings","enterprise-ai"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"1000 API calls/month","isPopular":false},{"name":"Production","price":null,"period":"per token","features":"Pay-per-use|SLA|Custom models","isPopular":true}],"features":[{"name":"Command","description":"LLM for text generation"},{"name":"Embed","description":"High-quality text embeddings"}],"useCases":[{"title":"Enterprise Search","description":"Semantic search with embeddings","icon":"Search"}],"pros":"Strong embeddings|Good RAG|Enterprise-focused","cons":"Smaller ecosystem|Limited free tier"},
-  {"name":"Together AI","slug":"together-ai","developer":"Together AI","description":"Cloud platform for running open-source AI models with fast inference.","website":"https://together.ai","rating":4.5,"reviewCount":1800,"views":150000,"clicks":42000,"isFeatured":false,"platforms":"API","categories":["Developer Tools","LLM & Chatbot"],"industries":["Technology"],"tags":["inference","open-source","llm-hosting"],"pricingPlans":[{"name":"Pay-per-token","price":null,"period":"per token","features":"All open models|Fast inference","isPopular":true}],"features":[{"name":"Fast Inference","description":"Optimized open-source model hosting"},{"name":"Fine-tuning","description":"Fine-tune on your data"}],"useCases":[{"title":"Model Hosting","description":"Run LLMs without managing GPUs","icon":"Server"}],"pros":"Competitive pricing|Good model selection","cons":"Only open models|Newer platform"},
-  {"name":"Mailchimp AI","slug":"mailchimp-ai","developer":"Intuit","description":"AI email marketing with content generation and campaign optimization.","website":"https://mailchimp.com","rating":4.3,"reviewCount":15000,"views":620000,"clicks":175000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["Marketing","Automation"],"industries":["Marketing","E-commerce"],"tags":["email-marketing","automation","campaigns"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"500 contacts|1000 emails","isPopular":false},{"name":"Essentials","price":13,"period":"month","features":"5000 contacts|A/B testing","isPopular":true}],"features":[{"name":"AI Content Generator","description":"Generate email copy and subject lines"},{"name":"Send Time Optimization","description":"AI determines best send times"}],"useCases":[{"title":"Email Campaigns","description":"Create optimized email campaigns","icon":"Mail"}],"pros":"Great free tier|Easy to use","cons":"Expensive at scale|AI sometimes generic"},
-  {"name":"Tidio","slug":"tidio","developer":"Tidio","description":"AI customer service with chatbots and live chat for e-commerce.","website":"https://tidio.com","rating":4.4,"reviewCount":5600,"views":240000,"clicks":62000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["Customer Support","Marketing"],"industries":["E-commerce","Sales"],"tags":["chatbot","live-chat","e-commerce"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"50 conversations|100 triggers","isPopular":false},{"name":"Growth","price":59,"period":"month","features":"2000 conversations|Lyro AI","isPopular":true}],"features":[{"name":"Lyro AI","description":"AI chatbot trained on your data"},{"name":"Live Chat","description":"Real-time customer chat"}],"useCases":[{"title":"E-commerce Support","description":"Automate online store support","icon":"ShoppingCart"}],"pros":"Easy setup|AI chatbot effective","cons":"Limited free tier|Lyro needs training"},
-  {"name":"Photoroom","slug":"photoroom","developer":"Photoroom","description":"AI photo editing for background removal and product photography.","website":"https://photoroom.com","rating":4.5,"reviewCount":6200,"views":310000,"clicks":82000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["Image Generation","Design"],"industries":["E-commerce","Marketing"],"tags":["background-removal","product-photos","photo-editing"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Background removal|Watermarked","isPopular":false},{"name":"Pro","price":9.99,"period":"month","features":"No watermark|Batch editing|HD","isPopular":true}],"features":[{"name":"Background Removal","description":"One-click AI background removal"},{"name":"Batch Editing","description":"Edit hundreds of photos at once"}],"useCases":[{"title":"Product Photos","description":"Professional e-commerce product photos","icon":"Camera"}],"pros":"Best background removal|Great for e-commerce","cons":"Watermark on free|Credits limited"},
-  {"name":"Speechify","slug":"speechify","developer":"Speechify Inc.","description":"AI text-to-speech reading any text aloud with natural voices.","website":"https://speechify.com","rating":4.4,"reviewCount":8500,"views":350000,"clicks":92000,"isFeatured":false,"platforms":"Web, iOS, Android, Chrome, Desktop","categories":["Audio & Speech","Education"],"industries":["Education","Technology"],"tags":["text-to-speech","accessibility","reading"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Basic voices|Web reader","isPopular":false},{"name":"Premium","price":11.58,"period":"month","features":"30+ voices|Unlimited|OCR","isPopular":true}],"features":[{"name":"Natural Voices","description":"30+ human-like AI voices"},{"name":"Any Format","description":"Read PDFs, websites, emails"}],"useCases":[{"title":"Accessibility","description":"Make content accessible to all","icon":"Eye"}],"pros":"Natural voices|Multi-platform","cons":"Expensive premium|Free voices basic"},
-  {"name":"Replicate","slug":"replicate","developer":"Replicate Inc.","description":"Cloud platform for running open-source AI models via API.","website":"https://replicate.com","rating":4.5,"reviewCount":2400,"views":190000,"clicks":52000,"isFeatured":false,"platforms":"API, Web","categories":["Developer Tools","Image Generation"],"industries":["Technology"],"tags":["api","open-source","model-hosting"],"pricingPlans":[{"name":"Pay-per-use","price":null,"period":"per second","features":"All models|No minimum","isPopular":true}],"features":[{"name":"Model Library","description":"Thousands of open-source models"},{"name":"Custom Models","description":"Deploy your own models"}],"useCases":[{"title":"AI Backend","description":"Power AI features without infrastructure","icon":"Server"}],"pros":"Easy API|Pay-per-use|Great docs","cons":"Cold start latency|No free tier"},
-  {"name":"Murf AI","slug":"murf-ai","developer":"Murf AI","description":"AI voice generator with 120+ voices in 20+ languages for voiceovers.","website":"https://murf.ai","rating":4.3,"reviewCount":3100,"views":190000,"clicks":48000,"isFeatured":false,"platforms":"Web, API","categories":["Audio & Speech","Content Creation"],"industries":["Marketing","Education"],"tags":["text-to-speech","voiceover","narration"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"10 min generation|No downloads","isPopular":false},{"name":"Business","price":79,"period":"month","features":"8 hrs/year|120+ voices|Voice cloning","isPopular":true}],"features":[{"name":"120+ Voices","description":"Natural voices in 20+ languages"},{"name":"Voice Cloning","description":"Clone your voice"}],"useCases":[{"title":"E-learning","description":"Narrated course content","icon":"GraduationCap"}],"pros":"Realistic quality|Good languages","cons":"Hour limits|Cloning only Business"},
-  {"name":"Loom AI","slug":"loom-ai","developer":"Atlassian","description":"Video messaging with AI summaries, chapters, and filler word removal.","website":"https://loom.com","rating":4.5,"reviewCount":7200,"views":340000,"clicks":88000,"isFeatured":false,"platforms":"Web, Desktop, iOS, Android, Chrome","categories":["Productivity","Video Editing"],"industries":["Technology","Education","Sales"],"tags":["video-messaging","screen-recording","async-video"],"pricingPlans":[{"name":"Starter","price":0,"period":"month","features":"25 videos|5-min limit","isPopular":false},{"name":"Business","price":12.50,"period":"month/user","features":"Unlimited|AI summaries|Analytics","isPopular":true}],"features":[{"name":"AI Summary","description":"Auto video summaries with key points"},{"name":"Filler Removal","description":"Remove ums and ahs"}],"useCases":[{"title":"Async Communication","description":"Replace meetings with video messages","icon":"MessageSquare"}],"pros":"Easy recording|Great AI features","cons":"Free tier limited|Can't replace all meetings"},
-  {"name":"Descript","slug":"descript-tool","developer":"Descript","description":"AI video and podcast editor — edit media like editing a document.","website":"https://descript.com","rating":4.5,"reviewCount":5800,"views":290000,"clicks":75000,"isFeatured":false,"platforms":"Web, Desktop","categories":["Video Editing","Audio & Speech"],"industries":["Entertainment","Marketing"],"tags":["video-editing","podcast","transcription"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"1 hr transcription|720p","isPopular":false},{"name":"Pro","price":33,"period":"month","features":"30 hrs|All AI|Studio sound","isPopular":true}],"features":[{"name":"Text-Based Editing","description":"Edit video by editing transcript"},{"name":"AI Voice Clone","description":"Clone your voice for narration"}],"useCases":[{"title":"Podcast Editing","description":"Edit podcasts via text","icon":"Mic"}],"pros":"Revolutionary editing|Great AI","cons":"Expensive|Large files"},
-  {"name":"Gamma","slug":"gamma-tool","developer":"Gamma Tech","description":"AI presentation and document creation from text prompts.","website":"https://gamma.app","rating":4.5,"reviewCount":3800,"views":280000,"clicks":72000,"isFeatured":false,"platforms":"Web","categories":["Productivity","Design"],"industries":["Marketing","Education"],"tags":["presentations","slides","ai-design"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"400 AI credits|Gamma branding","isPopular":false},{"name":"Plus","price":8,"period":"month","features":"Unlimited AI|No branding|Export","isPopular":true}],"features":[{"name":"AI Presentations","description":"Full presentations from a prompt"},{"name":"Export","description":"PDF, PowerPoint, web sharing"}],"useCases":[{"title":"Sales Decks","description":"Generate polished sales presentations","icon":"TrendingUp"}],"pros":"Fast creation|Beautiful designs","cons":"Limited customization|Credits system"},
-  {"name":"Beautiful.ai","slug":"beautiful-ai","developer":"Beautiful.ai","description":"AI presentation software with automatic professional design rules.","website":"https://beautiful.ai","rating":4.4,"reviewCount":2600,"views":180000,"clicks":46000,"isFeatured":false,"platforms":"Web, Desktop","categories":["Design","Productivity"],"industries":["Marketing","Education"],"tags":["presentations","slides","automation"],"pricingPlans":[{"name":"Pro","price":12,"period":"month","features":"Unlimited slides|AI design|Export","isPopular":true}],"features":[{"name":"DesignAI","description":"Automatic professional design principles"},{"name":"Smart Templates","description":"Templates that adapt to content"}],"useCases":[{"title":"Client Presentations","description":"On-brand presentations quickly","icon":"Briefcase"}],"pros":"Beautiful auto-design|Easy to use","cons":"Less flexible than PPT|No free tier"},
-  {"name":"Tome","slug":"tome","developer":"Tome","description":"AI-native presentation and storytelling platform.","website":"https://tome.app","rating":4.3,"reviewCount":3200,"views":210000,"clicks":55000,"isFeatured":false,"platforms":"Web, iOS","categories":["Productivity","Content Creation"],"industries":["Marketing","Education"],"tags":["presentations","storytelling","ai-slides"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Unlimited tomes|AI generation","isPopular":false},{"name":"Pro","price":16,"period":"month","features":"No branding|Export|Analytics","isPopular":true}],"features":[{"name":"AI Generation","description":"Full presentations from a prompt"},{"name":"Interactive Elements","description":"Embed 3D, video, and interactive content"}],"useCases":[{"title":"Pitch Decks","description":"Generate investor pitch decks","icon":"Presentation"}],"pros":"Beautiful AI presentations|Interactive","cons":"Limited customization|Export limited"},
-  {"name":"Pictory","slug":"pictory","developer":"Pictory AI","description":"Convert text articles and scripts into professional short videos.","website":"https://pictory.ai","rating":4.2,"reviewCount":2800,"views":160000,"clicks":42000,"isFeatured":false,"platforms":"Web","categories":["Video Generation","Content Creation"],"industries":["Marketing","Education"],"tags":["text-to-video","content-repurpose","video-creation"],"pricingPlans":[{"name":"Starter","price":19,"period":"month","features":"30 videos/month|10-min|AI voices","isPopular":false},{"name":"Professional","price":39,"period":"month","features":"60 videos|Custom branding","isPopular":true}],"features":[{"name":"Article to Video","description":"Convert blog posts into videos"},{"name":"AI Voiceover","description":"Natural AI narration"}],"useCases":[{"title":"Blog Repurposing","description":"Turn blogs into video content","icon":"RefreshCw"}],"pros":"Easy blog-to-video|Good stock library","cons":"Limited customization|Template-driven"},
-  {"name":"HeyGen","slug":"heygen","developer":"HeyGen","description":"AI video platform with customizable avatars and voice cloning.","website":"https://heygen.com","rating":4.4,"reviewCount":3500,"views":250000,"clicks":65000,"isFeatured":false,"platforms":"Web, API","categories":["Video Generation","Content Creation"],"industries":["Marketing","Education","Sales"],"tags":["ai-avatars","spokesperson","marketing-video"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"1 credit|1-min videos","isPopular":false},{"name":"Creator","price":24,"period":"month","features":"15 credits|Voice cloning|Brand kit","isPopular":true}],"features":[{"name":"AI Avatars","description":"100+ realistic presenters"},{"name":"Video Translation","description":"Translate into 40+ languages with lip-sync"}],"useCases":[{"title":"Marketing Videos","description":"Professional marketing videos at scale","icon":"Film"}],"pros":"Realistic avatars|Great translation","cons":"Credit system|Lip-sync imperfect"},
-  {"name":"DataRobot","slug":"datarobot","developer":"DataRobot","description":"Enterprise AI platform for automated machine learning and MLOps.","website":"https://datarobot.com","rating":4.4,"reviewCount":2200,"views":180000,"clicks":48000,"isFeatured":false,"platforms":"Web, API","categories":["Data & Analytics","Developer Tools"],"industries":["Finance","Healthcare"],"tags":["automl","machine-learning","mlops"],"pricingPlans":[{"name":"Enterprise","price":null,"period":"custom","features":"AutoML|MLOps|AI monitoring","isPopular":true}],"features":[{"name":"AutoML","description":"Auto build and tune ML models"},{"name":"MLOps","description":"Deploy and monitor models"}],"useCases":[{"title":"Fraud Detection","description":"ML models for fraud detection","icon":"Shield"}],"pros":"Powerful AutoML|Enterprise-grade","cons":"Very expensive|Complex for small teams"},
-  {"name":"Scale AI","slug":"scale-ai","developer":"Scale AI","description":"Data labeling and AI infrastructure for high-quality training data.","website":"https://scale.com","rating":4.4,"reviewCount":1800,"views":160000,"clicks":42000,"isFeatured":false,"platforms":"Web, API","categories":["Data & Analytics","Developer Tools"],"industries":["Technology","Automotive"],"tags":["data-labeling","training-data","annotation"],"pricingPlans":[{"name":"Enterprise","price":null,"period":"custom","features":"Custom labeling|QA|API|Support","isPopular":true}],"features":[{"name":"Data Labeling","description":"High-quality data annotation"},{"name":"RLHF","description":"Reinforcement learning from human feedback"}],"useCases":[{"title":"Training Data","description":"Labeled datasets for ML training","icon":"Database"}],"pros":"High-quality|Used by top companies","cons":"Very expensive|Enterprise-only"},
-  {"name":"Weights & Biases","slug":"wandb","developer":"Weights & Biases","description":"ML experiment tracking for logging, visualizing, and comparing experiments.","website":"https://wandb.ai","rating":4.6,"reviewCount":3500,"views":220000,"clicks":58000,"isFeatured":false,"platforms":"Web, API","categories":["Developer Tools","Data & Analytics"],"industries":["Technology"],"tags":["mlops","experiment-tracking","machine-learning"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"100GB storage|Unlimited experiments","isPopular":true}],"features":[{"name":"Experiment Tracking","description":"Log and compare ML experiments"},{"name":"Sweeps","description":"Automated hyperparameter optimization"}],"useCases":[{"title":"ML Development","description":"Track and reproduce experiments","icon":"Beaker"}],"pros":"Best experiment tracking|Great visualization","cons":"Learning curve|Storage costs"},
-  {"name":"Tabnine","slug":"tabnine","developer":"Tabnine","description":"Privacy-first AI code completion learning from your codebase.","website":"https://tabnine.com","rating":4.3,"reviewCount":5500,"views":280000,"clicks":72000,"isFeatured":false,"platforms":"VS Code, JetBrains, Vim","categories":["Code Assistant","Developer Tools"],"industries":["Technology"],"tags":["code-completion","privacy","ai-coding"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Basic completions","isPopular":false},{"name":"Dev","price":9,"period":"month","features":"Full completions|Personalized","isPopular":true}],"features":[{"name":"Personalized Completions","description":"Learns from your codebase"},{"name":"Privacy-First","description":"Models run locally, code never shared"}],"useCases":[{"title":"Enterprise Dev","description":"AI coding with full privacy","icon":"Shield"}],"pros":"Privacy-focused|Personalized","cons":"Less capable than Copilot|Free tier basic"},
-  {"name":"Mem AI","slug":"mem-ai","developer":"Mem Labs","description":"AI note-taking that organizes knowledge automatically.","website":"https://mem.ai","rating":4.2,"reviewCount":2200,"views":140000,"clicks":38000,"isFeatured":false,"platforms":"Web, iOS","categories":["Productivity","Knowledge Management"],"industries":["Technology","Education"],"tags":["note-taking","knowledge-management","ai-notes"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"Basic notes|AI search","isPopular":false},{"name":"Premium","price":14.99,"period":"month","features":"Unlimited AI|Smart connections","isPopular":true}],"features":[{"name":"Self-Organizing","description":"AI auto-tags and connects notes"},{"name":"Smart Search","description":"Natural language search"}],"useCases":[{"title":"Knowledge Base","description":"Self-organizing second brain","icon":"Brain"}],"pros":"Innovative concept|Good AI search","cons":"Limited vs Notion|Expensive|iOS only"},
-  {"name":"Otter.ai","slug":"otter-ai-tool","developer":"Otter.ai","description":"AI meeting transcription and note-taking.","website":"https://otter.ai","rating":4.3,"reviewCount":6800,"views":310000,"clicks":82000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["Productivity","Audio & Speech"],"industries":["Education","Technology"],"tags":["transcription","meeting-notes","voice-to-text"],"pricingPlans":[{"name":"Basic","price":0,"period":"month","features":"300 min/month|30-min limit","isPopular":false},{"name":"Pro","price":8.33,"period":"month","features":"1200 min|90-min limit|Export","isPopular":true}],"features":[{"name":"Live Transcription","description":"Real-time meeting transcription"},{"name":"OtterPilot","description":"Auto joins and records meetings"}],"useCases":[{"title":"Lecture Notes","description":"Transcribe class lectures","icon":"GraduationCap"}],"pros":"Excellent transcription|Good free tier","cons":"Accuracy drops with accents|Limited languages"},
-  {"name":"Semantic Scholar","slug":"semantic-scholar","developer":"Allen Institute for AI","description":"AI academic search engine for finding and understanding scientific papers.","website":"https://semanticscholar.org","rating":4.5,"reviewCount":4500,"views":320000,"clicks":85000,"isFeatured":false,"platforms":"Web, API","categories":["Search & Research","Education"],"industries":["Education","Healthcare"],"tags":["research","academic","papers"],"pricingPlans":[{"name":"Free","price":0,"period":null,"features":"Full access|Paper recs|Citations|API","isPopular":true}],"features":[{"name":"AI Search","description":"Find papers with natural language"},{"name":"TLDR Summaries","description":"One-sentence paper summaries"}],"useCases":[{"title":"Literature Review","description":"Survey research on any topic","icon":"BookOpen"}],"pros":"Completely free|Excellent search|TLDR","cons":"Academic only|Coverage gaps"},
-  {"name":"HubSpot AI","slug":"hubspot-ai","developer":"HubSpot","description":"AI-powered CRM with marketing, sales, and content tools.","website":"https://hubspot.com/artificial-intelligence","rating":4.4,"reviewCount":12000,"views":520000,"clicks":145000,"isFeatured":false,"platforms":"Web, iOS, Android","categories":["Marketing","Sales","CRM"],"industries":["Marketing","Sales","E-commerce"],"tags":["crm","marketing-automation","sales-ai"],"pricingPlans":[{"name":"Free CRM","price":0,"period":"month","features":"Contact management|Basic AI","isPopular":false},{"name":"Professional","price":890,"period":"month","features":"Marketing automation|AI tools","isPopular":true}],"features":[{"name":"AI Content Assistant","description":"Generate marketing content"},{"name":"Predictive Lead Scoring","description":"AI ranks leads by conversion"}],"useCases":[{"title":"Lead Nurturing","description":"Automated email sequences with AI","icon":"Mail"}],"pros":"Comprehensive CRM|Great free tier","cons":"Very expensive at scale|Complex pricing"},
-  {"name":"Airtable","slug":"airtable","developer":"Airtable","description":"Low-code platform combining spreadsheets with database power and AI.","website":"https://airtable.com","rating":4.5,"reviewCount":8500,"views":380000,"clicks":98000,"isFeatured":false,"platforms":"Web, iOS, Android, Desktop","categories":["Productivity","No-Code/Low-Code"],"industries":["Technology","Marketing"],"tags":["database","no-code","spreadsheet"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"1000 records|1GB|100 automations","isPopular":false},{"name":"Team","price":20,"period":"month/seat","features":"50K records|20GB|25K automations","isPopular":true}],"features":[{"name":"AI Field","description":"Auto-generate content in fields"},{"name":"Automations","description":"Build workflows without code"}],"useCases":[{"title":"Project Management","description":"Track projects with flexible views","icon":"CheckSquare"}],"pros":"Flexible|Great AI|Beautiful interface","cons":"Expensive at scale|Record limits"},
-  {"name":"Synthesia","slug":"synthesia-tool","developer":"Synthesia","description":"AI video platform with 230+ avatars for training and marketing videos.","website":"https://synthesia.io","rating":4.5,"reviewCount":4200,"views":310000,"clicks":78000,"isFeatured":false,"platforms":"Web, API","categories":["Video Generation","Content Creation"],"industries":["Education","Marketing","HR & Recruitment"],"tags":["ai-avatars","training-videos","multilingual"],"pricingPlans":[{"name":"Starter","price":18,"period":"month","features":"120 min/year|70+ avatars","isPopular":false},{"name":"Creator","price":64,"period":"month","features":"360 min/year|90+ avatars|Custom branding","isPopular":true}],"features":[{"name":"AI Avatars","description":"230+ realistic presenters"},{"name":"140+ Languages","description":"Videos in 140+ languages"}],"useCases":[{"title":"Employee Training","description":"Scalable training videos","icon":"GraduationCap"}],"pros":"Professional avatars|Many languages","cons":"Talking-head style only|Custom avatars expensive"},
-  {"name":"Writesonic","slug":"writesonic-tool","developer":"Writesonic","description":"AI writing and SEO platform with real-time data.","website":"https://writesonic.com","rating":4.3,"reviewCount":3800,"views":200000,"clicks":52000,"isFeatured":false,"platforms":"Web, Chrome, API","categories":["Writing","SEO"],"industries":["Marketing","E-commerce"],"tags":["writing","seo","content","ai-writer"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"10K words/month","isPopular":false},{"name":"Individual","price":16,"period":"month","features":"100K words|GPT-4","isPopular":true}],"features":[{"name":"AI Article Writer","description":"SEO-optimized long-form articles"},{"name":"Brand Voice","description":"Match your writing style"}],"useCases":[{"title":"Blog Writing","description":"SEO blog posts with real-time data","icon":"FileText"}],"pros":"Good SEO integration|Affordable","cons":"Quality inconsistent|Word limits"},
-  {"name":"Copy.ai","slug":"copy-ai-tool","developer":"Copy.ai","description":"AI GTM platform for marketing content and workflow automation.","website":"https://copy.ai","rating":4.3,"reviewCount":4500,"views":240000,"clicks":62000,"isFeatured":false,"platforms":"Web, API","categories":["Writing","Marketing"],"industries":["Marketing","E-commerce"],"tags":["copywriting","marketing","content"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"2000 words|1 seat","isPopular":false},{"name":"Starter","price":36,"period":"month","features":"Unlimited words|Brand voices","isPopular":true}],"features":[{"name":"AI Copywriting","description":"90+ marketing templates"},{"name":"Workflows","description":"Multi-step marketing automation"}],"useCases":[{"title":"Ad Copy","description":"High-converting ad copy","icon":"Target"}],"pros":"Good for marketing|Workflow automation","cons":"Free tier limited|Expensive"},
-  {"name":"Luma AI","slug":"luma-ai","developer":"Luma AI","description":"AI platform for photorealistic 3D models and video from text.","website":"https://lumalabs.ai","rating":4.4,"reviewCount":2200,"views":180000,"clicks":48000,"isFeatured":false,"platforms":"Web, iOS, API","categories":["Video Generation","3D & AR/VR"],"industries":["Entertainment","E-commerce"],"tags":["3d","video-generation","photogrammetry"],"pricingPlans":[{"name":"Free","price":0,"period":"month","features":"30 generations|720p","isPopular":false},{"name":"Standard","price":9.99,"period":"month","features":"150 generations|1080p","isPopular":true}],"features":[{"name":"Dream Machine","description":"Realistic videos from text/images"},{"name":"3D Capture","description":"Photorealistic 3D from photos"}],"useCases":[{"title":"Product Visualization","description":"3D product models from photos","icon":"Box"}],"pros":"Impressive 3D|Good video quality","cons":"Free tier limited|Longer gen times"},
-  {"name":"Databricks","slug":"databricks","developer":"Databricks","description":"Unified data analytics and AI platform for data engineering and ML.","website":"https://databricks.com","rating":4.5,"reviewCount":6200,"views":380000,"clicks":98000,"isFeatured":false,"platforms":"Web, API","categories":["Data & Analytics","Developer Tools"],"industries":["Technology","Finance","Healthcare"],"tags":["data-platform","spark","lakehouse"],"pricingPlans":[{"name":"Pay-as-you-go","price":null,"period":"per DBU","features":"All features|Pay for compute","isPopular":true}],"features":[{"name":"Lakehouse","description":"Unified data warehouse and data lake"},{"name":"MLflow","description":"End-to-end ML lifecycle management"}],"useCases":[{"title":"Data Engineering","description":"Large-scale data processing pipelines","icon":"Database"}],"pros":"Powerful platform|Great for big data","cons":"Complex|Expensive|Steep learning curve"},
-  {"name":"Vercel AI SDK","slug":"vercel-ai-sdk","developer":"Vercel","description":"TypeScript toolkit for building AI-powered apps with streaming support.","website":"https://sdk.vercel.ai","rating":4.6,"reviewCount":3200,"views":320000,"clicks":88000,"isFeatured":false,"platforms":"API","categories":["Developer Tools"],"industries":["Technology"],"tags":["ai-sdk","typescript","streaming","next-js"],"pricingPlans":[{"name":"Open Source","price":0,"period":null,"features":"Full SDK|All providers|Streaming","isPopular":true}],"features":[{"name":"AI SDK","description":"Build AI apps with streaming support"},{"name":"Multi-Provider","description":"OpenAI, Anthropic, Google, and more"}],"useCases":[{"title":"AI Apps","description":"Build AI-powered web applications","icon":"Code"}],"pros":"Open-source|Great DX|Multi-provider","cons":"TypeScript focused|Next.js oriented"},
-  {"name":"Jasper","slug":"jasper-tool","developer":"Jasper AI","description":"Enterprise AI content platform for on-brand marketing at scale.","website":"https://jasper.ai","rating":4.4,"reviewCount":6200,"views":290000,"clicks":72000,"isFeatured":false,"platforms":"Web, Chrome, API","categories":["Writing","Content Creation","Marketing"],"industries":["Marketing","E-commerce"],"tags":["content-creation","brand-voice","copywriting"],"pricingPlans":[{"name":"Creator","price":49,"period":"month","features":"1 seat|Brand voice|50+ templates","isPopular":false},{"name":"Pro","price":69,"period":"month","features":"AI images|Collaboration|Analytics","isPopular":true}],"features":[{"name":"Brand Voice","description":"Write in your brand's style"},{"name":"50+ Templates","description":"Blogs, ads, emails, social"}],"useCases":[{"title":"Blog Production","description":"Scale blog content production","icon":"FileText"}],"pros":"Built for marketing|Brand consistency","cons":"Expensive|Quality varies by template"}
+  {
+    "name": "Hugging Face",
+    "slug": "hugging-face",
+    "developer": "Hugging Face",
+    "description": "Open-source AI platform hosting 500K+ models, datasets, and ML demos.",
+    "website": "https://huggingface.co",
+    "rating": 4.7,
+    "reviewCount": 8500,
+    "views": 680000,
+    "clicks": 195000,
+    "isFeatured": true,
+    "platforms": "Web, API",
+    "categories": [
+      "Developer Tools",
+      "Open Source"
+    ],
+    "industries": [
+      "Technology",
+      "Education"
+    ],
+    "tags": [
+      "open-source",
+      "models",
+      "ml"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Unlimited models|Community support",
+        "isPopular": true
+      },
+      {
+        "name": "Pro",
+        "price": 9,
+        "period": "month",
+        "features": "Private repos|Compute credits",
+        "isPopular": false
+      }
+    ],
+    "features": [
+      {
+        "name": "Model Hub",
+        "description": "Access 500K+ pre-trained AI models"
+      },
+      {
+        "name": "Spaces",
+        "description": "Host ML demos and applications"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Model Deployment",
+        "description": "Deploy AI models to production",
+        "icon": "Server"
+      }
+    ],
+    "pros": "Massive model library|Free hosting|Great community",
+    "cons": "Free compute limited|Complex for beginners",
+    "logoUrl": "https://logo.clearbit.com/huggingface.co"
+  },
+  {
+    "name": "Slack AI",
+    "slug": "slack-ai",
+    "developer": "Salesforce",
+    "description": "AI features in Slack for channel summaries, thread recaps, and intelligent search.",
+    "website": "https://slack.com/features/ai",
+    "rating": 4.3,
+    "reviewCount": 5200,
+    "views": 420000,
+    "clicks": 110000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop, iOS, Android",
+    "categories": [
+      "Productivity",
+      "Automation"
+    ],
+    "industries": [
+      "Technology",
+      "Marketing"
+    ],
+    "tags": [
+      "slack",
+      "communication",
+      "productivity"
+    ],
+    "pricingPlans": [
+      {
+        "name": "AI Add-on",
+        "price": 10,
+        "period": "month/user",
+        "features": "Channel summaries|Thread recaps|AI search",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Channel Summaries",
+        "description": "AI-generated summaries of channel activity"
+      },
+      {
+        "name": "AI Search",
+        "description": "Find information across all channels"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Team Catch-up",
+        "description": "Stay updated without reading every message",
+        "icon": "MessageSquare"
+      }
+    ],
+    "pros": "Seamless integration|Great summaries|Saves time",
+    "cons": "Expensive add-on|US-only initially",
+    "logoUrl": "https://logo.clearbit.com/slack.com"
+  },
+  {
+    "name": "Salesforce Einstein",
+    "slug": "salesforce-einstein",
+    "developer": "Salesforce",
+    "description": "AI layer for Salesforce CRM with predictive analytics and generative AI for sales.",
+    "website": "https://salesforce.com/einstein",
+    "rating": 4.3,
+    "reviewCount": 6800,
+    "views": 380000,
+    "clicks": 98000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "CRM",
+      "Sales"
+    ],
+    "industries": [
+      "Sales",
+      "Finance"
+    ],
+    "tags": [
+      "salesforce",
+      "crm",
+      "predictive-analytics"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Einstein for Sales",
+        "price": 50,
+        "period": "month/user",
+        "features": "Lead scoring|Opportunity insights|Email AI",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Predictive Lead Scoring",
+        "description": "AI ranks leads by conversion probability"
+      },
+      {
+        "name": "Einstein GPT",
+        "description": "Generate personalized emails and content"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Sales Forecasting",
+        "description": "Predict revenue with AI-driven forecasts",
+        "icon": "TrendingUp"
+      }
+    ],
+    "pros": "Deep CRM integration|Powerful predictions",
+    "cons": "Very expensive|Complex setup",
+    "logoUrl": "https://logo.clearbit.com/salesforce.com"
+  },
+  {
+    "name": "Tableau AI",
+    "slug": "tableau-ai",
+    "developer": "Salesforce",
+    "description": "AI-powered data visualization and analytics with natural language queries.",
+    "website": "https://tableau.com",
+    "rating": 4.5,
+    "reviewCount": 9200,
+    "views": 520000,
+    "clicks": 135000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop",
+    "categories": [
+      "Data & Analytics",
+      "Productivity"
+    ],
+    "industries": [
+      "Finance",
+      "Technology",
+      "Healthcare"
+    ],
+    "tags": [
+      "data-visualization",
+      "analytics",
+      "dashboards"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Explorer",
+        "price": 42,
+        "period": "month/user",
+        "features": "Create visualizations|AI insights|Data prep",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Ask Data",
+        "description": "Query data using natural language"
+      },
+      {
+        "name": "Explain Data",
+        "description": "AI explanations for data points"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Business Dashboards",
+        "description": "Create interactive executive dashboards",
+        "icon": "BarChart"
+      }
+    ],
+    "pros": "Best-in-class visualization|AI insights",
+    "cons": "Expensive|Steep learning curve",
+    "logoUrl": "https://logo.clearbit.com/tableau.com"
+  },
+  {
+    "name": "Stripe Radar",
+    "slug": "stripe-radar",
+    "developer": "Stripe",
+    "description": "AI-powered fraud detection trained on billions of transactions.",
+    "website": "https://stripe.com/radar",
+    "rating": 4.6,
+    "reviewCount": 12000,
+    "views": 580000,
+    "clicks": 165000,
+    "isFeatured": false,
+    "platforms": "API, Web",
+    "categories": [
+      "Automation",
+      "Data & Analytics"
+    ],
+    "industries": [
+      "E-commerce",
+      "Finance"
+    ],
+    "tags": [
+      "fraud-detection",
+      "payments",
+      "fintech"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Included",
+        "price": 0,
+        "period": null,
+        "features": "Basic fraud detection|ML scoring",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Radar ML",
+        "description": "ML fraud detection on billions of transactions"
+      },
+      {
+        "name": "Adaptive Acceptance",
+        "description": "ML increases payment success rates"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Fraud Prevention",
+        "description": "Block fraud while approving legitimate payments",
+        "icon": "Shield"
+      }
+    ],
+    "pros": "Industry-leading detection|Massive training data",
+    "cons": "Only for Stripe users|Advanced features extra",
+    "logoUrl": "https://logo.clearbit.com/stripe.com"
+  },
+  {
+    "name": "Intercom Fin",
+    "slug": "intercom-fin",
+    "developer": "Intercom",
+    "description": "AI customer service agent resolving 50%+ of support queries instantly.",
+    "website": "https://intercom.com/fin",
+    "rating": 4.4,
+    "reviewCount": 3800,
+    "views": 260000,
+    "clicks": 68000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "Customer Support",
+      "Automation"
+    ],
+    "industries": [
+      "E-commerce",
+      "Technology"
+    ],
+    "tags": [
+      "customer-service",
+      "chatbot",
+      "helpdesk"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Fin AI",
+        "price": 0.99,
+        "period": "per resolution",
+        "features": "AI answers|Human handoff|Multi-language",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Resolution",
+        "description": "Resolve queries from your knowledge base"
+      },
+      {
+        "name": "Human Handoff",
+        "description": "Transfer to agents when needed"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "24/7 Support",
+        "description": "Instant customer support around the clock",
+        "icon": "Clock"
+      }
+    ],
+    "pros": "High resolution rate|Easy setup",
+    "cons": "Per-resolution costs add up|Needs good KB",
+    "logoUrl": "https://logo.clearbit.com/intercom.com"
+  },
+  {
+    "name": "Zendesk AI",
+    "slug": "zendesk-ai",
+    "developer": "Zendesk",
+    "description": "AI-powered customer service with intelligent triage and agent assistance.",
+    "website": "https://zendesk.com/ai",
+    "rating": 4.3,
+    "reviewCount": 8500,
+    "views": 380000,
+    "clicks": 95000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "Customer Support",
+      "Automation"
+    ],
+    "industries": [
+      "E-commerce",
+      "Technology",
+      "Finance"
+    ],
+    "tags": [
+      "customer-service",
+      "zendesk",
+      "ticketing"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Suite Growth",
+        "price": 89,
+        "period": "month/agent",
+        "features": "AI triage|CSAT surveys|Multiple SLAs",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Triage",
+        "description": "Auto classify and route tickets"
+      },
+      {
+        "name": "Agent Assist",
+        "description": "AI suggestions for agents"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Support Triage",
+        "description": "Auto-route and prioritize tickets",
+        "icon": "Filter"
+      }
+    ],
+    "pros": "Comprehensive platform|Good AI features",
+    "cons": "Expensive per-agent|Complex to configure",
+    "logoUrl": "https://logo.clearbit.com/zendesk.com"
+  },
+  {
+    "name": "Figma AI",
+    "slug": "figma-ai",
+    "developer": "Figma",
+    "description": "AI-powered design features in Figma for auto-layout and content generation.",
+    "website": "https://figma.com",
+    "rating": 4.7,
+    "reviewCount": 18000,
+    "views": 820000,
+    "clicks": 245000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop",
+    "categories": [
+      "Design",
+      "Productivity"
+    ],
+    "industries": [
+      "Design & Creative",
+      "Technology"
+    ],
+    "tags": [
+      "design",
+      "figma",
+      "ui-ux",
+      "prototyping"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "3 files|Unlimited personal",
+        "isPopular": false
+      },
+      {
+        "name": "Professional",
+        "price": 12,
+        "period": "month/editor",
+        "features": "Unlimited files|AI features|Dev mode",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Design Generation",
+        "description": "Generate UI designs from text"
+      },
+      {
+        "name": "Auto Layout",
+        "description": "Smart responsive layouts"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "UI/UX Design",
+        "description": "Design interfaces with AI tools",
+        "icon": "Layout"
+      }
+    ],
+    "pros": "Best collaborative design|Excellent plugins",
+    "cons": "AI features still basic|Can be slow",
+    "logoUrl": "https://logo.clearbit.com/figma.com"
+  },
+  {
+    "name": "Adobe Firefly",
+    "slug": "adobe-firefly",
+    "developer": "Adobe",
+    "description": "Adobe's generative AI for creating and editing images within Creative Cloud.",
+    "website": "https://firefly.adobe.com",
+    "rating": 4.4,
+    "reviewCount": 6500,
+    "views": 420000,
+    "clicks": 115000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop",
+    "categories": [
+      "Image Generation",
+      "Design"
+    ],
+    "industries": [
+      "Design & Creative",
+      "Marketing"
+    ],
+    "tags": [
+      "adobe",
+      "firefly",
+      "generative-ai",
+      "creative-cloud"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "25 credits/month|Basic features",
+        "isPopular": false
+      },
+      {
+        "name": "Premium",
+        "price": 9.99,
+        "period": "month",
+        "features": "100 credits|Adobe Fonts",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Text-to-Image",
+        "description": "Commercially safe image generation"
+      },
+      {
+        "name": "Generative Fill",
+        "description": "Add/remove content in images with AI"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Photo Editing",
+        "description": "Modify photos with generative AI",
+        "icon": "Image"
+      }
+    ],
+    "pros": "Commercially safe|Great Photoshop integration",
+    "cons": "Credit limits|Less creative than Midjourney",
+    "logoUrl": "https://logo.clearbit.com/adobe.com"
+  },
+  {
+    "name": "Leonardo AI",
+    "slug": "leonardo-ai",
+    "developer": "Leonardo AI",
+    "description": "AI image generation focused on game assets, concept art, and creative content.",
+    "website": "https://leonardo.ai",
+    "rating": 4.4,
+    "reviewCount": 5200,
+    "views": 320000,
+    "clicks": 85000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Image Generation",
+      "Design"
+    ],
+    "industries": [
+      "Entertainment",
+      "Design & Creative"
+    ],
+    "tags": [
+      "image-generation",
+      "game-assets",
+      "concept-art"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "150 tokens/day|Basic models",
+        "isPopular": false
+      },
+      {
+        "name": "Apprentice",
+        "price": 12,
+        "period": "month",
+        "features": "8500 tokens/month|All models",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Image Generation",
+        "description": "Multiple model options for different styles"
+      },
+      {
+        "name": "AI Canvas",
+        "description": "Real-time AI editing and inpainting"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Game Development",
+        "description": "Create game assets and environments",
+        "icon": "Gamepad"
+      }
+    ],
+    "pros": "Great for game assets|Good free tier",
+    "cons": "Token system limiting|Quality inconsistent",
+    "logoUrl": "https://logo.clearbit.com/leonardo.ai"
+  },
+  {
+    "name": "Pika",
+    "slug": "pika",
+    "developer": "Pika Labs",
+    "description": "AI video generation from text, images, or existing video clips.",
+    "website": "https://pika.art",
+    "rating": 4.3,
+    "reviewCount": 2800,
+    "views": 220000,
+    "clicks": 58000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "Video Generation",
+      "Design"
+    ],
+    "industries": [
+      "Entertainment",
+      "Marketing"
+    ],
+    "tags": [
+      "video-generation",
+      "text-to-video",
+      "creative"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "250 credits|3-second videos",
+        "isPopular": false
+      },
+      {
+        "name": "Standard",
+        "price": 8,
+        "period": "month",
+        "features": "700 credits|No watermark",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Text-to-Video",
+        "description": "Generate videos from text descriptions"
+      },
+      {
+        "name": "Image-to-Video",
+        "description": "Animate still images"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Social Content",
+        "description": "Create short-form video for social platforms",
+        "icon": "Share2"
+      }
+    ],
+    "pros": "Easy to use|Good quality for price",
+    "cons": "Short video length|Credit system",
+    "logoUrl": "https://logo.clearbit.com/pika.art"
+  },
+  {
+    "name": "Suno AI",
+    "slug": "suno-ai",
+    "developer": "Suno",
+    "description": "AI music generation creating full songs with vocals and instruments from text.",
+    "website": "https://suno.com",
+    "rating": 4.5,
+    "reviewCount": 4200,
+    "views": 280000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "Audio & Speech",
+      "Content Creation"
+    ],
+    "industries": [
+      "Entertainment",
+      "Marketing"
+    ],
+    "tags": [
+      "music-generation",
+      "ai-music",
+      "song-creation"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "50 credits/day|Non-commercial",
+        "isPopular": false
+      },
+      {
+        "name": "Pro",
+        "price": 8,
+        "period": "month",
+        "features": "2500 credits|Commercial license",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Text-to-Song",
+        "description": "Generate full songs from descriptions"
+      },
+      {
+        "name": "Multiple Genres",
+        "description": "Pop, rock, jazz, electronic, and more"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Content Creation",
+        "description": "Background music for videos and podcasts",
+        "icon": "Music"
+      }
+    ],
+    "pros": "Impressive song generation|Great vocals",
+    "cons": "Sometimes repetitive|Copyright gray area",
+    "logoUrl": "https://logo.clearbit.com/suno.com"
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "developer": "Notion Labs",
+    "description": "All-in-one workspace for notes, docs, databases, and project management.",
+    "website": "https://notion.so",
+    "rating": 4.6,
+    "reviewCount": 25000,
+    "views": 880000,
+    "clicks": 280000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop, iOS, Android",
+    "categories": [
+      "Productivity",
+      "Knowledge Management"
+    ],
+    "industries": [
+      "Technology",
+      "Education"
+    ],
+    "tags": [
+      "workspace",
+      "project-management",
+      "notes"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Unlimited pages|7-day history",
+        "isPopular": false
+      },
+      {
+        "name": "Plus",
+        "price": 8,
+        "period": "month",
+        "features": "Unlimited uploads|30-day history",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Flexible Workspace",
+        "description": "Docs, databases, kanban, calendars"
+      },
+      {
+        "name": "Templates",
+        "description": "Thousands of templates"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Team Wiki",
+        "description": "Centralized knowledge base",
+        "icon": "BookOpen"
+      }
+    ],
+    "pros": "Incredibly flexible|Great free tier",
+    "cons": "Can be slow|Learning curve",
+    "logoUrl": "https://logo.clearbit.com/notion.so"
+  },
+  {
+    "name": "Linear",
+    "slug": "linear",
+    "developer": "Linear",
+    "description": "AI-powered project management for software teams with auto-triage.",
+    "website": "https://linear.app",
+    "rating": 4.7,
+    "reviewCount": 4200,
+    "views": 280000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop, iOS, Android",
+    "categories": [
+      "Productivity",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "project-management",
+      "issue-tracking",
+      "agile"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Unlimited issues|250 active",
+        "isPopular": false
+      },
+      {
+        "name": "Standard",
+        "price": 8,
+        "period": "month/user",
+        "features": "Unlimited everything|All integrations",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Auto-Triage",
+        "description": "Auto categorize and prioritize issues"
+      },
+      {
+        "name": "Cycles",
+        "description": "Time-boxed sprints"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Issue Tracking",
+        "description": "Fast keyboard-driven issue tracking",
+        "icon": "Bug"
+      }
+    ],
+    "pros": "Incredibly fast UI|Great shortcuts",
+    "cons": "Opinionated workflow|Limited non-dev",
+    "logoUrl": "https://logo.clearbit.com/linear.app"
+  },
+  {
+    "name": "Codeium",
+    "slug": "codeium",
+    "developer": "Exafunction",
+    "description": "Free AI code completion supporting 70+ languages.",
+    "website": "https://codeium.com",
+    "rating": 4.5,
+    "reviewCount": 4800,
+    "views": 310000,
+    "clicks": 82000,
+    "isFeatured": false,
+    "platforms": "VS Code, JetBrains, Neovim, Web",
+    "categories": [
+      "Code Assistant",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "code-completion",
+      "free",
+      "ai-coding"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Unlimited completions|Chat|70+ languages",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Code Completion",
+        "description": "Fast suggestions in 70+ languages"
+      },
+      {
+        "name": "AI Chat",
+        "description": "Ask questions about code"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Code Writing",
+        "description": "Write code faster with AI completions",
+        "icon": "Code"
+      }
+    ],
+    "pros": "Completely free|Fast|Wide IDE support",
+    "cons": "Less accurate than Copilot sometimes",
+    "logoUrl": "https://logo.clearbit.com/codeium.com"
+  },
+  {
+    "name": "Replit AI",
+    "slug": "replit-ai",
+    "developer": "Replit",
+    "description": "Cloud IDE with AI code generation and one-click deployment.",
+    "website": "https://replit.com",
+    "rating": 4.4,
+    "reviewCount": 8200,
+    "views": 450000,
+    "clicks": 125000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "Code Assistant",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology",
+      "Education"
+    ],
+    "tags": [
+      "cloud-ide",
+      "ai-coding",
+      "deployment"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Starter",
+        "price": 0,
+        "period": "month",
+        "features": "Basic AI|Public repls",
+        "isPopular": false
+      },
+      {
+        "name": "Core",
+        "price": 25,
+        "period": "month",
+        "features": "Advanced AI|Private repls|Deployments",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Replit Agent",
+        "description": "AI builds entire apps from descriptions"
+      },
+      {
+        "name": "Instant Deploy",
+        "description": "Deploy with one click"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Learning to Code",
+        "description": "Learn programming with AI assistance",
+        "icon": "GraduationCap"
+      }
+    ],
+    "pros": "No setup required|AI builds full apps",
+    "cons": "Limited free tier|Not for large projects",
+    "logoUrl": "https://logo.clearbit.com/replit.com"
+  },
+  {
+    "name": "Shopify Magic",
+    "slug": "shopify-magic",
+    "developer": "Shopify",
+    "description": "AI tools in Shopify for product descriptions, chat support, and store optimization.",
+    "website": "https://shopify.com/magic",
+    "rating": 4.3,
+    "reviewCount": 6500,
+    "views": 380000,
+    "clicks": 98000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "E-commerce Tools",
+      "Content Creation"
+    ],
+    "industries": [
+      "E-commerce"
+    ],
+    "tags": [
+      "shopify",
+      "e-commerce",
+      "product-descriptions"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Basic",
+        "price": 29,
+        "period": "month",
+        "features": "Magic included|Basic reports",
+        "isPopular": false
+      },
+      {
+        "name": "Shopify",
+        "price": 79,
+        "period": "month",
+        "features": "Pro reports|5 staff",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Product Descriptions",
+        "description": "AI-generated descriptions from keywords"
+      },
+      {
+        "name": "Sidekick",
+        "description": "AI assistant for store management"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Product Listings",
+        "description": "Generate compelling descriptions at scale",
+        "icon": "ShoppingBag"
+      }
+    ],
+    "pros": "Seamless integration|Free with Shopify",
+    "cons": "Only for Shopify|AI quality varies",
+    "logoUrl": "https://logo.clearbit.com/shopify.com"
+  },
+  {
+    "name": "Semrush",
+    "slug": "semrush",
+    "developer": "Semrush",
+    "description": "All-in-one SEO and digital marketing platform with AI content creation.",
+    "website": "https://semrush.com",
+    "rating": 4.5,
+    "reviewCount": 11000,
+    "views": 520000,
+    "clicks": 145000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "SEO",
+      "Marketing",
+      "Data & Analytics"
+    ],
+    "industries": [
+      "Marketing",
+      "E-commerce"
+    ],
+    "tags": [
+      "seo",
+      "keyword-research",
+      "competitive-analysis"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Pro",
+        "price": 129.95,
+        "period": "month",
+        "features": "5 projects|500 keywords",
+        "isPopular": false
+      },
+      {
+        "name": "Guru",
+        "price": 249.95,
+        "period": "month",
+        "features": "15 projects|Content tools",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Writing Assistant",
+        "description": "Generate SEO-optimized content"
+      },
+      {
+        "name": "Site Audit",
+        "description": "Technical SEO auditing"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "SEO Strategy",
+        "description": "Develop SEO strategies with AI",
+        "icon": "TrendingUp"
+      }
+    ],
+    "pros": "Most comprehensive SEO tool|Great analysis",
+    "cons": "Very expensive|Overwhelming for beginners",
+    "logoUrl": "https://logo.clearbit.com/semrush.com"
+  },
+  {
+    "name": "Ahrefs",
+    "slug": "ahrefs",
+    "developer": "Ahrefs",
+    "description": "SEO toolset for backlink analysis, keyword research, and content optimization.",
+    "website": "https://ahrefs.com",
+    "rating": 4.6,
+    "reviewCount": 9500,
+    "views": 480000,
+    "clicks": 130000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "SEO",
+      "Marketing"
+    ],
+    "industries": [
+      "Marketing",
+      "E-commerce"
+    ],
+    "tags": [
+      "seo",
+      "backlinks",
+      "keyword-research"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Lite",
+        "price": 99,
+        "period": "month",
+        "features": "5 projects|750 keywords",
+        "isPopular": false
+      },
+      {
+        "name": "Standard",
+        "price": 199,
+        "period": "month",
+        "features": "20 projects|2000 keywords",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Site Explorer",
+        "description": "Backlink and organic traffic analysis"
+      },
+      {
+        "name": "Keywords Explorer",
+        "description": "Keyword research with difficulty scores"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Link Building",
+        "description": "Find backlink opportunities",
+        "icon": "Link"
+      }
+    ],
+    "pros": "Best backlink database|Accurate data",
+    "cons": "Expensive|Limited AI features",
+    "logoUrl": "https://logo.clearbit.com/ahrefs.com"
+  },
+  {
+    "name": "Supabase",
+    "slug": "supabase",
+    "developer": "Supabase",
+    "description": "Open-source Firebase alternative with PostgreSQL and AI vector capabilities.",
+    "website": "https://supabase.com",
+    "rating": 4.6,
+    "reviewCount": 5200,
+    "views": 380000,
+    "clicks": 98000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "database",
+      "postgres",
+      "backend",
+      "open-source"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "500MB database|50K auth users",
+        "isPopular": false
+      },
+      {
+        "name": "Pro",
+        "price": 25,
+        "period": "month",
+        "features": "8GB database|Unlimited auth",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "PostgreSQL",
+        "description": "Full PostgreSQL with real-time"
+      },
+      {
+        "name": "Vector Store",
+        "description": "pgvector for AI embeddings"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "App Backend",
+        "description": "Full-stack apps with managed PostgreSQL",
+        "icon": "Server"
+      }
+    ],
+    "pros": "Open-source|Great PostgreSQL|Built-in auth",
+    "cons": "Free tier limited|Some features maturing",
+    "logoUrl": "https://logo.clearbit.com/supabase.com"
+  },
+  {
+    "name": "Mistral AI",
+    "slug": "mistral-ai",
+    "developer": "Mistral AI",
+    "description": "Powerful open and commercial language models with excellent performance-to-cost.",
+    "website": "https://mistral.ai",
+    "rating": 4.5,
+    "reviewCount": 2800,
+    "views": 220000,
+    "clicks": 58000,
+    "isFeatured": false,
+    "platforms": "API, Self-hosted",
+    "categories": [
+      "LLM & Chatbot",
+      "Open Source"
+    ],
+    "industries": [
+      "Technology",
+      "Finance"
+    ],
+    "tags": [
+      "llm",
+      "open-source",
+      "language-model"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Open Models",
+        "price": 0,
+        "period": null,
+        "features": "Mistral 7B|Mixtral|Self-hosted",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Mistral Large",
+        "description": "High-performance commercial model"
+      },
+      {
+        "name": "Open Models",
+        "description": "Free open-source models"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Self-hosted AI",
+        "description": "Run LLMs on your infrastructure",
+        "icon": "Server"
+      }
+    ],
+    "pros": "Excellent performance-to-cost|Open models",
+    "cons": "Smaller ecosystem|Fewer features than OpenAI",
+    "logoUrl": "https://logo.clearbit.com/mistral.ai"
+  },
+  {
+    "name": "Llama (Meta)",
+    "slug": "llama-meta",
+    "developer": "Meta",
+    "description": "Open-source large language models for research and commercial use.",
+    "website": "https://llama.meta.com",
+    "rating": 4.5,
+    "reviewCount": 5200,
+    "views": 380000,
+    "clicks": 98000,
+    "isFeatured": false,
+    "platforms": "Self-hosted",
+    "categories": [
+      "LLM & Chatbot",
+      "Open Source"
+    ],
+    "industries": [
+      "Technology",
+      "Education"
+    ],
+    "tags": [
+      "llm",
+      "open-source",
+      "meta"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Open Source",
+        "price": 0,
+        "period": null,
+        "features": "Full weights|Commercial license",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Llama 3.1",
+        "description": "Up to 405B parameters"
+      },
+      {
+        "name": "Code Llama",
+        "description": "Specialized for code generation"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Self-hosted AI",
+        "description": "Run powerful LLM on own infrastructure",
+        "icon": "Server"
+      }
+    ],
+    "pros": "Free|Competitive with GPT-4|Multiple sizes",
+    "cons": "Requires infrastructure|Resource intensive",
+    "logoUrl": "https://logo.clearbit.com/meta.com"
+  },
+  {
+    "name": "Groq",
+    "slug": "groq",
+    "developer": "Groq Inc.",
+    "description": "Ultra-fast AI inference on custom LPU hardware for near-instant responses.",
+    "website": "https://groq.com",
+    "rating": 4.5,
+    "reviewCount": 2200,
+    "views": 190000,
+    "clicks": 52000,
+    "isFeatured": false,
+    "platforms": "API, Web",
+    "categories": [
+      "Developer Tools",
+      "LLM & Chatbot"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "inference",
+      "fast-ai",
+      "hardware"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Rate-limited|Open models",
+        "isPopular": false
+      },
+      {
+        "name": "Pay-as-you-go",
+        "price": null,
+        "period": "per token",
+        "features": "High limits|All models",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "LPU Inference",
+        "description": "10x faster than GPUs"
+      },
+      {
+        "name": "Low Latency",
+        "description": "Sub-second responses"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Real-time AI",
+        "description": "Apps requiring instant AI responses",
+        "icon": "Zap"
+      }
+    ],
+    "pros": "Fastest inference|OpenAI-compatible API",
+    "cons": "Limited models|New platform",
+    "logoUrl": "https://logo.clearbit.com/groq.com"
+  },
+  {
+    "name": "Consensus",
+    "slug": "consensus",
+    "developer": "Consensus",
+    "description": "AI academic search extracting findings from peer-reviewed papers.",
+    "website": "https://consensus.app",
+    "rating": 4.5,
+    "reviewCount": 2800,
+    "views": 180000,
+    "clicks": 48000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "Search & Research",
+      "Education"
+    ],
+    "industries": [
+      "Education",
+      "Healthcare"
+    ],
+    "tags": [
+      "research",
+      "academic",
+      "evidence-based"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "20 AI searches/month",
+        "isPopular": false
+      },
+      {
+        "name": "Premium",
+        "price": 8.99,
+        "period": "month",
+        "features": "Unlimited AI|GPT-4 analysis",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Evidence Search",
+        "description": "Find scientific evidence for any question"
+      },
+      {
+        "name": "Consensus Meter",
+        "description": "See paper agreement percentages"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Fact Checking",
+        "description": "Verify claims with scientific evidence",
+        "icon": "CheckCircle"
+      }
+    ],
+    "pros": "Evidence-based|Great for researchers",
+    "cons": "Academic papers only|English focused",
+    "logoUrl": "https://logo.clearbit.com/consensus.app"
+  },
+  {
+    "name": "Krisp",
+    "slug": "krisp",
+    "developer": "Krisp Technologies",
+    "description": "AI noise cancellation for calls and recordings in real-time.",
+    "website": "https://krisp.ai",
+    "rating": 4.5,
+    "reviewCount": 5800,
+    "views": 280000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Desktop, iOS",
+    "categories": [
+      "Audio & Speech",
+      "Productivity"
+    ],
+    "industries": [
+      "Technology",
+      "Sales"
+    ],
+    "tags": [
+      "noise-cancellation",
+      "audio",
+      "remote-work"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "60 min/day",
+        "isPopular": false
+      },
+      {
+        "name": "Pro",
+        "price": 8,
+        "period": "month",
+        "features": "Unlimited|Transcription|AI notes",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Noise Cancellation",
+        "description": "Remove background noise from calls"
+      },
+      {
+        "name": "AI Meeting Notes",
+        "description": "Auto summaries and action items"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Remote Work",
+        "description": "Clear calls from anywhere",
+        "icon": "Home"
+      }
+    ],
+    "pros": "Excellent cancellation|Works with any app",
+    "cons": "Free tier limited|Subscription needed",
+    "logoUrl": "https://logo.clearbit.com/krisp.ai"
+  },
+  {
+    "name": "Algolia",
+    "slug": "algolia",
+    "developer": "Algolia",
+    "description": "AI search and recommendation platform for fast, relevant search in apps.",
+    "website": "https://algolia.com",
+    "rating": 4.5,
+    "reviewCount": 3800,
+    "views": 240000,
+    "clicks": 65000,
+    "isFeatured": false,
+    "platforms": "API, Web",
+    "categories": [
+      "Search & Research",
+      "Developer Tools"
+    ],
+    "industries": [
+      "E-commerce",
+      "Technology"
+    ],
+    "tags": [
+      "search",
+      "api",
+      "recommendations"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Build",
+        "price": 0,
+        "period": "month",
+        "features": "10K requests/month|1M records",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Instant Search",
+        "description": "Sub-50ms results with typo tolerance"
+      },
+      {
+        "name": "AI Re-Ranking",
+        "description": "ML-optimized result relevance"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "E-commerce Search",
+        "description": "Fast product search experiences",
+        "icon": "ShoppingBag"
+      }
+    ],
+    "pros": "Incredibly fast|Great DX|Generous free tier",
+    "cons": "Expensive at scale|Complex pricing",
+    "logoUrl": "https://logo.clearbit.com/algolia.com"
+  },
+  {
+    "name": "Pinecone",
+    "slug": "pinecone",
+    "developer": "Pinecone",
+    "description": "Vector database for AI apps with similarity search and RAG.",
+    "website": "https://pinecone.io",
+    "rating": 4.4,
+    "reviewCount": 2100,
+    "views": 180000,
+    "clicks": 48000,
+    "isFeatured": false,
+    "platforms": "API",
+    "categories": [
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "vector-database",
+      "embeddings",
+      "rag"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "5M vectors|100K queries",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Vector Search",
+        "description": "Sub-100ms similarity search"
+      },
+      {
+        "name": "Serverless",
+        "description": "Auto-scaling architecture"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "RAG Applications",
+        "description": "Build retrieval-augmented generation apps",
+        "icon": "Database"
+      }
+    ],
+    "pros": "Purpose-built|Easy to use|Good free tier",
+    "cons": "Single-purpose|Expensive at scale",
+    "logoUrl": "https://logo.clearbit.com/pinecone.io"
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "developer": "Webflow",
+    "description": "Visual web design platform with AI for building responsive websites without code.",
+    "website": "https://webflow.com",
+    "rating": 4.5,
+    "reviewCount": 7200,
+    "views": 420000,
+    "clicks": 112000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "Design",
+      "No-Code/Low-Code"
+    ],
+    "industries": [
+      "Design & Creative",
+      "Marketing"
+    ],
+    "tags": [
+      "web-design",
+      "no-code",
+      "cms"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "2 pages|Webflow subdomain",
+        "isPopular": false
+      },
+      {
+        "name": "CMS",
+        "price": 23,
+        "period": "month",
+        "features": "2000 CMS items|100K visits",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Visual Designer",
+        "description": "Pixel-perfect visual website builder"
+      },
+      {
+        "name": "CMS",
+        "description": "Dynamic content management"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Marketing Sites",
+        "description": "Beautiful marketing sites without code",
+        "icon": "Globe"
+      }
+    ],
+    "pros": "Professional output|Powerful CMS",
+    "cons": "Steep learning curve|Expensive",
+    "logoUrl": "https://logo.clearbit.com/webflow.com"
+  },
+  {
+    "name": "Framer",
+    "slug": "framer",
+    "developer": "Framer B.V.",
+    "description": "AI-powered website builder generating professional sites from text.",
+    "website": "https://framer.com",
+    "rating": 4.6,
+    "reviewCount": 4200,
+    "views": 280000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "Design",
+      "No-Code/Low-Code"
+    ],
+    "industries": [
+      "Design & Creative",
+      "Technology"
+    ],
+    "tags": [
+      "website-builder",
+      "no-code",
+      "ai-website"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Subdomain|1000 visitors",
+        "isPopular": false
+      },
+      {
+        "name": "Basic",
+        "price": 15,
+        "period": "month",
+        "features": "Custom domain|10K visitors",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Website Generation",
+        "description": "Generate sites from text descriptions"
+      },
+      {
+        "name": "Animations",
+        "description": "Advanced animation capabilities"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Portfolio Sites",
+        "description": "Stunning portfolio websites with AI",
+        "icon": "Globe"
+      }
+    ],
+    "pros": "Beautiful design|AI generation|Great animations",
+    "cons": "Limited e-commerce|CMS basic",
+    "logoUrl": "https://logo.clearbit.com/framer.com"
+  },
+  {
+    "name": "Retool",
+    "slug": "retool",
+    "developer": "Retool",
+    "description": "Low-code platform for internal tools with AI-powered features.",
+    "website": "https://retool.com",
+    "rating": 4.4,
+    "reviewCount": 3500,
+    "views": 240000,
+    "clicks": 62000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "No-Code/Low-Code",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology",
+      "Finance"
+    ],
+    "tags": [
+      "internal-tools",
+      "low-code",
+      "admin-panels"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "5 users|Unlimited apps",
+        "isPopular": false
+      },
+      {
+        "name": "Team",
+        "price": 10,
+        "period": "month/user",
+        "features": "AI features|Version history",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Actions",
+        "description": "Add AI to internal tools"
+      },
+      {
+        "name": "Drag-and-Drop",
+        "description": "100+ UI components"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Admin Panels",
+        "description": "Custom admin dashboards",
+        "icon": "Layout"
+      }
+    ],
+    "pros": "Fast tool building|Great DB connectors",
+    "cons": "Not customer-facing|Expensive for large teams",
+    "logoUrl": "https://logo.clearbit.com/retool.com"
+  },
+  {
+    "name": "AssemblyAI",
+    "slug": "assembly-ai",
+    "developer": "AssemblyAI",
+    "description": "Speech-to-text API with high accuracy and content intelligence.",
+    "website": "https://assemblyai.com",
+    "rating": 4.5,
+    "reviewCount": 2400,
+    "views": 170000,
+    "clicks": 45000,
+    "isFeatured": false,
+    "platforms": "API",
+    "categories": [
+      "Audio & Speech",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology",
+      "Healthcare"
+    ],
+    "tags": [
+      "speech-to-text",
+      "transcription",
+      "audio-intelligence"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "100 hours/month|Core transcription",
+        "isPopular": false
+      },
+      {
+        "name": "Pay-per-use",
+        "price": 0.37,
+        "period": "per hour",
+        "features": "All features|Speaker detection",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Speech-to-Text",
+        "description": "Industry-leading transcription accuracy"
+      },
+      {
+        "name": "Speaker Diarization",
+        "description": "Identify different speakers"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Call Analytics",
+        "description": "Transcribe and analyze calls at scale",
+        "icon": "Phone"
+      }
+    ],
+    "pros": "High accuracy|Great DX|Generous free tier",
+    "cons": "English-focused|API only",
+    "logoUrl": "https://logo.clearbit.com/assemblyai.com"
+  },
+  {
+    "name": "Deepgram",
+    "slug": "deepgram",
+    "developer": "Deepgram",
+    "description": "Fast, accurate speech recognition and text-to-speech via API.",
+    "website": "https://deepgram.com",
+    "rating": 4.5,
+    "reviewCount": 2100,
+    "views": 150000,
+    "clicks": 40000,
+    "isFeatured": false,
+    "platforms": "API",
+    "categories": [
+      "Audio & Speech",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology",
+      "Healthcare"
+    ],
+    "tags": [
+      "speech-to-text",
+      "voice-api",
+      "real-time"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "$200 credit|All models",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Nova-2",
+        "description": "State-of-the-art speech recognition"
+      },
+      {
+        "name": "Real-time Streaming",
+        "description": "Live transcription with low latency"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Voice AI Apps",
+        "description": "Voice-enabled applications",
+        "icon": "Mic"
+      }
+    ],
+    "pros": "Very fast|Good accuracy|Competitive pricing",
+    "cons": "API only|Custom models limited",
+    "logoUrl": "https://logo.clearbit.com/deepgram.com"
+  },
+  {
+    "name": "Cohere",
+    "slug": "cohere",
+    "developer": "Cohere",
+    "description": "Enterprise LLMs for text generation, embedding, and classification.",
+    "website": "https://cohere.com",
+    "rating": 4.4,
+    "reviewCount": 2400,
+    "views": 180000,
+    "clicks": 48000,
+    "isFeatured": false,
+    "platforms": "API",
+    "categories": [
+      "LLM & Chatbot",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology",
+      "Finance"
+    ],
+    "tags": [
+      "llm",
+      "embeddings",
+      "enterprise-ai"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "1000 API calls/month",
+        "isPopular": false
+      },
+      {
+        "name": "Production",
+        "price": null,
+        "period": "per token",
+        "features": "Pay-per-use|SLA|Custom models",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Command",
+        "description": "LLM for text generation"
+      },
+      {
+        "name": "Embed",
+        "description": "High-quality text embeddings"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Enterprise Search",
+        "description": "Semantic search with embeddings",
+        "icon": "Search"
+      }
+    ],
+    "pros": "Strong embeddings|Good RAG|Enterprise-focused",
+    "cons": "Smaller ecosystem|Limited free tier",
+    "logoUrl": "https://logo.clearbit.com/cohere.com"
+  },
+  {
+    "name": "Together AI",
+    "slug": "together-ai",
+    "developer": "Together AI",
+    "description": "Cloud platform for running open-source AI models with fast inference.",
+    "website": "https://together.ai",
+    "rating": 4.5,
+    "reviewCount": 1800,
+    "views": 150000,
+    "clicks": 42000,
+    "isFeatured": false,
+    "platforms": "API",
+    "categories": [
+      "Developer Tools",
+      "LLM & Chatbot"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "inference",
+      "open-source",
+      "llm-hosting"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Pay-per-token",
+        "price": null,
+        "period": "per token",
+        "features": "All open models|Fast inference",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Fast Inference",
+        "description": "Optimized open-source model hosting"
+      },
+      {
+        "name": "Fine-tuning",
+        "description": "Fine-tune on your data"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Model Hosting",
+        "description": "Run LLMs without managing GPUs",
+        "icon": "Server"
+      }
+    ],
+    "pros": "Competitive pricing|Good model selection",
+    "cons": "Only open models|Newer platform",
+    "logoUrl": "https://logo.clearbit.com/together.ai"
+  },
+  {
+    "name": "Mailchimp AI",
+    "slug": "mailchimp-ai",
+    "developer": "Intuit",
+    "description": "AI email marketing with content generation and campaign optimization.",
+    "website": "https://mailchimp.com",
+    "rating": 4.3,
+    "reviewCount": 15000,
+    "views": 620000,
+    "clicks": 175000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "Marketing",
+      "Automation"
+    ],
+    "industries": [
+      "Marketing",
+      "E-commerce"
+    ],
+    "tags": [
+      "email-marketing",
+      "automation",
+      "campaigns"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "500 contacts|1000 emails",
+        "isPopular": false
+      },
+      {
+        "name": "Essentials",
+        "price": 13,
+        "period": "month",
+        "features": "5000 contacts|A/B testing",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Content Generator",
+        "description": "Generate email copy and subject lines"
+      },
+      {
+        "name": "Send Time Optimization",
+        "description": "AI determines best send times"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Email Campaigns",
+        "description": "Create optimized email campaigns",
+        "icon": "Mail"
+      }
+    ],
+    "pros": "Great free tier|Easy to use",
+    "cons": "Expensive at scale|AI sometimes generic",
+    "logoUrl": "https://logo.clearbit.com/mailchimp.com"
+  },
+  {
+    "name": "Tidio",
+    "slug": "tidio",
+    "developer": "Tidio",
+    "description": "AI customer service with chatbots and live chat for e-commerce.",
+    "website": "https://tidio.com",
+    "rating": 4.4,
+    "reviewCount": 5600,
+    "views": 240000,
+    "clicks": 62000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "Customer Support",
+      "Marketing"
+    ],
+    "industries": [
+      "E-commerce",
+      "Sales"
+    ],
+    "tags": [
+      "chatbot",
+      "live-chat",
+      "e-commerce"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "50 conversations|100 triggers",
+        "isPopular": false
+      },
+      {
+        "name": "Growth",
+        "price": 59,
+        "period": "month",
+        "features": "2000 conversations|Lyro AI",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Lyro AI",
+        "description": "AI chatbot trained on your data"
+      },
+      {
+        "name": "Live Chat",
+        "description": "Real-time customer chat"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "E-commerce Support",
+        "description": "Automate online store support",
+        "icon": "ShoppingCart"
+      }
+    ],
+    "pros": "Easy setup|AI chatbot effective",
+    "cons": "Limited free tier|Lyro needs training",
+    "logoUrl": "https://logo.clearbit.com/tidio.com"
+  },
+  {
+    "name": "Photoroom",
+    "slug": "photoroom",
+    "developer": "Photoroom",
+    "description": "AI photo editing for background removal and product photography.",
+    "website": "https://photoroom.com",
+    "rating": 4.5,
+    "reviewCount": 6200,
+    "views": 310000,
+    "clicks": 82000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "Image Generation",
+      "Design"
+    ],
+    "industries": [
+      "E-commerce",
+      "Marketing"
+    ],
+    "tags": [
+      "background-removal",
+      "product-photos",
+      "photo-editing"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Background removal|Watermarked",
+        "isPopular": false
+      },
+      {
+        "name": "Pro",
+        "price": 9.99,
+        "period": "month",
+        "features": "No watermark|Batch editing|HD",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Background Removal",
+        "description": "One-click AI background removal"
+      },
+      {
+        "name": "Batch Editing",
+        "description": "Edit hundreds of photos at once"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Product Photos",
+        "description": "Professional e-commerce product photos",
+        "icon": "Camera"
+      }
+    ],
+    "pros": "Best background removal|Great for e-commerce",
+    "cons": "Watermark on free|Credits limited",
+    "logoUrl": "https://logo.clearbit.com/photoroom.com"
+  },
+  {
+    "name": "Speechify",
+    "slug": "speechify",
+    "developer": "Speechify Inc.",
+    "description": "AI text-to-speech reading any text aloud with natural voices.",
+    "website": "https://speechify.com",
+    "rating": 4.4,
+    "reviewCount": 8500,
+    "views": 350000,
+    "clicks": 92000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android, Chrome, Desktop",
+    "categories": [
+      "Audio & Speech",
+      "Education"
+    ],
+    "industries": [
+      "Education",
+      "Technology"
+    ],
+    "tags": [
+      "text-to-speech",
+      "accessibility",
+      "reading"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Basic voices|Web reader",
+        "isPopular": false
+      },
+      {
+        "name": "Premium",
+        "price": 11.58,
+        "period": "month",
+        "features": "30+ voices|Unlimited|OCR",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Natural Voices",
+        "description": "30+ human-like AI voices"
+      },
+      {
+        "name": "Any Format",
+        "description": "Read PDFs, websites, emails"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Accessibility",
+        "description": "Make content accessible to all",
+        "icon": "Eye"
+      }
+    ],
+    "pros": "Natural voices|Multi-platform",
+    "cons": "Expensive premium|Free voices basic",
+    "logoUrl": "https://logo.clearbit.com/speechify.com"
+  },
+  {
+    "name": "Replicate",
+    "slug": "replicate",
+    "developer": "Replicate Inc.",
+    "description": "Cloud platform for running open-source AI models via API.",
+    "website": "https://replicate.com",
+    "rating": 4.5,
+    "reviewCount": 2400,
+    "views": 190000,
+    "clicks": 52000,
+    "isFeatured": false,
+    "platforms": "API, Web",
+    "categories": [
+      "Developer Tools",
+      "Image Generation"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "api",
+      "open-source",
+      "model-hosting"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Pay-per-use",
+        "price": null,
+        "period": "per second",
+        "features": "All models|No minimum",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Model Library",
+        "description": "Thousands of open-source models"
+      },
+      {
+        "name": "Custom Models",
+        "description": "Deploy your own models"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "AI Backend",
+        "description": "Power AI features without infrastructure",
+        "icon": "Server"
+      }
+    ],
+    "pros": "Easy API|Pay-per-use|Great docs",
+    "cons": "Cold start latency|No free tier",
+    "logoUrl": "https://logo.clearbit.com/replicate.com"
+  },
+  {
+    "name": "Murf AI",
+    "slug": "murf-ai",
+    "developer": "Murf AI",
+    "description": "AI voice generator with 120+ voices in 20+ languages for voiceovers.",
+    "website": "https://murf.ai",
+    "rating": 4.3,
+    "reviewCount": 3100,
+    "views": 190000,
+    "clicks": 48000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Audio & Speech",
+      "Content Creation"
+    ],
+    "industries": [
+      "Marketing",
+      "Education"
+    ],
+    "tags": [
+      "text-to-speech",
+      "voiceover",
+      "narration"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "10 min generation|No downloads",
+        "isPopular": false
+      },
+      {
+        "name": "Business",
+        "price": 79,
+        "period": "month",
+        "features": "8 hrs/year|120+ voices|Voice cloning",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "120+ Voices",
+        "description": "Natural voices in 20+ languages"
+      },
+      {
+        "name": "Voice Cloning",
+        "description": "Clone your voice"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "E-learning",
+        "description": "Narrated course content",
+        "icon": "GraduationCap"
+      }
+    ],
+    "pros": "Realistic quality|Good languages",
+    "cons": "Hour limits|Cloning only Business",
+    "logoUrl": "https://logo.clearbit.com/murf.ai"
+  },
+  {
+    "name": "Loom AI",
+    "slug": "loom-ai",
+    "developer": "Atlassian",
+    "description": "Video messaging with AI summaries, chapters, and filler word removal.",
+    "website": "https://loom.com",
+    "rating": 4.5,
+    "reviewCount": 7200,
+    "views": 340000,
+    "clicks": 88000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop, iOS, Android, Chrome",
+    "categories": [
+      "Productivity",
+      "Video Editing"
+    ],
+    "industries": [
+      "Technology",
+      "Education",
+      "Sales"
+    ],
+    "tags": [
+      "video-messaging",
+      "screen-recording",
+      "async-video"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Starter",
+        "price": 0,
+        "period": "month",
+        "features": "25 videos|5-min limit",
+        "isPopular": false
+      },
+      {
+        "name": "Business",
+        "price": 12.5,
+        "period": "month/user",
+        "features": "Unlimited|AI summaries|Analytics",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Summary",
+        "description": "Auto video summaries with key points"
+      },
+      {
+        "name": "Filler Removal",
+        "description": "Remove ums and ahs"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Async Communication",
+        "description": "Replace meetings with video messages",
+        "icon": "MessageSquare"
+      }
+    ],
+    "pros": "Easy recording|Great AI features",
+    "cons": "Free tier limited|Can't replace all meetings",
+    "logoUrl": "https://logo.clearbit.com/loom.com"
+  },
+  {
+    "name": "Descript",
+    "slug": "descript-tool",
+    "developer": "Descript",
+    "description": "AI video and podcast editor — edit media like editing a document.",
+    "website": "https://descript.com",
+    "rating": 4.5,
+    "reviewCount": 5800,
+    "views": 290000,
+    "clicks": 75000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop",
+    "categories": [
+      "Video Editing",
+      "Audio & Speech"
+    ],
+    "industries": [
+      "Entertainment",
+      "Marketing"
+    ],
+    "tags": [
+      "video-editing",
+      "podcast",
+      "transcription"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "1 hr transcription|720p",
+        "isPopular": false
+      },
+      {
+        "name": "Pro",
+        "price": 33,
+        "period": "month",
+        "features": "30 hrs|All AI|Studio sound",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Text-Based Editing",
+        "description": "Edit video by editing transcript"
+      },
+      {
+        "name": "AI Voice Clone",
+        "description": "Clone your voice for narration"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Podcast Editing",
+        "description": "Edit podcasts via text",
+        "icon": "Mic"
+      }
+    ],
+    "pros": "Revolutionary editing|Great AI",
+    "cons": "Expensive|Large files",
+    "logoUrl": "https://logo.clearbit.com/descript.com"
+  },
+  {
+    "name": "Gamma",
+    "slug": "gamma-tool",
+    "developer": "Gamma Tech",
+    "description": "AI presentation and document creation from text prompts.",
+    "website": "https://gamma.app",
+    "rating": 4.5,
+    "reviewCount": 3800,
+    "views": 280000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "Productivity",
+      "Design"
+    ],
+    "industries": [
+      "Marketing",
+      "Education"
+    ],
+    "tags": [
+      "presentations",
+      "slides",
+      "ai-design"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "400 AI credits|Gamma branding",
+        "isPopular": false
+      },
+      {
+        "name": "Plus",
+        "price": 8,
+        "period": "month",
+        "features": "Unlimited AI|No branding|Export",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Presentations",
+        "description": "Full presentations from a prompt"
+      },
+      {
+        "name": "Export",
+        "description": "PDF, PowerPoint, web sharing"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Sales Decks",
+        "description": "Generate polished sales presentations",
+        "icon": "TrendingUp"
+      }
+    ],
+    "pros": "Fast creation|Beautiful designs",
+    "cons": "Limited customization|Credits system",
+    "logoUrl": "https://logo.clearbit.com/gamma.app"
+  },
+  {
+    "name": "Beautiful.ai",
+    "slug": "beautiful-ai",
+    "developer": "Beautiful.ai",
+    "description": "AI presentation software with automatic professional design rules.",
+    "website": "https://beautiful.ai",
+    "rating": 4.4,
+    "reviewCount": 2600,
+    "views": 180000,
+    "clicks": 46000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop",
+    "categories": [
+      "Design",
+      "Productivity"
+    ],
+    "industries": [
+      "Marketing",
+      "Education"
+    ],
+    "tags": [
+      "presentations",
+      "slides",
+      "automation"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Pro",
+        "price": 12,
+        "period": "month",
+        "features": "Unlimited slides|AI design|Export",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "DesignAI",
+        "description": "Automatic professional design principles"
+      },
+      {
+        "name": "Smart Templates",
+        "description": "Templates that adapt to content"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Client Presentations",
+        "description": "On-brand presentations quickly",
+        "icon": "Briefcase"
+      }
+    ],
+    "pros": "Beautiful auto-design|Easy to use",
+    "cons": "Less flexible than PPT|No free tier",
+    "logoUrl": "https://logo.clearbit.com/beautiful.ai"
+  },
+  {
+    "name": "Tome",
+    "slug": "tome",
+    "developer": "Tome",
+    "description": "AI-native presentation and storytelling platform.",
+    "website": "https://tome.app",
+    "rating": 4.3,
+    "reviewCount": 3200,
+    "views": 210000,
+    "clicks": 55000,
+    "isFeatured": false,
+    "platforms": "Web, iOS",
+    "categories": [
+      "Productivity",
+      "Content Creation"
+    ],
+    "industries": [
+      "Marketing",
+      "Education"
+    ],
+    "tags": [
+      "presentations",
+      "storytelling",
+      "ai-slides"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Unlimited tomes|AI generation",
+        "isPopular": false
+      },
+      {
+        "name": "Pro",
+        "price": 16,
+        "period": "month",
+        "features": "No branding|Export|Analytics",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Generation",
+        "description": "Full presentations from a prompt"
+      },
+      {
+        "name": "Interactive Elements",
+        "description": "Embed 3D, video, and interactive content"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Pitch Decks",
+        "description": "Generate investor pitch decks",
+        "icon": "Presentation"
+      }
+    ],
+    "pros": "Beautiful AI presentations|Interactive",
+    "cons": "Limited customization|Export limited",
+    "logoUrl": "https://logo.clearbit.com/tome.app"
+  },
+  {
+    "name": "Pictory",
+    "slug": "pictory",
+    "developer": "Pictory AI",
+    "description": "Convert text articles and scripts into professional short videos.",
+    "website": "https://pictory.ai",
+    "rating": 4.2,
+    "reviewCount": 2800,
+    "views": 160000,
+    "clicks": 42000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": [
+      "Video Generation",
+      "Content Creation"
+    ],
+    "industries": [
+      "Marketing",
+      "Education"
+    ],
+    "tags": [
+      "text-to-video",
+      "content-repurpose",
+      "video-creation"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Starter",
+        "price": 19,
+        "period": "month",
+        "features": "30 videos/month|10-min|AI voices",
+        "isPopular": false
+      },
+      {
+        "name": "Professional",
+        "price": 39,
+        "period": "month",
+        "features": "60 videos|Custom branding",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Article to Video",
+        "description": "Convert blog posts into videos"
+      },
+      {
+        "name": "AI Voiceover",
+        "description": "Natural AI narration"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Blog Repurposing",
+        "description": "Turn blogs into video content",
+        "icon": "RefreshCw"
+      }
+    ],
+    "pros": "Easy blog-to-video|Good stock library",
+    "cons": "Limited customization|Template-driven",
+    "logoUrl": "https://logo.clearbit.com/pictory.ai"
+  },
+  {
+    "name": "HeyGen",
+    "slug": "heygen",
+    "developer": "HeyGen",
+    "description": "AI video platform with customizable avatars and voice cloning.",
+    "website": "https://heygen.com",
+    "rating": 4.4,
+    "reviewCount": 3500,
+    "views": 250000,
+    "clicks": 65000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Video Generation",
+      "Content Creation"
+    ],
+    "industries": [
+      "Marketing",
+      "Education",
+      "Sales"
+    ],
+    "tags": [
+      "ai-avatars",
+      "spokesperson",
+      "marketing-video"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "1 credit|1-min videos",
+        "isPopular": false
+      },
+      {
+        "name": "Creator",
+        "price": 24,
+        "period": "month",
+        "features": "15 credits|Voice cloning|Brand kit",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Avatars",
+        "description": "100+ realistic presenters"
+      },
+      {
+        "name": "Video Translation",
+        "description": "Translate into 40+ languages with lip-sync"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Marketing Videos",
+        "description": "Professional marketing videos at scale",
+        "icon": "Film"
+      }
+    ],
+    "pros": "Realistic avatars|Great translation",
+    "cons": "Credit system|Lip-sync imperfect",
+    "logoUrl": "https://logo.clearbit.com/heygen.com"
+  },
+  {
+    "name": "DataRobot",
+    "slug": "datarobot",
+    "developer": "DataRobot",
+    "description": "Enterprise AI platform for automated machine learning and MLOps.",
+    "website": "https://datarobot.com",
+    "rating": 4.4,
+    "reviewCount": 2200,
+    "views": 180000,
+    "clicks": 48000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Data & Analytics",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Finance",
+      "Healthcare"
+    ],
+    "tags": [
+      "automl",
+      "machine-learning",
+      "mlops"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Enterprise",
+        "price": null,
+        "period": "custom",
+        "features": "AutoML|MLOps|AI monitoring",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AutoML",
+        "description": "Auto build and tune ML models"
+      },
+      {
+        "name": "MLOps",
+        "description": "Deploy and monitor models"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Fraud Detection",
+        "description": "ML models for fraud detection",
+        "icon": "Shield"
+      }
+    ],
+    "pros": "Powerful AutoML|Enterprise-grade",
+    "cons": "Very expensive|Complex for small teams",
+    "logoUrl": "https://logo.clearbit.com/datarobot.com"
+  },
+  {
+    "name": "Scale AI",
+    "slug": "scale-ai",
+    "developer": "Scale AI",
+    "description": "Data labeling and AI infrastructure for high-quality training data.",
+    "website": "https://scale.com",
+    "rating": 4.4,
+    "reviewCount": 1800,
+    "views": 160000,
+    "clicks": 42000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Data & Analytics",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology",
+      "Automotive"
+    ],
+    "tags": [
+      "data-labeling",
+      "training-data",
+      "annotation"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Enterprise",
+        "price": null,
+        "period": "custom",
+        "features": "Custom labeling|QA|API|Support",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Data Labeling",
+        "description": "High-quality data annotation"
+      },
+      {
+        "name": "RLHF",
+        "description": "Reinforcement learning from human feedback"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Training Data",
+        "description": "Labeled datasets for ML training",
+        "icon": "Database"
+      }
+    ],
+    "pros": "High-quality|Used by top companies",
+    "cons": "Very expensive|Enterprise-only",
+    "logoUrl": "https://logo.clearbit.com/scale.com"
+  },
+  {
+    "name": "Weights & Biases",
+    "slug": "wandb",
+    "developer": "Weights & Biases",
+    "description": "ML experiment tracking for logging, visualizing, and comparing experiments.",
+    "website": "https://wandb.ai",
+    "rating": 4.6,
+    "reviewCount": 3500,
+    "views": 220000,
+    "clicks": 58000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "mlops",
+      "experiment-tracking",
+      "machine-learning"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "100GB storage|Unlimited experiments",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Experiment Tracking",
+        "description": "Log and compare ML experiments"
+      },
+      {
+        "name": "Sweeps",
+        "description": "Automated hyperparameter optimization"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ML Development",
+        "description": "Track and reproduce experiments",
+        "icon": "Beaker"
+      }
+    ],
+    "pros": "Best experiment tracking|Great visualization",
+    "cons": "Learning curve|Storage costs",
+    "logoUrl": "https://logo.clearbit.com/wandb.ai"
+  },
+  {
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "developer": "Tabnine",
+    "description": "Privacy-first AI code completion learning from your codebase.",
+    "website": "https://tabnine.com",
+    "rating": 4.3,
+    "reviewCount": 5500,
+    "views": 280000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "VS Code, JetBrains, Vim",
+    "categories": [
+      "Code Assistant",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "code-completion",
+      "privacy",
+      "ai-coding"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Basic completions",
+        "isPopular": false
+      },
+      {
+        "name": "Dev",
+        "price": 9,
+        "period": "month",
+        "features": "Full completions|Personalized",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Personalized Completions",
+        "description": "Learns from your codebase"
+      },
+      {
+        "name": "Privacy-First",
+        "description": "Models run locally, code never shared"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Enterprise Dev",
+        "description": "AI coding with full privacy",
+        "icon": "Shield"
+      }
+    ],
+    "pros": "Privacy-focused|Personalized",
+    "cons": "Less capable than Copilot|Free tier basic",
+    "logoUrl": "https://logo.clearbit.com/tabnine.com"
+  },
+  {
+    "name": "Mem AI",
+    "slug": "mem-ai",
+    "developer": "Mem Labs",
+    "description": "AI note-taking that organizes knowledge automatically.",
+    "website": "https://mem.ai",
+    "rating": 4.2,
+    "reviewCount": 2200,
+    "views": 140000,
+    "clicks": 38000,
+    "isFeatured": false,
+    "platforms": "Web, iOS",
+    "categories": [
+      "Productivity",
+      "Knowledge Management"
+    ],
+    "industries": [
+      "Technology",
+      "Education"
+    ],
+    "tags": [
+      "note-taking",
+      "knowledge-management",
+      "ai-notes"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "Basic notes|AI search",
+        "isPopular": false
+      },
+      {
+        "name": "Premium",
+        "price": 14.99,
+        "period": "month",
+        "features": "Unlimited AI|Smart connections",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Self-Organizing",
+        "description": "AI auto-tags and connects notes"
+      },
+      {
+        "name": "Smart Search",
+        "description": "Natural language search"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Knowledge Base",
+        "description": "Self-organizing second brain",
+        "icon": "Brain"
+      }
+    ],
+    "pros": "Innovative concept|Good AI search",
+    "cons": "Limited vs Notion|Expensive|iOS only",
+    "logoUrl": "https://logo.clearbit.com/mem.ai"
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai-tool",
+    "developer": "Otter.ai",
+    "description": "AI meeting transcription and note-taking.",
+    "website": "https://otter.ai",
+    "rating": 4.3,
+    "reviewCount": 6800,
+    "views": 310000,
+    "clicks": 82000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "Productivity",
+      "Audio & Speech"
+    ],
+    "industries": [
+      "Education",
+      "Technology"
+    ],
+    "tags": [
+      "transcription",
+      "meeting-notes",
+      "voice-to-text"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Basic",
+        "price": 0,
+        "period": "month",
+        "features": "300 min/month|30-min limit",
+        "isPopular": false
+      },
+      {
+        "name": "Pro",
+        "price": 8.33,
+        "period": "month",
+        "features": "1200 min|90-min limit|Export",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Live Transcription",
+        "description": "Real-time meeting transcription"
+      },
+      {
+        "name": "OtterPilot",
+        "description": "Auto joins and records meetings"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Lecture Notes",
+        "description": "Transcribe class lectures",
+        "icon": "GraduationCap"
+      }
+    ],
+    "pros": "Excellent transcription|Good free tier",
+    "cons": "Accuracy drops with accents|Limited languages",
+    "logoUrl": "https://logo.clearbit.com/otter.ai"
+  },
+  {
+    "name": "Semantic Scholar",
+    "slug": "semantic-scholar",
+    "developer": "Allen Institute for AI",
+    "description": "AI academic search engine for finding and understanding scientific papers.",
+    "website": "https://semanticscholar.org",
+    "rating": 4.5,
+    "reviewCount": 4500,
+    "views": 320000,
+    "clicks": 85000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Search & Research",
+      "Education"
+    ],
+    "industries": [
+      "Education",
+      "Healthcare"
+    ],
+    "tags": [
+      "research",
+      "academic",
+      "papers"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": null,
+        "features": "Full access|Paper recs|Citations|API",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Search",
+        "description": "Find papers with natural language"
+      },
+      {
+        "name": "TLDR Summaries",
+        "description": "One-sentence paper summaries"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Literature Review",
+        "description": "Survey research on any topic",
+        "icon": "BookOpen"
+      }
+    ],
+    "pros": "Completely free|Excellent search|TLDR",
+    "cons": "Academic only|Coverage gaps",
+    "logoUrl": "https://logo.clearbit.com/semanticscholar.org"
+  },
+  {
+    "name": "HubSpot AI",
+    "slug": "hubspot-ai",
+    "developer": "HubSpot",
+    "description": "AI-powered CRM with marketing, sales, and content tools.",
+    "website": "https://hubspot.com/artificial-intelligence",
+    "rating": 4.4,
+    "reviewCount": 12000,
+    "views": 520000,
+    "clicks": 145000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": [
+      "Marketing",
+      "Sales",
+      "CRM"
+    ],
+    "industries": [
+      "Marketing",
+      "Sales",
+      "E-commerce"
+    ],
+    "tags": [
+      "crm",
+      "marketing-automation",
+      "sales-ai"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free CRM",
+        "price": 0,
+        "period": "month",
+        "features": "Contact management|Basic AI",
+        "isPopular": false
+      },
+      {
+        "name": "Professional",
+        "price": 890,
+        "period": "month",
+        "features": "Marketing automation|AI tools",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Content Assistant",
+        "description": "Generate marketing content"
+      },
+      {
+        "name": "Predictive Lead Scoring",
+        "description": "AI ranks leads by conversion"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Lead Nurturing",
+        "description": "Automated email sequences with AI",
+        "icon": "Mail"
+      }
+    ],
+    "pros": "Comprehensive CRM|Great free tier",
+    "cons": "Very expensive at scale|Complex pricing",
+    "logoUrl": "https://logo.clearbit.com/hubspot.com"
+  },
+  {
+    "name": "Airtable",
+    "slug": "airtable",
+    "developer": "Airtable",
+    "description": "Low-code platform combining spreadsheets with database power and AI.",
+    "website": "https://airtable.com",
+    "rating": 4.5,
+    "reviewCount": 8500,
+    "views": 380000,
+    "clicks": 98000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android, Desktop",
+    "categories": [
+      "Productivity",
+      "No-Code/Low-Code"
+    ],
+    "industries": [
+      "Technology",
+      "Marketing"
+    ],
+    "tags": [
+      "database",
+      "no-code",
+      "spreadsheet"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "1000 records|1GB|100 automations",
+        "isPopular": false
+      },
+      {
+        "name": "Team",
+        "price": 20,
+        "period": "month/seat",
+        "features": "50K records|20GB|25K automations",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Field",
+        "description": "Auto-generate content in fields"
+      },
+      {
+        "name": "Automations",
+        "description": "Build workflows without code"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Project Management",
+        "description": "Track projects with flexible views",
+        "icon": "CheckSquare"
+      }
+    ],
+    "pros": "Flexible|Great AI|Beautiful interface",
+    "cons": "Expensive at scale|Record limits",
+    "logoUrl": "https://logo.clearbit.com/airtable.com"
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia-tool",
+    "developer": "Synthesia",
+    "description": "AI video platform with 230+ avatars for training and marketing videos.",
+    "website": "https://synthesia.io",
+    "rating": 4.5,
+    "reviewCount": 4200,
+    "views": 310000,
+    "clicks": 78000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Video Generation",
+      "Content Creation"
+    ],
+    "industries": [
+      "Education",
+      "Marketing",
+      "HR & Recruitment"
+    ],
+    "tags": [
+      "ai-avatars",
+      "training-videos",
+      "multilingual"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Starter",
+        "price": 18,
+        "period": "month",
+        "features": "120 min/year|70+ avatars",
+        "isPopular": false
+      },
+      {
+        "name": "Creator",
+        "price": 64,
+        "period": "month",
+        "features": "360 min/year|90+ avatars|Custom branding",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Avatars",
+        "description": "230+ realistic presenters"
+      },
+      {
+        "name": "140+ Languages",
+        "description": "Videos in 140+ languages"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Employee Training",
+        "description": "Scalable training videos",
+        "icon": "GraduationCap"
+      }
+    ],
+    "pros": "Professional avatars|Many languages",
+    "cons": "Talking-head style only|Custom avatars expensive",
+    "logoUrl": "https://logo.clearbit.com/synthesia.io"
+  },
+  {
+    "name": "Writesonic",
+    "slug": "writesonic-tool",
+    "developer": "Writesonic",
+    "description": "AI writing and SEO platform with real-time data.",
+    "website": "https://writesonic.com",
+    "rating": 4.3,
+    "reviewCount": 3800,
+    "views": 200000,
+    "clicks": 52000,
+    "isFeatured": false,
+    "platforms": "Web, Chrome, API",
+    "categories": [
+      "Writing",
+      "SEO"
+    ],
+    "industries": [
+      "Marketing",
+      "E-commerce"
+    ],
+    "tags": [
+      "writing",
+      "seo",
+      "content",
+      "ai-writer"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "10K words/month",
+        "isPopular": false
+      },
+      {
+        "name": "Individual",
+        "price": 16,
+        "period": "month",
+        "features": "100K words|GPT-4",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Article Writer",
+        "description": "SEO-optimized long-form articles"
+      },
+      {
+        "name": "Brand Voice",
+        "description": "Match your writing style"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Blog Writing",
+        "description": "SEO blog posts with real-time data",
+        "icon": "FileText"
+      }
+    ],
+    "pros": "Good SEO integration|Affordable",
+    "cons": "Quality inconsistent|Word limits",
+    "logoUrl": "https://logo.clearbit.com/writesonic.com"
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copy-ai-tool",
+    "developer": "Copy.ai",
+    "description": "AI GTM platform for marketing content and workflow automation.",
+    "website": "https://copy.ai",
+    "rating": 4.3,
+    "reviewCount": 4500,
+    "views": 240000,
+    "clicks": 62000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Writing",
+      "Marketing"
+    ],
+    "industries": [
+      "Marketing",
+      "E-commerce"
+    ],
+    "tags": [
+      "copywriting",
+      "marketing",
+      "content"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "2000 words|1 seat",
+        "isPopular": false
+      },
+      {
+        "name": "Starter",
+        "price": 36,
+        "period": "month",
+        "features": "Unlimited words|Brand voices",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI Copywriting",
+        "description": "90+ marketing templates"
+      },
+      {
+        "name": "Workflows",
+        "description": "Multi-step marketing automation"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Ad Copy",
+        "description": "High-converting ad copy",
+        "icon": "Target"
+      }
+    ],
+    "pros": "Good for marketing|Workflow automation",
+    "cons": "Free tier limited|Expensive",
+    "logoUrl": "https://logo.clearbit.com/copy.ai"
+  },
+  {
+    "name": "Luma AI",
+    "slug": "luma-ai",
+    "developer": "Luma AI",
+    "description": "AI platform for photorealistic 3D models and video from text.",
+    "website": "https://lumalabs.ai",
+    "rating": 4.4,
+    "reviewCount": 2200,
+    "views": 180000,
+    "clicks": 48000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, API",
+    "categories": [
+      "Video Generation",
+      "3D & AR/VR"
+    ],
+    "industries": [
+      "Entertainment",
+      "E-commerce"
+    ],
+    "tags": [
+      "3d",
+      "video-generation",
+      "photogrammetry"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "price": 0,
+        "period": "month",
+        "features": "30 generations|720p",
+        "isPopular": false
+      },
+      {
+        "name": "Standard",
+        "price": 9.99,
+        "period": "month",
+        "features": "150 generations|1080p",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Dream Machine",
+        "description": "Realistic videos from text/images"
+      },
+      {
+        "name": "3D Capture",
+        "description": "Photorealistic 3D from photos"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Product Visualization",
+        "description": "3D product models from photos",
+        "icon": "Box"
+      }
+    ],
+    "pros": "Impressive 3D|Good video quality",
+    "cons": "Free tier limited|Longer gen times",
+    "logoUrl": "https://logo.clearbit.com/lumalabs.ai"
+  },
+  {
+    "name": "Databricks",
+    "slug": "databricks",
+    "developer": "Databricks",
+    "description": "Unified data analytics and AI platform for data engineering and ML.",
+    "website": "https://databricks.com",
+    "rating": 4.5,
+    "reviewCount": 6200,
+    "views": 380000,
+    "clicks": 98000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": [
+      "Data & Analytics",
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology",
+      "Finance",
+      "Healthcare"
+    ],
+    "tags": [
+      "data-platform",
+      "spark",
+      "lakehouse"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Pay-as-you-go",
+        "price": null,
+        "period": "per DBU",
+        "features": "All features|Pay for compute",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Lakehouse",
+        "description": "Unified data warehouse and data lake"
+      },
+      {
+        "name": "MLflow",
+        "description": "End-to-end ML lifecycle management"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Data Engineering",
+        "description": "Large-scale data processing pipelines",
+        "icon": "Database"
+      }
+    ],
+    "pros": "Powerful platform|Great for big data",
+    "cons": "Complex|Expensive|Steep learning curve",
+    "logoUrl": "https://logo.clearbit.com/databricks.com"
+  },
+  {
+    "name": "Vercel AI SDK",
+    "slug": "vercel-ai-sdk",
+    "developer": "Vercel",
+    "description": "TypeScript toolkit for building AI-powered apps with streaming support.",
+    "website": "https://sdk.vercel.ai",
+    "rating": 4.6,
+    "reviewCount": 3200,
+    "views": 320000,
+    "clicks": 88000,
+    "isFeatured": false,
+    "platforms": "API",
+    "categories": [
+      "Developer Tools"
+    ],
+    "industries": [
+      "Technology"
+    ],
+    "tags": [
+      "ai-sdk",
+      "typescript",
+      "streaming",
+      "next-js"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Open Source",
+        "price": 0,
+        "period": null,
+        "features": "Full SDK|All providers|Streaming",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "AI SDK",
+        "description": "Build AI apps with streaming support"
+      },
+      {
+        "name": "Multi-Provider",
+        "description": "OpenAI, Anthropic, Google, and more"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "AI Apps",
+        "description": "Build AI-powered web applications",
+        "icon": "Code"
+      }
+    ],
+    "pros": "Open-source|Great DX|Multi-provider",
+    "cons": "TypeScript focused|Next.js oriented",
+    "logoUrl": "https://logo.clearbit.com/vercel.com"
+  },
+  {
+    "name": "Jasper",
+    "slug": "jasper-tool",
+    "developer": "Jasper AI",
+    "description": "Enterprise AI content platform for on-brand marketing at scale.",
+    "website": "https://jasper.ai",
+    "rating": 4.4,
+    "reviewCount": 6200,
+    "views": 290000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Web, Chrome, API",
+    "categories": [
+      "Writing",
+      "Content Creation",
+      "Marketing"
+    ],
+    "industries": [
+      "Marketing",
+      "E-commerce"
+    ],
+    "tags": [
+      "content-creation",
+      "brand-voice",
+      "copywriting"
+    ],
+    "pricingPlans": [
+      {
+        "name": "Creator",
+        "price": 49,
+        "period": "month",
+        "features": "1 seat|Brand voice|50+ templates",
+        "isPopular": false
+      },
+      {
+        "name": "Pro",
+        "price": 69,
+        "period": "month",
+        "features": "AI images|Collaboration|Analytics",
+        "isPopular": true
+      }
+    ],
+    "features": [
+      {
+        "name": "Brand Voice",
+        "description": "Write in your brand's style"
+      },
+      {
+        "name": "50+ Templates",
+        "description": "Blogs, ads, emails, social"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Blog Production",
+        "description": "Scale blog content production",
+        "icon": "FileText"
+      }
+    ],
+    "pros": "Built for marketing|Brand consistency",
+    "cons": "Expensive|Quality varies by template",
+    "logoUrl": "https://logo.clearbit.com/jasper.ai"
+  }
 ]

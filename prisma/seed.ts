@@ -19,6 +19,7 @@ interface SeedTool {
   platforms?: string;
   pros?: string;
   cons?: string;
+  logoUrl?: string;
   categories: string[];
   industries: string[];
   tags: string[];
@@ -349,8 +350,12 @@ async function main() {
           platforms: tool.platforms || "Web",
           pros: tool.pros || null,
           cons: tool.cons || null,
-          logoUrl: `https://logo.clearbit.com/${new URL(tool.website).hostname}`,
-          thumbnailUrl: `https://logo.clearbit.com/${new URL(tool.website).hostname}`,
+          logoUrl:
+            tool.logoUrl ||
+            `https://logo.clearbit.com/${new URL(tool.website).hostname}`,
+          thumbnailUrl:
+            tool.logoUrl ||
+            `https://logo.clearbit.com/${new URL(tool.website).hostname}`,
         },
       });
 
