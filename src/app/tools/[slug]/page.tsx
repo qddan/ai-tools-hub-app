@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -36,7 +36,6 @@ async function getTool(slug: string) {
       categories: { include: { category: true } },
       industries: { include: { industry: true } },
       tags: { include: { tag: true } },
-      pricingPlans: true,
       features: true,
       useCases: true,
       reviews: {
@@ -252,7 +251,6 @@ export default async function ToolPage({ params }: ToolPageProps) {
       <Tabs defaultValue="features" className="mt-12">
         <TabsList>
           <TabsTrigger value="features">Features</TabsTrigger>
-          <TabsTrigger value="pricing">Pricing</TabsTrigger>
           <TabsTrigger value="usecases">Use Cases</TabsTrigger>
         </TabsList>
 
@@ -280,60 +278,6 @@ export default async function ToolPage({ params }: ToolPageProps) {
           ) : (
             <p className="text-muted-foreground">
               No feature details available.
-            </p>
-          )}
-        </TabsContent>
-
-        <TabsContent value="pricing" className="mt-6">
-          {tool.pricingPlans.length > 0 ? (
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {tool.pricingPlans.map((plan) => (
-                <Card
-                  key={plan.id}
-                  className={
-                    plan.isPopular ? "border-blue-600 ring-1 ring-blue-600" : ""
-                  }
-                >
-                  <CardHeader>
-                    <div className="flex items-center justify-between">
-                      <CardTitle className="text-lg">{plan.name}</CardTitle>
-                      {plan.isPopular && (
-                        <Badge className="bg-blue-600">Popular</Badge>
-                      )}
-                    </div>
-                    <div className="mt-2">
-                      {plan.price === null || plan.price === 0 ? (
-                        <span className="text-3xl font-bold">Free</span>
-                      ) : (
-                        <div>
-                          <span className="text-3xl font-bold">
-                            ${plan.price}
-                          </span>
-                          {plan.period && (
-                            <span className="text-muted-foreground">
-                              /{plan.period}
-                            </span>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-2">
-                      {plan.features.split("|").map((f, i) => (
-                        <li key={i} className="flex items-start gap-2 text-sm">
-                          <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-green-500" />
-                          {f.trim()}
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          ) : (
-            <p className="text-muted-foreground">
-              No pricing information available. Visit the website for details.
             </p>
           )}
         </TabsContent>

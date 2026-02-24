@@ -175,3 +175,26 @@ model ToolClick {
 
   tool      Tool @relation(fields: [toolId], references: [id], onDelete: Cascade)
 }
+
+model McpServer {
+  id              String   @id @default(cuid())
+  name            String
+  slug            String   @unique
+  category        String
+  description     String
+  longDescription String?
+  icon            String?
+  difficulty      String   @default("Intermediate")
+  popularityRank  Int      @default(0)
+  githubStars     String?
+  githubUrl       String?
+  websiteUrl      String?
+  useCases        String?
+  pros            String?
+  cons            String?
+  bestFor         String?
+  setupGuide      String?
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

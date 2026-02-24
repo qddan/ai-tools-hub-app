@@ -20,7 +20,6 @@ interface ToolsPageProps {
   searchParams: Promise<{
     search?: string;
     category?: string;
-    pricing?: string;
     sort?: string;
     page?: string;
   }>;
@@ -30,7 +29,6 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
   const params = await searchParams;
   const search = params.search || "";
   const categorySlug = params.category || "";
-  const pricing = params.pricing || "";
   const sort = params.sort || "popular";
   const page = parseInt(params.page || "1", 10);
 
@@ -51,16 +49,6 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
     };
   }
 
-  if (pricing === "free") {
-    where.pricingPlans = {
-      some: { OR: [{ price: null }, { price: 0 }] },
-    };
-  } else if (pricing === "paid") {
-    where.pricingPlans = {
-      some: { price: { gt: 0 } },
-    };
-  }
-
   // Build orderBy
   let orderBy: Prisma.ToolOrderByWithRelationInput = { views: "desc" };
   if (sort === "rating") orderBy = { rating: "desc" };
@@ -77,7 +65,6 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
         categories: { include: { category: true } },
         industries: { include: { industry: true } },
         tags: { include: { tag: true } },
-        pricingPlans: true,
         features: true,
         useCases: true,
       },
@@ -96,7 +83,6 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
     const p = new URLSearchParams();
     if (search) p.set("search", search);
     if (categorySlug) p.set("category", categorySlug);
-    if (pricing) p.set("pricing", pricing);
     if (sort && sort !== "popular") p.set("sort", sort);
     if (newPage > 1) p.set("page", newPage.toString());
     const qs = p.toString();
@@ -135,7 +121,6 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
       <ToolsFilter
         categories={categories}
         currentCategory={categorySlug}
-        currentPricing={pricing}
         currentSort={sort}
         currentSearch={search}
       />

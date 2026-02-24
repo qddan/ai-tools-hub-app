@@ -14,6 +14,7 @@ export const navLinks = [
   { label: "Browse Tools", href: "/tools" },
   { label: "Categories", href: "/categories" },
   { label: "Industries", href: "/industries" },
+  { label: "MCP Servers", href: "/mcp" },
 ] as const;
 
 export const footerLinks = {
@@ -22,6 +23,7 @@ export const footerLinks = {
     { label: "Categories", href: "/categories" },
     { label: "Industries", href: "/industries" },
     { label: "Compare Tools", href: "/compare" },
+    { label: "MCP Servers", href: "/mcp" },
   ],
   resources: [
     { label: "Blog", href: "/blog" },
@@ -38,8 +40,6 @@ export const footerLinks = {
 } as const;
 
 export const TOOLS_PER_PAGE = 20;
-
-export const PRICING_TYPES = ["Free", "Freemium", "Paid", "Enterprise"] as const;
 
 export const SORT_OPTIONS = [
   { label: "Popular", value: "popular" },

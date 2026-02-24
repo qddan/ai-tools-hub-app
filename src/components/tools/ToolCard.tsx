@@ -10,23 +10,6 @@ interface ToolCardProps {
 }
 
 export function ToolCard({ tool }: ToolCardProps) {
-  const plans = tool.pricingPlans;
-  let pricingLabel = "Contact";
-  if (plans.length > 0) {
-    const hasFree = plans.some(
-      (p: { price: number | null }) => p.price === null || p.price === 0,
-    );
-    if (hasFree) {
-      pricingLabel = "Free";
-    } else {
-      const prices = plans
-        .filter((p: { price: number | null }) => p.price != null)
-        .map((p: { price: number | null }) => p.price!);
-      pricingLabel =
-        prices.length > 0 ? `From $${Math.min(...prices)}/mo` : "Contact";
-    }
-  }
-
   return (
     <Link href={`/tools/${tool.slug}`}>
       <Card className="group h-full transition-all duration-200 hover:shadow-lg hover:border-blue-200">
@@ -96,7 +79,9 @@ export function ToolCard({ tool }: ToolCardProps) {
                 {tool.views.toLocaleString()}
               </span>
             </div>
-            <span className="font-medium text-blue-600">{pricingLabel}</span>
+            <span className="text-xs text-muted-foreground">
+              {tool.developer}
+            </span>
           </div>
         </CardContent>
       </Card>

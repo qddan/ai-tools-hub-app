@@ -23,13 +23,6 @@ interface SeedTool {
   categories: string[];
   industries: string[];
   tags: string[];
-  pricingPlans: {
-    name: string;
-    price: number | null;
-    period: string | null;
-    features: string;
-    isPopular: boolean;
-  }[];
   features: { name: string; description: string; icon?: string }[];
   useCases: { title: string; description: string; icon?: string }[];
 }
@@ -352,10 +345,10 @@ async function main() {
           cons: tool.cons || null,
           logoUrl:
             tool.logoUrl ||
-            `https://logo.clearbit.com/${new URL(tool.website).hostname}`,
+            `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${tool.website}&size=128`,
           thumbnailUrl:
             tool.logoUrl ||
-            `https://logo.clearbit.com/${new URL(tool.website).hostname}`,
+            `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${tool.website}&size=128`,
         },
       });
 
@@ -387,20 +380,6 @@ async function main() {
             data: { toolId: createdTool.id, tagId: tagId },
           });
         }
-      }
-
-      // Create pricing plans
-      for (const plan of tool.pricingPlans || []) {
-        await prisma.pricingPlan.create({
-          data: {
-            toolId: createdTool.id,
-            name: plan.name,
-            price: plan.price,
-            period: plan.period,
-            features: plan.features,
-            isPopular: plan.isPopular || false,
-          },
-        });
       }
 
       // Create features
@@ -439,11 +418,47 @@ async function main() {
   const indCount = await prisma.industry.count();
   const tagCount = await prisma.tag.count();
 
-  console.log("\n📊 Seed Summary:");
+  // Seed MCP Servers
+  console.log("\n� Seeding MCP Servers...");
+  await prisma.mcpServer.deleteMany();
+  const mcpData = JSON.parse(
+    fs.readFileSync(
+      path.join(__dirname, "seed-data", "mcp-servers.json"),
+      "utf-8",
+    ),
+  );
+  for (const mcp of mcpData) {
+    await prisma.mcpServer.create({
+      data: {
+        name: mcp.name,
+        slug: mcp.slug,
+        category: mcp.category,
+        description: mcp.description,
+        longDescription: mcp.longDescription || null,
+        icon: mcp.icon || null,
+        difficulty: mcp.difficulty || "Intermediate",
+        popularityRank: mcp.popularityRank || 0,
+        githubStars: mcp.githubStars || null,
+        githubUrl: mcp.githubUrl || null,
+        websiteUrl: mcp.websiteUrl || null,
+        useCases: mcp.useCases || null,
+        pros: mcp.pros || null,
+        cons: mcp.cons || null,
+        bestFor: mcp.bestFor || null,
+        setupGuide: mcp.setupGuide || null,
+      },
+    });
+    console.log(`  ✅ ${mcp.name}`);
+  }
+
+  const mcpCount = await prisma.mcpServer.count();
+
+  console.log("\n�📊 Seed Summary:");
   console.log(`  Tools: ${toolCount}`);
   console.log(`  Categories: ${catCount}`);
   console.log(`  Industries: ${indCount}`);
   console.log(`  Tags: ${tagCount}`);
+  console.log(`  MCP Servers: ${mcpCount}`);
   console.log("\n✅ Seed completed!");
 }
 

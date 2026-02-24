@@ -31,36 +31,6 @@
       "openai",
       "multimodal"
     ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "GPT-4o mini access|Limited GPT-4o|Basic features",
-        "isPopular": false
-      },
-      {
-        "name": "Plus",
-        "price": 20,
-        "period": "month",
-        "features": "GPT-4o full access|DALL-E image generation|Advanced data analysis|Custom GPTs|Priority access",
-        "isPopular": true
-      },
-      {
-        "name": "Team",
-        "price": 25,
-        "period": "month/user",
-        "features": "Everything in Plus|Admin console|Team workspace|Higher usage caps",
-        "isPopular": false
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Unlimited access|SSO & SCIM|Custom data retention|Dedicated support|Admin analytics",
-        "isPopular": false
-      }
-    ],
     "features": [
       {
         "name": "Natural Language Chat",
@@ -104,7 +74,7 @@
         "icon": "Search"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/openai.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://chat.openai.com&size=128"
   },
   {
     "name": "Claude",
@@ -137,36 +107,6 @@
       "anthropic",
       "ai-assistant",
       "long-context"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Claude 3.5 Sonnet access|Limited usage|Basic features",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 20,
-        "period": "month",
-        "features": "5x more usage|Priority access|Claude 3.5 Opus|Projects feature|Early access to new features",
-        "isPopular": true
-      },
-      {
-        "name": "Team",
-        "price": 25,
-        "period": "month/user",
-        "features": "Everything in Pro|Team collaboration|Admin tools|Higher limits",
-        "isPopular": false
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Unlimited access|SSO/SAML|Custom data retention|SLA guarantees|Dedicated support",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -211,7 +151,7 @@
         "icon": "BookOpen"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/claude.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://claude.ai&size=128"
   },
   {
     "name": "Google Gemini",
@@ -244,22 +184,6 @@
       "google",
       "multimodal",
       "ai-assistant"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Gemini Pro access|Basic features|Google integration",
-        "isPopular": false
-      },
-      {
-        "name": "Advanced",
-        "price": 19.99,
-        "period": "month",
-        "features": "Gemini Ultra|2TB Google storage|Google One AI Premium|Workspace integration|Priority access",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -300,7 +224,7 @@
         "icon": "Code"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/google.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gemini.google.com&size=128"
   },
   {
     "name": "Cursor",
@@ -330,29 +254,6 @@
       "developer-tools",
       "cursor",
       "ide"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Hobby",
-        "price": 0,
-        "period": "month",
-        "features": "2000 completions|50 slow premium requests|VS Code extensions",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 20,
-        "period": "month",
-        "features": "Unlimited completions|500 fast premium requests|Unlimited slow requests|Custom AI models",
-        "isPopular": true
-      },
-      {
-        "name": "Business",
-        "price": 40,
-        "period": "month/user",
-        "features": "Everything in Pro|Admin dashboard|Centralized billing|SAML SSO|Enforce privacy mode",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -393,7 +294,7 @@
         "icon": "Bug"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/cursor.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cursor.com&size=128"
   },
   {
     "name": "Midjourney",
@@ -425,36 +326,6 @@
       "midjourney",
       "design",
       "creative"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Basic",
-        "price": 10,
-        "period": "month",
-        "features": "~200 images/month|3 concurrent jobs|General commercial terms",
-        "isPopular": false
-      },
-      {
-        "name": "Standard",
-        "price": 30,
-        "period": "month",
-        "features": "15h fast GPU time|Unlimited relaxed|General commercial terms",
-        "isPopular": true
-      },
-      {
-        "name": "Pro",
-        "price": 60,
-        "period": "month",
-        "features": "30h fast GPU time|Stealth mode|Unlimited relaxed",
-        "isPopular": false
-      },
-      {
-        "name": "Mega",
-        "price": 120,
-        "period": "month",
-        "features": "60h fast GPU time|Stealth mode|Unlimited relaxed",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -495,7 +366,7 @@
         "icon": "Package"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/midjourney.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://midjourney.com&size=128"
   },
   {
     "name": "DALL-E 3",
@@ -525,29 +396,6 @@
       "dall-e",
       "openai",
       "text-to-image"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Via ChatGPT Plus",
-        "price": 20,
-        "period": "month",
-        "features": "Included with ChatGPT Plus|Unlimited generations|Edit and iterate",
-        "isPopular": true
-      },
-      {
-        "name": "API Standard",
-        "price": 0.04,
-        "period": "per image",
-        "features": "1024x1024 resolution|API access|Bulk generation",
-        "isPopular": false
-      },
-      {
-        "name": "API HD",
-        "price": 0.08,
-        "period": "per image",
-        "features": "1024x1792 resolution|HD quality|API access",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -588,7 +436,7 @@
         "icon": "Image"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/openai.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://openai.com&size=128"
   },
   {
     "name": "GitHub Copilot",
@@ -618,36 +466,6 @@
       "copilot",
       "ai-coding",
       "developer-tools"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "2000 completions/month|50 chat messages/month|VS Code & JetBrains",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 10,
-        "period": "month",
-        "features": "Unlimited completions|Unlimited chat|Multiple models|Agent mode",
-        "isPopular": true
-      },
-      {
-        "name": "Business",
-        "price": 19,
-        "period": "month/user",
-        "features": "Everything in Pro|Organization policies|Audit logs|IP indemnity",
-        "isPopular": false
-      },
-      {
-        "name": "Enterprise",
-        "price": 39,
-        "period": "month/user",
-        "features": "Everything in Business|Fine-tuned models|Custom knowledge bases|SAML SSO",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -688,7 +506,7 @@
         "icon": "CheckCircle"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/github.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://github.com&size=128"
   },
   {
     "name": "Sora",
@@ -720,22 +538,6 @@
       "openai",
       "text-to-video",
       "creative"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Via ChatGPT Plus",
-        "price": 20,
-        "period": "month",
-        "features": "50 priority videos/month|720p resolution|5-second max duration",
-        "isPopular": false
-      },
-      {
-        "name": "Via ChatGPT Pro",
-        "price": 200,
-        "period": "month",
-        "features": "500 priority videos/month|1080p resolution|20-second max|Unlimited relaxed",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -776,7 +578,7 @@
         "icon": "Eye"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/openai.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sora.com&size=128"
   },
   {
     "name": "ElevenLabs",
@@ -808,36 +610,6 @@
       "audio",
       "elevenlabs",
       "tts"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "10,000 characters/month|3 custom voices|Basic features",
-        "isPopular": false
-      },
-      {
-        "name": "Starter",
-        "price": 5,
-        "period": "month",
-        "features": "30,000 characters/month|10 custom voices|Commercial license",
-        "isPopular": false
-      },
-      {
-        "name": "Creator",
-        "price": 22,
-        "period": "month",
-        "features": "100,000 characters/month|30 custom voices|Professional voice cloning",
-        "isPopular": true
-      },
-      {
-        "name": "Pro",
-        "price": 99,
-        "period": "month",
-        "features": "500,000 characters/month|160 custom voices|48kHz audio|Priority support",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -878,7 +650,7 @@
         "icon": "Film"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/elevenlabs.io"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://elevenlabs.io&size=128"
   },
   {
     "name": "Stable Diffusion",
@@ -911,29 +683,6 @@
       "stable-diffusion",
       "local-ai",
       "customizable"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Open Source",
-        "price": 0,
-        "period": null,
-        "features": "Full model access|Local deployment|Community support|Unlimited generation",
-        "isPopular": true
-      },
-      {
-        "name": "Stability API",
-        "price": 0.002,
-        "period": "per image",
-        "features": "Cloud API access|SDXL & SD3|No GPU required|Pay-per-use",
-        "isPopular": false
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Custom models|Priority support|SLA guarantees|Fine-tuning services",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -974,7 +723,7 @@
         "icon": "Layers"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/stability.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://stability.ai&size=128"
   },
   {
     "name": "Perplexity AI",
@@ -1006,29 +755,6 @@
       "perplexity",
       "ai-search",
       "citations"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Unlimited Quick searches|5 Pro searches/day|Basic model access",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 20,
-        "period": "month",
-        "features": "600+ Pro searches/day|GPT-4o & Claude access|File upload & analysis|API credits",
-        "isPopular": true
-      },
-      {
-        "name": "Enterprise",
-        "price": 40,
-        "period": "month/user",
-        "features": "Everything in Pro|SSO & admin|Data privacy|Custom solutions",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1069,7 +795,7 @@
         "icon": "CheckCircle"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/perplexity.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://perplexity.ai&size=128"
   },
   {
     "name": "Notion AI",
@@ -1102,15 +828,6 @@
       "writing",
       "workspace",
       "ai-assistant"
-    ],
-    "pricingPlans": [
-      {
-        "name": "AI Add-on",
-        "price": 10,
-        "period": "month/member",
-        "features": "AI writing assistance|Q&A across workspace|Autofill databases|AI-powered search",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -1151,7 +868,7 @@
         "icon": "Search"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/notion.so"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://notion.so&size=128"
   },
   {
     "name": "Runway",
@@ -1184,36 +901,6 @@
       "vfx",
       "runway",
       "creative"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "125 credits|3 projects|720p exports|Basic tools",
-        "isPopular": false
-      },
-      {
-        "name": "Standard",
-        "price": 12,
-        "period": "month",
-        "features": "625 credits/month|Unlimited projects|4K exports|All tools",
-        "isPopular": true
-      },
-      {
-        "name": "Pro",
-        "price": 28,
-        "period": "month",
-        "features": "2250 credits/month|Unlimited projects|4K exports|Priority generation",
-        "isPopular": false
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Custom credits|API access|Custom models|Dedicated support",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1254,7 +941,7 @@
         "icon": "Wand2"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/runwayml.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://runwayml.com&size=128"
   },
   {
     "name": "Jasper",
@@ -1286,29 +973,6 @@
       "jasper",
       "copywriting",
       "brand-voice"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Creator",
-        "price": 49,
-        "period": "month",
-        "features": "1 seat|Brand voice|SEO mode|50+ templates|Browser extension",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 69,
-        "period": "month",
-        "features": "1 seat|Everything in Creator|AI image generation|Collaboration|Analytics",
-        "isPopular": true
-      },
-      {
-        "name": "Business",
-        "price": null,
-        "period": "custom",
-        "features": "Custom seats|Custom AI models|API access|SSO|Dedicated support",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1349,7 +1013,7 @@
         "icon": "Mail"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/jasper.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://jasper.ai&size=128"
   },
   {
     "name": "Grammarly",
@@ -1381,29 +1045,6 @@
       "grammarly",
       "editing",
       "productivity"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Basic grammar & spelling|Tone detection|Limited AI suggestions",
-        "isPopular": false
-      },
-      {
-        "name": "Premium",
-        "price": 12,
-        "period": "month",
-        "features": "Advanced grammar|Clarity & tone|Plagiarism detection|1000 AI prompts/month",
-        "isPopular": true
-      },
-      {
-        "name": "Business",
-        "price": 15,
-        "period": "month/member",
-        "features": "Everything in Premium|Brand tones|Style guides|Admin panel|SAML SSO",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1444,7 +1085,7 @@
         "icon": "PenTool"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/grammarly.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://grammarly.com&size=128"
   },
   {
     "name": "Copilot (Microsoft)",
@@ -1476,29 +1117,6 @@
       "productivity",
       "office",
       "ai-assistant"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "GPT-4 access|Image generation|Web browsing|Basic features",
-        "isPopular": false
-      },
-      {
-        "name": "Copilot Pro",
-        "price": 20,
-        "period": "month",
-        "features": "Priority GPT-4 access|Copilot in Office apps|100 image generations/day|Custom GPTs",
-        "isPopular": true
-      },
-      {
-        "name": "Copilot for M365",
-        "price": 30,
-        "period": "month/user",
-        "features": "AI in Word, Excel, PowerPoint|Teams integration|Enterprise security|Admin controls",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1539,7 +1157,7 @@
         "icon": "Mail"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/microsoft.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://copilot.microsoft.com&size=128"
   },
   {
     "name": "Windsurf",
@@ -1569,29 +1187,6 @@
       "codeium",
       "windsurf",
       "agentic"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Basic completions|Limited Cascade flows|Community support",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 15,
-        "period": "month",
-        "features": "Unlimited completions|Unlimited Cascade flows|Priority models|All features",
-        "isPopular": true
-      },
-      {
-        "name": "Team",
-        "price": 30,
-        "period": "month/user",
-        "features": "Everything in Pro|Admin controls|Team management|Priority support",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1632,7 +1227,7 @@
         "icon": "Bug"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/codeium.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://codeium.com&size=128"
   },
   {
     "name": "Synthesia",
@@ -1664,29 +1259,6 @@
       "synthesia",
       "training-videos",
       "multilingual"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Starter",
-        "price": 18,
-        "period": "month",
-        "features": "120 minutes/year|70+ AI avatars|Basic templates|Personal projects",
-        "isPopular": false
-      },
-      {
-        "name": "Creator",
-        "price": 64,
-        "period": "month",
-        "features": "360 minutes/year|90+ avatars|Custom branding|1 custom avatar",
-        "isPopular": true
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Unlimited minutes|230+ avatars|Custom avatars|API access|SSO & SCIM",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1727,7 +1299,7 @@
         "icon": "Users"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/synthesia.io"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://synthesia.io&size=128"
   },
   {
     "name": "Lovable",
@@ -1758,36 +1330,6 @@
       "lovable",
       "full-stack",
       "no-code"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "5 messages/day|Basic features|Community support",
-        "isPopular": false
-      },
-      {
-        "name": "Starter",
-        "price": 20,
-        "period": "month",
-        "features": "100 messages/month|GitHub integration|Deploy to Netlify",
-        "isPopular": false
-      },
-      {
-        "name": "Launch",
-        "price": 50,
-        "period": "month",
-        "features": "500 messages/month|Priority generation|All integrations",
-        "isPopular": true
-      },
-      {
-        "name": "Scale",
-        "price": 100,
-        "period": "month",
-        "features": "2000 messages/month|Priority support|Custom domains",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1828,7 +1370,7 @@
         "icon": "Lightbulb"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/lovable.dev"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://lovable.dev&size=128"
   },
   {
     "name": "v0 by Vercel",
@@ -1860,29 +1402,6 @@
       "vercel",
       "v0",
       "frontend"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "200 credits/month|Basic features|Community access",
-        "isPopular": false
-      },
-      {
-        "name": "Premium",
-        "price": 20,
-        "period": "month",
-        "features": "5000 credits/month|Priority generation|Private projects|Advanced models",
-        "isPopular": true
-      },
-      {
-        "name": "Team",
-        "price": 30,
-        "period": "month/user",
-        "features": "Everything in Premium|Team workspace|Shared components|Admin tools",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1923,6 +1442,6 @@
         "icon": "Package"
       }
     ],
-    "logoUrl": "https://logo.clearbit.com/vercel.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://v0.dev&size=128"
   }
 ]

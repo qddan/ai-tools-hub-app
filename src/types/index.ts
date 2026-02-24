@@ -5,7 +5,6 @@ export type ToolWithRelations = Prisma.ToolGetPayload<{
     categories: { include: { category: true } };
     industries: { include: { industry: true } };
     tags: { include: { tag: true } };
-    pricingPlans: true;
     features: true;
     useCases: true;
   };
@@ -23,7 +22,6 @@ export interface SearchParams {
   search?: string;
   category?: string;
   industry?: string;
-  pricing?: string;
   sort?: string;
   page?: string;
 }

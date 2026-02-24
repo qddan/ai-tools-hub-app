@@ -13,13 +13,17 @@ interface CategoryPageProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: CategoryPageProps): Promise<Metadata> {
   const { slug } = await params;
   const category = await prisma.category.findUnique({ where: { slug } });
   if (!category) return { title: "Category Not Found" };
   return {
     title: `${category.name} AI Tools`,
-    description: category.description || `Browse AI tools in the ${category.name} category.`,
+    description:
+      category.description ||
+      `Browse AI tools in the ${category.name} category.`,
   };
 }
 
@@ -35,7 +39,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               categories: { include: { category: true } },
               industries: { include: { industry: true } },
               tags: { include: { tag: true } },
-              pricingPlans: true,
               features: true,
               useCases: true,
             },
@@ -62,13 +65,19 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <div className="mb-8">
         <h1 className="text-3xl font-bold">{category.name}</h1>
         {category.description && (
-          <p className="mt-2 text-lg text-muted-foreground">{category.description}</p>
+          <p className="mt-2 text-lg text-muted-foreground">
+            {category.description}
+          </p>
         )}
-        <p className="mt-1 text-sm text-muted-foreground">{tools.length} tools</p>
+        <p className="mt-1 text-sm text-muted-foreground">
+          {tools.length} tools
+        </p>
       </div>
 
       {tools.length === 0 ? (
-        <p className="py-10 text-center text-muted-foreground">No tools in this category yet.</p>
+        <p className="py-10 text-center text-muted-foreground">
+          No tools in this category yet.
+        </p>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {tools.map((tool) => (

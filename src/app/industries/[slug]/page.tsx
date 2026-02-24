@@ -13,13 +13,17 @@ interface IndustryPageProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateMetadata({ params }: IndustryPageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: IndustryPageProps): Promise<Metadata> {
   const { slug } = await params;
   const industry = await prisma.industry.findUnique({ where: { slug } });
   if (!industry) return { title: "Industry Not Found" };
   return {
     title: `AI Tools for ${industry.name}`,
-    description: industry.description || `Browse AI tools for the ${industry.name} industry.`,
+    description:
+      industry.description ||
+      `Browse AI tools for the ${industry.name} industry.`,
   };
 }
 
@@ -35,7 +39,6 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
               categories: { include: { category: true } },
               industries: { include: { industry: true } },
               tags: { include: { tag: true } },
-              pricingPlans: true,
               features: true,
               useCases: true,
             },
@@ -47,7 +50,9 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
 
   if (!industry) notFound();
 
-  const tools = industry.tools.map((ti: { tool: ToolWithRelations }) => ti.tool);
+  const tools = industry.tools.map(
+    (ti: { tool: ToolWithRelations }) => ti.tool,
+  );
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -62,13 +67,19 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
       <div className="mb-8">
         <h1 className="text-3xl font-bold">AI Tools for {industry.name}</h1>
         {industry.description && (
-          <p className="mt-2 text-lg text-muted-foreground">{industry.description}</p>
+          <p className="mt-2 text-lg text-muted-foreground">
+            {industry.description}
+          </p>
         )}
-        <p className="mt-1 text-sm text-muted-foreground">{tools.length} tools</p>
+        <p className="mt-1 text-sm text-muted-foreground">
+          {tools.length} tools
+        </p>
       </div>
 
       {tools.length === 0 ? (
-        <p className="py-10 text-center text-muted-foreground">No tools for this industry yet.</p>
+        <p className="py-10 text-center text-muted-foreground">
+          No tools for this industry yet.
+        </p>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {tools.map((tool: ToolWithRelations) => (

@@ -27,36 +27,6 @@
       "workflow",
       "integration"
     ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "100 tasks/month|5 Zaps|Single-step Zaps",
-        "isPopular": false
-      },
-      {
-        "name": "Starter",
-        "price": 19.99,
-        "period": "month",
-        "features": "750 tasks/month|20 Zaps|Multi-step Zaps|Filters",
-        "isPopular": false
-      },
-      {
-        "name": "Professional",
-        "price": 49,
-        "period": "month",
-        "features": "2,000 tasks/month|Unlimited Zaps|Custom logic|Webhooks",
-        "isPopular": true
-      },
-      {
-        "name": "Team",
-        "price": 69,
-        "period": "month",
-        "features": "2,000 tasks/month|Shared workspace|Premier support|SSO",
-        "isPopular": false
-      }
-    ],
     "features": [
       {
         "name": "7,000+ App Integrations",
@@ -89,7 +59,7 @@
     ],
     "pros": "Massive app ecosystem|Easy to use|AI-powered features|Reliable execution",
     "cons": "Expensive at scale|Task limits on all plans|Complex workflows can be slow|Limited error handling",
-    "logoUrl": "https://logo.clearbit.com/zapier.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://zapier.com&size=128"
   },
   {
     "name": "Canva",
@@ -119,29 +89,6 @@
       "graphic-design",
       "social-media",
       "templates"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "250,000+ templates|5GB storage|Basic AI tools",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 12.99,
-        "period": "month",
-        "features": "All premium templates|1TB storage|Magic Eraser|Brand Kit|Background Remover",
-        "isPopular": true
-      },
-      {
-        "name": "Teams",
-        "price": 14.99,
-        "period": "month/person",
-        "features": "Everything in Pro|Brand controls|Team folders|Workflow approvals",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -175,7 +122,7 @@
     ],
     "pros": "Incredibly easy to use|Massive template library|AI-powered features|Affordable pricing",
     "cons": "Limited advanced design features|Export quality varies|Some AI features in paid tier only|Can feel restrictive for pros",
-    "logoUrl": "https://logo.clearbit.com/canva.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://canva.com&size=128"
   },
   {
     "name": "Gamma",
@@ -205,29 +152,6 @@
       "slides",
       "ai-design",
       "documents"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "400 AI credits|Basic templates|Gamma branding",
-        "isPopular": false
-      },
-      {
-        "name": "Plus",
-        "price": 8,
-        "period": "month",
-        "features": "Unlimited AI credits|No branding|Export to PDF/PPT|Custom fonts",
-        "isPopular": true
-      },
-      {
-        "name": "Pro",
-        "price": 15,
-        "period": "month",
-        "features": "Everything in Plus|Priority AI|Advanced analytics|Custom domains",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -261,7 +185,7 @@
     ],
     "pros": "Fast presentation creation|Beautiful AI-generated designs|Easy to use|Web-based sharing",
     "cons": "Limited customization vs PowerPoint|AI credits system|Export formatting issues|Fewer templates than Canva",
-    "logoUrl": "https://logo.clearbit.com/gamma.app"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gamma.app&size=128"
   },
   {
     "name": "Fireflies.ai",
@@ -290,29 +214,6 @@
       "fireflies",
       "note-taking",
       "ai-meetings"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "800 min storage|Limited transcription|AI summaries",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 10,
-        "period": "month",
-        "features": "8,000 min storage|Unlimited transcription|AI search|CRM integration",
-        "isPopular": true
-      },
-      {
-        "name": "Business",
-        "price": 19,
-        "period": "month",
-        "features": "Unlimited storage|Custom vocabulary|Conversation intelligence|API access",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -346,7 +247,7 @@
     ],
     "pros": "Excellent transcription accuracy|Great integrations|Affordable pricing|AI-powered insights",
     "cons": "Bot joining meetings can be awkward|Free tier is limited|Speaker identification varies|Occasional sync issues",
-    "logoUrl": "https://logo.clearbit.com/fireflies.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://fireflies.ai&size=128"
   },
   {
     "name": "Surfer SEO",
@@ -375,29 +276,6 @@
       "surfer",
       "ranking",
       "keyword-research"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Essential",
-        "price": 89,
-        "period": "month",
-        "features": "30 articles/month|Content Editor|SERP Analyzer|Keyword Research",
-        "isPopular": false
-      },
-      {
-        "name": "Scale",
-        "price": 129,
-        "period": "month",
-        "features": "100 articles/month|Everything in Essential|Auto Internal Linking|AI Writing",
-        "isPopular": true
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Custom limits|API access|Dedicated support|Custom training",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -431,7 +309,7 @@
     ],
     "pros": "Data-driven SEO recommendations|Real-time content scoring|Good SERP analysis|AI writing integration",
     "cons": "Expensive for small businesses|Learning curve|Article limits on all plans|AI writing quality varies",
-    "logoUrl": "https://logo.clearbit.com/surferseo.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://surferseo.com&size=128"
   },
   {
     "name": "Otter.ai",
@@ -460,29 +338,6 @@
       "meeting-notes",
       "voice-to-text",
       "productivity"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Basic",
-        "price": 0,
-        "period": "month",
-        "features": "300 minutes/month|AI chat|30-min per conversation",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 8.33,
-        "period": "month",
-        "features": "1,200 minutes/month|90-min conversations|Advanced search|Export",
-        "isPopular": true
-      },
-      {
-        "name": "Business",
-        "price": 20,
-        "period": "month/user",
-        "features": "6,000 minutes/month|4-hour conversations|Admin controls|SSO",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -516,7 +371,7 @@
     ],
     "pros": "Excellent real-time transcription|Good free tier|AI-powered summaries|Cross-platform",
     "cons": "Accuracy drops with accents|Limited language support|Can miss cross-talk|Export options limited on free",
-    "logoUrl": "https://logo.clearbit.com/otter.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://otter.ai&size=128"
   },
   {
     "name": "Copy.ai",
@@ -546,29 +401,6 @@
       "marketing",
       "content",
       "gtm"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "2,000 words/month|1 seat|Chat and 90+ tools",
-        "isPopular": false
-      },
-      {
-        "name": "Starter",
-        "price": 36,
-        "period": "month",
-        "features": "Unlimited words|1 seat|Brand voices|25+ languages",
-        "isPopular": true
-      },
-      {
-        "name": "Advanced",
-        "price": 186,
-        "period": "month",
-        "features": "5 seats|Workflow automation|API access|Custom workflows",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -602,7 +434,7 @@
     ],
     "pros": "Good for marketing teams|Workflow automation|90+ content tools|Brand voice training",
     "cons": "Free tier very limited|Expensive for small teams|Content can be generic|Learning curve for workflows",
-    "logoUrl": "https://logo.clearbit.com/copy.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://copy.ai&size=128"
   },
   {
     "name": "Descript",
@@ -632,29 +464,6 @@
       "descript",
       "transcription",
       "audio-editing"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "1 hour transcription|Basic editing|720p export",
-        "isPopular": false
-      },
-      {
-        "name": "Hobbyist",
-        "price": 24,
-        "period": "month",
-        "features": "10 hours transcription|AI tools|4K export|Filler word removal",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 33,
-        "period": "month",
-        "features": "30 hours transcription|All AI features|Studio sound|Green screen",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -688,7 +497,7 @@
     ],
     "pros": "Revolutionary text-based editing|Excellent AI features|Great for podcasts|Voice cloning is impressive",
     "cons": "Expensive for casual use|Large file sizes|Some features feel beta|Learning curve",
-    "logoUrl": "https://logo.clearbit.com/descript.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://descript.com&size=128"
   },
   {
     "name": "Writesonic",
@@ -717,29 +526,6 @@
       "writesonic",
       "content",
       "ai-writer"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "10,000 words/month|Basic features|1 user",
-        "isPopular": false
-      },
-      {
-        "name": "Individual",
-        "price": 16,
-        "period": "month",
-        "features": "100,000 words/month|All features|GPT-4 access",
-        "isPopular": true
-      },
-      {
-        "name": "Team",
-        "price": 13,
-        "period": "month/user",
-        "features": "Everything in Individual|Team collaboration|Brand voice|API access",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -773,7 +559,7 @@
     ],
     "pros": "Good SEO integration|Real-time data access|Affordable pricing|Multiple content types",
     "cons": "Quality inconsistent|Brand voice needs training|Word limits on all plans|UI could be cleaner",
-    "logoUrl": "https://logo.clearbit.com/writesonic.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://writesonic.com&size=128"
   },
   {
     "name": "Luma AI",
@@ -803,29 +589,6 @@
       "luma",
       "neural-radiance",
       "photogrammetry"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "30 generations/month|720p video|Basic features",
-        "isPopular": false
-      },
-      {
-        "name": "Standard",
-        "price": 9.99,
-        "period": "month",
-        "features": "150 generations/month|1080p video|Priority generation",
-        "isPopular": true
-      },
-      {
-        "name": "Pro",
-        "price": 29.99,
-        "period": "month",
-        "features": "500 generations/month|4K video|API access|Commercial license",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -859,7 +622,7 @@
     ],
     "pros": "Impressive 3D capabilities|Good video quality|Easy to use|Affordable pricing",
     "cons": "Free tier limited|3D quality varies|Longer generation times|Limited editing options",
-    "logoUrl": "https://logo.clearbit.com/lumalabs.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://lumalabs.ai&size=128"
   },
   {
     "name": "HubSpot AI",
@@ -889,36 +652,6 @@
       "marketing-automation",
       "sales",
       "ai-crm"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free CRM",
-        "price": 0,
-        "period": "month",
-        "features": "Contact management|Email marketing|Basic AI features",
-        "isPopular": false
-      },
-      {
-        "name": "Starter",
-        "price": 20,
-        "period": "month",
-        "features": "1,000 contacts|All free features|Email automation|AI content assistant",
-        "isPopular": false
-      },
-      {
-        "name": "Professional",
-        "price": 890,
-        "period": "month",
-        "features": "2,000 contacts|Marketing automation|AI tools|Custom reporting",
-        "isPopular": true
-      },
-      {
-        "name": "Enterprise",
-        "price": 3600,
-        "period": "month",
-        "features": "10,000 contacts|Advanced AI|Custom objects|Revenue attribution",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -952,7 +685,7 @@
     ],
     "pros": "Comprehensive CRM + AI|Great free tier|Excellent integrations|Strong marketing automation",
     "cons": "Very expensive at scale|Complex pricing|Steep learning curve|AI features require paid plans",
-    "logoUrl": "https://logo.clearbit.com/hubspot.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://hubspot.com&size=128"
   },
   {
     "name": "Airtable",
@@ -982,29 +715,6 @@
       "no-code",
       "spreadsheet",
       "automation"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "1,000 records/base|1GB attachments|100 automations/month",
-        "isPopular": false
-      },
-      {
-        "name": "Team",
-        "price": 20,
-        "period": "month/seat",
-        "features": "50,000 records/base|20GB attachments|25,000 automations",
-        "isPopular": true
-      },
-      {
-        "name": "Business",
-        "price": 45,
-        "period": "month/seat",
-        "features": "125,000 records/base|100GB attachments|100,000 automations|AI features",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1038,7 +748,7 @@
     ],
     "pros": "Flexible and powerful|Great AI integration|Beautiful interface|Strong automation",
     "cons": "Expensive at scale|Record limits|Learning curve|Performance with large datasets",
-    "logoUrl": "https://logo.clearbit.com/airtable.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://airtable.com&size=128"
   },
   {
     "name": "Pictory",
@@ -1066,29 +776,6 @@
       "pictory",
       "text-to-video",
       "content-repurpose"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Starter",
-        "price": 19,
-        "period": "month",
-        "features": "30 videos/month|10-min videos|AI voices|Stock media",
-        "isPopular": false
-      },
-      {
-        "name": "Professional",
-        "price": 39,
-        "period": "month",
-        "features": "60 videos/month|20-min videos|Custom branding|Priority support",
-        "isPopular": true
-      },
-      {
-        "name": "Teams",
-        "price": 99,
-        "period": "month",
-        "features": "90 videos/month|Team features|API access|Custom templates",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1122,7 +809,7 @@
     ],
     "pros": "Easy blog-to-video conversion|Good stock library|Affordable pricing|AI voiceover included",
     "cons": "Limited customization|Video quality varies|Template-driven design|No advanced editing",
-    "logoUrl": "https://logo.clearbit.com/pictory.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://pictory.ai&size=128"
   },
   {
     "name": "Tome",
@@ -1152,22 +839,6 @@
       "storytelling",
       "ai-slides",
       "design"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Unlimited tomes|AI generation|Basic themes|Sharing",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 16,
-        "period": "month",
-        "features": "Remove branding|Custom themes|Export to PDF|Analytics",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -1201,7 +872,7 @@
     ],
     "pros": "Beautiful AI-generated presentations|Fast creation|Interactive elements|Good sharing features",
     "cons": "Limited customization|Less polished than PowerPoint|Export options limited|Pro required for no branding",
-    "logoUrl": "https://logo.clearbit.com/tome.app"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://tome.app&size=128"
   },
   {
     "name": "Beautiful.ai",
@@ -1230,29 +901,6 @@
       "design",
       "slides",
       "automation"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Pro",
-        "price": 12,
-        "period": "month",
-        "features": "Unlimited slides|AI design|Export to PPT/PDF|Brand controls",
-        "isPopular": true
-      },
-      {
-        "name": "Team",
-        "price": 40,
-        "period": "month/user",
-        "features": "Everything in Pro|Shared library|Collaboration|Analytics",
-        "isPopular": false
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Everything in Team|SSO|Custom training|Dedicated support",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1286,7 +934,7 @@
     ],
     "pros": "Beautiful auto-designed slides|Easy to use|Good brand controls|Professional output",
     "cons": "Less flexible than PowerPoint|No free tier|Limited AI generation|Export can lose formatting",
-    "logoUrl": "https://logo.clearbit.com/beautiful.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://beautiful.ai&size=128"
   },
   {
     "name": "Murf AI",
@@ -1315,29 +963,6 @@
       "murf",
       "ai-voice",
       "narration"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "10 minutes generation|Basic voices|No downloads",
-        "isPopular": false
-      },
-      {
-        "name": "Creator",
-        "price": 23,
-        "period": "month",
-        "features": "2 hours/year|48 voices|Download audio|Commercial license",
-        "isPopular": false
-      },
-      {
-        "name": "Business",
-        "price": 79,
-        "period": "month",
-        "features": "8 hours/year|120+ voices|Voice cloning|Priority support",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -1371,7 +996,7 @@
     ],
     "pros": "Realistic voice quality|Good language variety|Video integration|Affordable plans",
     "cons": "Hour limits feel restrictive|Voice cloning only on Business|Some voices less natural|Limited free tier",
-    "logoUrl": "https://logo.clearbit.com/murf.ai"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://murf.ai&size=128"
   },
   {
     "name": "Loom AI",
@@ -1401,29 +1026,6 @@
       "screen-recording",
       "async-video",
       "productivity"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Starter",
-        "price": 0,
-        "period": "month",
-        "features": "25 videos|5-min limit|Basic AI features",
-        "isPopular": false
-      },
-      {
-        "name": "Business",
-        "price": 12.5,
-        "period": "month/user",
-        "features": "Unlimited videos|No time limit|AI summaries|Custom branding|Analytics",
-        "isPopular": true
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Everything in Business|SSO/SAML|Advanced security|Dedicated support",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1457,7 +1059,7 @@
     ],
     "pros": "Easy screen recording|Great AI features|Good integrations|Replaced many meetings",
     "cons": "Free tier very limited|Can't replace all meetings|Video quality varies|Mobile app basic",
-    "logoUrl": "https://logo.clearbit.com/loom.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://loom.com&size=128"
   },
   {
     "name": "Anthropic API",
@@ -1484,29 +1086,6 @@
       "claude-api",
       "llm-api",
       "developer"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Claude 3.5 Sonnet",
-        "price": 3,
-        "period": "per 1M input tokens",
-        "features": "Best balance of speed & quality|200K context|Vision capable",
-        "isPopular": true
-      },
-      {
-        "name": "Claude 3 Opus",
-        "price": 15,
-        "period": "per 1M input tokens",
-        "features": "Most capable model|200K context|Complex reasoning",
-        "isPopular": false
-      },
-      {
-        "name": "Claude 3.5 Haiku",
-        "price": 0.25,
-        "period": "per 1M input tokens",
-        "features": "Fastest model|200K context|Cost-effective",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1540,7 +1119,7 @@
     ],
     "pros": "Best-in-class reasoning|Excellent safety|200K context|Great developer docs",
     "cons": "Expensive for high-volume|Rate limits|No fine-tuning yet|Smaller ecosystem than OpenAI",
-    "logoUrl": "https://logo.clearbit.com/anthropic.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://docs.anthropic.com&size=128"
   },
   {
     "name": "OpenAI API",
@@ -1568,29 +1147,6 @@
       "gpt-4-api",
       "developer",
       "llm-api"
-    ],
-    "pricingPlans": [
-      {
-        "name": "GPT-4o",
-        "price": 2.5,
-        "period": "per 1M input tokens",
-        "features": "Most capable model|128K context|Multimodal|Function calling",
-        "isPopular": true
-      },
-      {
-        "name": "GPT-4o mini",
-        "price": 0.15,
-        "period": "per 1M input tokens",
-        "features": "Fast & affordable|128K context|Great for simple tasks",
-        "isPopular": false
-      },
-      {
-        "name": "GPT-3.5 Turbo",
-        "price": 0.5,
-        "period": "per 1M input tokens",
-        "features": "Legacy model|16K context|Lowest cost option",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1624,7 +1180,7 @@
     ],
     "pros": "Largest AI API ecosystem|Multiple models available|Excellent documentation|Fine-tuning available",
     "cons": "Can be expensive|Rate limits|Model changes can break apps|Privacy considerations",
-    "logoUrl": "https://logo.clearbit.com/openai.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://platform.openai.com&size=128"
   },
   {
     "name": "Framer",
@@ -1654,36 +1210,6 @@
       "no-code",
       "web-design",
       "ai-website"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Framer subdomain|1,000 visitors|Basic features",
-        "isPopular": false
-      },
-      {
-        "name": "Mini",
-        "price": 5,
-        "period": "month",
-        "features": "Custom domain|150 pages|1,000 form submissions",
-        "isPopular": false
-      },
-      {
-        "name": "Basic",
-        "price": 15,
-        "period": "month",
-        "features": "150 pages|No Framer badge|10,000 visitors",
-        "isPopular": true
-      },
-      {
-        "name": "Pro",
-        "price": 25,
-        "period": "month",
-        "features": "300 pages|Password protection|Advanced analytics",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1717,7 +1243,7 @@
     ],
     "pros": "Beautiful design output|AI website generation|Great animations|No-code friendly",
     "cons": "Limited e-commerce|Not for complex apps|Learning curve for advanced features|CMS is basic",
-    "logoUrl": "https://logo.clearbit.com/framer.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://framer.com&size=128"
   },
   {
     "name": "Semantic Scholar",
@@ -1746,15 +1272,6 @@
       "semantic-scholar",
       "papers",
       "science"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": null,
-        "features": "Full search access|Paper recommendations|Citation analysis|API access",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -1788,7 +1305,7 @@
     ],
     "pros": "Completely free|Excellent AI search|TLDR summaries|Great API",
     "cons": "Academic papers only|Coverage gaps in some fields|UI could be better|Not for general research",
-    "logoUrl": "https://logo.clearbit.com/semanticscholar.org"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://semanticscholar.org&size=128"
   },
   {
     "name": "Tidio",
@@ -1817,29 +1334,6 @@
       "tidio",
       "live-chat",
       "e-commerce"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "50 live chat conversations|100 chatbot triggers|Email support",
-        "isPopular": false
-      },
-      {
-        "name": "Starter",
-        "price": 29,
-        "period": "month",
-        "features": "100 conversations|500 chatbot triggers|Live analytics",
-        "isPopular": false
-      },
-      {
-        "name": "Growth",
-        "price": 59,
-        "period": "month",
-        "features": "2,000 conversations|Unlimited chatbot|Advanced analytics|Lyro AI",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -1873,7 +1367,7 @@
     ],
     "pros": "Easy to set up|AI chatbot is effective|Good e-commerce integration|Affordable",
     "cons": "Limited on free tier|Lyro AI needs training|Complex for larger businesses|Email features basic",
-    "logoUrl": "https://logo.clearbit.com/tidio.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://tidio.com&size=128"
   },
   {
     "name": "Photoroom",
@@ -1903,29 +1397,6 @@
       "photoroom",
       "product-photos",
       "e-commerce"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Background removal|Basic editing|Watermarked exports",
-        "isPopular": false
-      },
-      {
-        "name": "Pro",
-        "price": 9.99,
-        "period": "month",
-        "features": "No watermark|Batch editing|HD exports|1,000 AI edits/month",
-        "isPopular": true
-      },
-      {
-        "name": "Business",
-        "price": 19.99,
-        "period": "month",
-        "features": "Everything in Pro|5,000 AI edits|API access|Team features",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -1959,7 +1430,7 @@
     ],
     "pros": "Best background removal|Great for e-commerce|Batch processing|Mobile app is excellent",
     "cons": "Watermark on free tier|AI generation credits limited|Advanced features paid only|Template variety limited",
-    "logoUrl": "https://logo.clearbit.com/photoroom.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://photoroom.com&size=128"
   },
   {
     "name": "Speechify",
@@ -1988,29 +1459,6 @@
       "accessibility",
       "reading",
       "tts"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "Basic voices|Limited features|Web reader",
-        "isPopular": false
-      },
-      {
-        "name": "Premium",
-        "price": 11.58,
-        "period": "month",
-        "features": "30+ natural voices|Unlimited listening|OCR scanning|All platforms",
-        "isPopular": true
-      },
-      {
-        "name": "Enterprise",
-        "price": null,
-        "period": "custom",
-        "features": "Custom voices|API access|Admin dashboard|SSO",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -2044,7 +1492,7 @@
     ],
     "pros": "Natural voice quality|Multi-platform|Great for accessibility|OCR scanning",
     "cons": "Expensive premium tier|Free voices basic|Battery drain on mobile|Occasional pronunciation errors",
-    "logoUrl": "https://logo.clearbit.com/speechify.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://speechify.com&size=128"
   },
   {
     "name": "Replicate",
@@ -2072,15 +1520,6 @@
       "open-source",
       "model-hosting",
       "developer"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Pay-per-use",
-        "price": null,
-        "period": "per second",
-        "features": "Pay only for compute|No minimum|All models available",
-        "isPopular": true
-      }
     ],
     "features": [
       {
@@ -2114,7 +1553,7 @@
     ],
     "pros": "Easy API access to many models|Pay-per-use pricing|No infrastructure management|Great documentation",
     "cons": "Cold start latency|Expensive for high volume|Limited model customization|No free tier",
-    "logoUrl": "https://logo.clearbit.com/replicate.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://replicate.com&size=128"
   },
   {
     "name": "Heygen",
@@ -2143,29 +1582,6 @@
       "heygen",
       "spokesperson",
       "marketing-video"
-    ],
-    "pricingPlans": [
-      {
-        "name": "Free",
-        "price": 0,
-        "period": "month",
-        "features": "1 credit|1-min videos|Basic avatars",
-        "isPopular": false
-      },
-      {
-        "name": "Creator",
-        "price": 24,
-        "period": "month",
-        "features": "15 credits/month|Custom avatars|Voice cloning|Brand kit",
-        "isPopular": true
-      },
-      {
-        "name": "Team",
-        "price": 69,
-        "period": "month",
-        "features": "30 credits/month|Instant avatars|Priority support|API access",
-        "isPopular": false
-      }
     ],
     "features": [
       {
@@ -2199,6 +1615,6 @@
     ],
     "pros": "Realistic avatars|Great video translation|Easy to use|Multiple language support",
     "cons": "Credit system is limiting|Avatar quality varies|Lip-sync not always perfect|Expensive for volume",
-    "logoUrl": "https://logo.clearbit.com/heygen.com"
+    "logoUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://heygen.com&size=128"
   }
 ]

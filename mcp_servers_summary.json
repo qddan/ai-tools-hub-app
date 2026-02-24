@@ -1,0 +1,505 @@
+{
+  "top_mcp_servers": [
+    {
+      "name": "Filesystem MCP",
+      "category": "Local Development",
+      "description": "Cho phép AI đọc, ghi, tìm kiếm và quản lý files/directories trên hệ thống local",
+      "use_cases": [
+        "Tự động tổ chức files",
+        "Note-taking",
+        "Quản lý dự án local"
+      ],
+      "pros": [
+        "Truy cập trực tiếp file system",
+        "Tốc độ nhanh (local)",
+        "Hoàn toàn kiểm soát quyền truy cập",
+        "Không cần kết nối internet"
+      ],
+      "cons": [
+        "Chỉ hoạt động trên máy local",
+        "Cần cấu hình trên từng máy",
+        "Khó mở rộng cho team"
+      ],
+      "popularity_rank": 1,
+      "difficulty": "Beginner",
+      "github_stars": "N/A (Official)"
+    },
+    {
+      "name": "Playwright MCP",
+      "category": "Browser Automation",
+      "description": "Tự động hóa browser, web scraping, test UI workflows",
+      "use_cases": [
+        "Automated testing",
+        "Web scraping",
+        "UI automation",
+        "Browser-based workflows"
+      ],
+      "pros": [
+        "Tự động hóa hoàn toàn browser interactions",
+        "Cross-browser support",
+        "Popular nhất (12K stars GitHub)",
+        "Tích hợp tốt với dev workflow"
+      ],
+      "cons": [
+        "Cần môi trường browser",
+        "Tốn tài nguyên khi chạy nhiều instance",
+        "Learning curve cho browser automation"
+      ],
+      "popularity_rank": 1,
+      "difficulty": "Intermediate",
+      "github_stars": "12000+"
+    },
+    {
+      "name": "GitHub MCP",
+      "category": "Version Control",
+      "description": "Wrapper cho GitHub API, quản lý repos, PRs, issues, commits",
+      "use_cases": [
+        "CI/CD automation",
+        "Code review workflows",
+        "Issue tracking",
+        "Repository management"
+      ],
+      "pros": [
+        "Tích hợp sâu với GitHub ecosystem",
+        "Tự động hóa DevOps workflows",
+        "Official server từ GitHub",
+        "Hỗ trợ OAuth authentication"
+      ],
+      "cons": [
+        "Chỉ cho GitHub (không GitLab/Bitbucket)",
+        "Cần token/authentication setup",
+        "API rate limits"
+      ],
+      "popularity_rank": 2,
+      "difficulty": "Intermediate",
+      "github_stars": "N/A (Official)"
+    },
+    {
+      "name": "Run Python MCP",
+      "category": "Code Execution",
+      "description": "Chạy Python code trong sandbox an toàn (Pyodide + Deno)",
+      "use_cases": [
+        "Data analysis",
+        "Prototyping",
+        "Testing code snippets",
+        "Educational purposes"
+      ],
+      "pros": [
+        "Sandbox isolation (bảo mật)",
+        "Không cần Python install local",
+        "Chạy code trực tiếp trong AI chat"
+      ],
+      "cons": [
+        "Giới hạn bởi Pyodide (không phải tất cả packages)",
+        "Performance thấp hơn native Python",
+        "Không truy cập được file system"
+      ],
+      "popularity_rank": 3,
+      "difficulty": "Beginner-Intermediate",
+      "github_stars": "N/A"
+    },
+    {
+      "name": "Tavily MCP",
+      "category": "Web Search & Research",
+      "description": "Real-time web search, content extraction, crawling với advanced filtering",
+      "use_cases": [
+        "Research",
+        "Competitive analysis",
+        "Content discovery",
+        "Real-time information lookup"
+      ],
+      "pros": [
+        "1,000 free credits/tháng",
+        "Real-time search",
+        "Domain-specific filtering",
+        "High-quality sources"
+      ],
+      "cons": [
+        "Cần API key",
+        "Giới hạn free tier",
+        "Phụ thuộc vào external service"
+      ],
+      "popularity_rank": 4,
+      "difficulty": "Beginner",
+      "github_stars": "N/A (Official)"
+    },
+    {
+      "name": "mem0 MCP",
+      "category": "AI Memory",
+      "description": "AI memory layer - lưu trữ và truy xuất contextual data, facts qua sessions",
+      "use_cases": [
+        "Maintain conversation context",
+        "Personalization",
+        "Long-term memory cho AI",
+        "User preferences storage"
+      ],
+      "pros": [
+        "Duy trì context qua nhiều sessions",
+        "Tương tự ChatGPT memories",
+        "Tự động lưu relationships"
+      ],
+      "cons": [
+        "Cần external storage",
+        "Privacy concerns với sensitive data",
+        "Phụ thuộc vào mem0 service"
+      ],
+      "popularity_rank": 5,
+      "difficulty": "Intermediate",
+      "github_stars": "N/A"
+    },
+    {
+      "name": "PostgreSQL MCP",
+      "category": "Database",
+      "description": "Truy vấn, analyze schema, data modeling cho PostgreSQL databases",
+      "use_cases": [
+        "SQL query generation",
+        "Database analysis",
+        "Schema exploration",
+        "Data modeling"
+      ],
+      "pros": [
+        "Direct database access",
+        "AI-generated SQL queries",
+        "Schema understanding",
+        "Production database support"
+      ],
+      "cons": [
+        "SQL injection risks nếu không cẩn thận",
+        "Cần database credentials",
+        "Security concerns"
+      ],
+      "popularity_rank": 6,
+      "difficulty": "Intermediate",
+      "github_stars": "N/A"
+    },
+    {
+      "name": "Notion MCP",
+      "category": "Productivity",
+      "description": "Official server - read/write Notion pages, databases, docs",
+      "use_cases": [
+        "Documentation management",
+        "Project planning",
+        "Knowledge base creation",
+        "Team collaboration"
+      ],
+      "pros": [
+        "Official từ Notion",
+        "Full read/write access",
+        "Structured data support",
+        "Team workflows"
+      ],
+      "cons": [
+        "Cần Notion workspace",
+        "API rate limits",
+        "Phụ thuộc vào Notion service"
+      ],
+      "popularity_rank": 7,
+      "difficulty": "Beginner",
+      "github_stars": "N/A (Official)"
+    },
+    {
+      "name": "Slack MCP",
+      "category": "Communication",
+      "description": "Tự động hóa Slack workflows - drafting, channel summaries, workspace insights",
+      "use_cases": [
+        "Team communication automation",
+        "Channel summaries",
+        "Message drafting",
+        "Notification automation"
+      ],
+      "pros": [
+        "Giảm context-switching",
+        "Automation workflows",
+        "Real-time communication",
+        "Team productivity"
+      ],
+      "cons": [
+        "Cần Slack workspace",
+        "OAuth setup phức tạp",
+        "Rate limits"
+      ],
+      "popularity_rank": 8,
+      "difficulty": "Intermediate",
+      "github_stars": "N/A"
+    },
+    {
+      "name": "Docker MCP",
+      "category": "DevOps",
+      "description": "Build, run, inspect containers qua AI commands",
+      "use_cases": [
+        "Container management",
+        "Dockerfile generation",
+        "Service debugging",
+        "Development environments"
+      ],
+      "pros": [
+        "Quản lý containers dễ dàng",
+        "Tích hợp với dev workflow",
+        "Reproducible environments"
+      ],
+      "cons": [
+        "Cần Docker installed",
+        "Security risks nếu không kiểm soát",
+        "Tốn tài nguyên"
+      ],
+      "popularity_rank": 9,
+      "difficulty": "Intermediate",
+      "github_stars": "N/A"
+    },
+    {
+      "name": "Azure MCP",
+      "category": "Cloud",
+      "description": "Microsoft official server - 40+ Azure services (Storage, Cosmos DB, AI Search...)",
+      "use_cases": [
+        "Cloud resource management",
+        "Database operations",
+        "Log analysis",
+        "Infrastructure automation"
+      ],
+      "pros": [
+        "40+ Azure services",
+        "Entra ID authentication",
+        "Enterprise-grade",
+        "Official Microsoft support"
+      ],
+      "cons": [
+        "Chỉ cho Azure ecosystem",
+        "Learning curve cao",
+        "Phức tạp cho beginners"
+      ],
+      "popularity_rank": 10,
+      "difficulty": "Advanced",
+      "github_stars": "N/A (Official)"
+    },
+    {
+      "name": "Supabase MCP",
+      "category": "Backend/Full-Stack",
+      "description": "Kết nối Supabase platform - database, auth, edge functions, storage",
+      "use_cases": [
+        "Full-stack development",
+        "Database migrations",
+        "Authentication",
+        "File storage"
+      ],
+      "pros": [
+        "All-in-one backend",
+        "PostgreSQL + extras",
+        "Easy authentication",
+        "Schema tools"
+      ],
+      "cons": [
+        "Phụ thuộc vào Supabase",
+        "Free tier giới hạn",
+        "Vendor lock-in"
+      ],
+      "popularity_rank": 11,
+      "difficulty": "Intermediate",
+      "github_stars": "N/A (Official)"
+    }
+  ],
+  "deployment_types": [
+    {
+      "type": "Local/Workstation Deployment",
+      "description": "MCP server chạy trên máy local của user, giao tiếp qua STDIO",
+      "pros": [
+        "Truy cập trực tiếp local files/tools",
+        "Không cần abstraction layers",
+        "Hoàn toàn kiểm soát",
+        "Không phụ thuộc external hosting",
+        "Bảo mật cao (data không rời máy)"
+      ],
+      "cons": [
+        "Phải cài đặt trên từng máy",
+        "Khó scale cho team lớn",
+        "User phải tự quản lý config",
+        "Không chia sẻ được giữa nhiều users"
+      ],
+      "best_for": [
+        "Individual developers",
+        "Local file operations",
+        "Privacy-sensitive tasks",
+        "IDE integrations"
+      ]
+    },
+    {
+      "type": "Remote Deployment",
+      "description": "MCP server host trên cloud, users connect qua HTTP/HTTPS",
+      "pros": [
+        "Setup nhanh chóng",
+        "Highly scalable",
+        "Centralized updates",
+        "Truy cập từ bất kỳ device",
+        "Standard OAuth/HTTPS authentication"
+      ],
+      "cons": [
+        "Phụ thuộc third-party hosting",
+        "Data security concerns",
+        "Network latency",
+        "Không truy cập được local files"
+      ],
+      "best_for": [
+        "SaaS integrations",
+        "Team collaboration",
+        "Web applications",
+        "Multi-device access"
+      ]
+    },
+    {
+      "type": "Managed Deployment (Container)",
+      "description": "MCP server chạy trong containers (Docker/K8s), có 2 subtypes: Managed-Dedicated và Managed-Shared",
+      "pros": [
+        "Giảm scalability issues",
+        "Không cần install trên user machines",
+        "Centralized management",
+        "Isolated environments"
+      ],
+      "cons": [
+        "Setup phức tạp",
+        "Cần infrastructure knowledge",
+        "Maintenance overhead"
+      ],
+      "best_for": [
+        "Enterprise deployments",
+        "Team shared resources",
+        "Custom integrations"
+      ]
+    }
+  ],
+  "use_case_categories": [
+    {
+      "category": "Context-Aware Process Automation",
+      "description": "AI tự động hóa workflows phức tạp, đa bước với context động",
+      "examples": [
+        "Payments management (invoice → chase → process → log)",
+        "SaaS customer onboarding",
+        "Jira ticket tracking + GitHub PR management",
+        "Supply chain optimization"
+      ],
+      "key_benefit": "AI adapts to specific context, not just predefined rules"
+    },
+    {
+      "category": "Decision Support Systems",
+      "description": "AI thu thập và phân tích data từ nhiều nguồn để hỗ trợ quyết định",
+      "examples": [
+        "Marketing budget allocation",
+        "Ticket triage and escalation",
+        "Financial planning & risk assessment",
+        "Inventory management recommendations"
+      ],
+      "key_benefit": "Reduce time spent on data gathering, focus on insights"
+    },
+    {
+      "category": "Data Integration & Knowledge Management",
+      "description": "Kết nối AI với multiple data sources để unified access",
+      "examples": [
+        "Cross-repository debugging",
+        "Centralized documentation search",
+        "Multi-system monitoring",
+        "Unified analytics dashboard"
+      ],
+      "key_benefit": "Break down data silos, single interface for all sources"
+    },
+    {
+      "category": "eCommerce & Consumer",
+      "description": "AI trợ lý cho shopping, booking, subscription management",
+      "examples": [
+        "Product comparison & best deal finding",
+        "Travel bookings (flights + hotels + transport)",
+        "Subscription optimization",
+        "Automated paperwork"
+      ],
+      "key_benefit": "Personalized recommendations, automated tedious tasks"
+    }
+  ],
+  "security_considerations": [
+    {
+      "risk": "SQL Injection",
+      "mitigation": "Sử dụng domain-specific MCP servers với predefined tools thay vì generic SQL servers",
+      "severity": "High"
+    },
+    {
+      "risk": "Unauthorized Access",
+      "mitigation": "Implement OAuth 2.0, DefaultAzureCredential, managed identities",
+      "severity": "High"
+    },
+    {
+      "risk": "Data Leakage",
+      "mitigation": "Use local deployment for sensitive data, encryption cho remote servers",
+      "severity": "High"
+    },
+    {
+      "risk": "API Rate Limits",
+      "mitigation": "Implement caching, batching, quota monitoring",
+      "severity": "Medium"
+    },
+    {
+      "risk": "Vendor Lock-in",
+      "mitigation": "Choose open-source MCP servers, avoid proprietary protocols",
+      "severity": "Medium"
+    }
+  ],
+  "recommendations": {
+    "for_beginners": [
+      "Filesystem MCP - học cơ bản về MCP",
+      "Tavily MCP - web search đơn giản",
+      "Notion MCP - productivity workflows"
+    ],
+    "for_developers": [
+      "GitHub MCP - version control automation",
+      "Playwright MCP - browser automation & testing",
+      "PostgreSQL MCP - database operations",
+      "Docker MCP - container management"
+    ],
+    "for_teams": [
+      "Slack MCP - team communication",
+      "Notion MCP - documentation",
+      "GitHub MCP - code collaboration",
+      "Jira MCP - project management"
+    ],
+    "for_enterprise": [
+      "Azure MCP - cloud infrastructure",
+      "AWS MCP - AWS services",
+      "Managed Deployment - containerized servers",
+      "Custom domain-specific MCP servers"
+    ]
+  },
+  "mcp_vs_alternatives": {
+    "MCP vs Function Calling": "MCP standardizes function calling across models, adds context streaming, eliminates vendor lock-in",
+    "MCP vs RAG": "MCP enables actions & real-time data (not just text retrieval), RAG focuses on augmenting prompts with documents",
+    "MCP vs Custom APIs": "MCP provides standard protocol (no custom connectors for each model+tool combo), reduces N×M integration problem"
+  },
+  "platform_compatibility": {
+    "Claude Desktop": {
+      "support": "Native support, most popular MCP client",
+      "best_servers": [
+        "Filesystem",
+        "GitHub",
+        "Google Drive",
+        "Slack"
+      ]
+    },
+    "Cursor": {
+      "support": "Developer-focused IDE with MCP",
+      "best_servers": [
+        "GitHub",
+        "Playwright",
+        "JetBrains",
+        "Docker"
+      ]
+    },
+    "Continue": {
+      "support": "Open-source VSCode extension",
+      "best_servers": [
+        "Filesystem",
+        "GitHub",
+        "Run Python"
+      ]
+    },
+    "LibreChat": {
+      "support": "Multi-LLM open-source client",
+      "best_servers": [
+        "Any MCP server"
+      ]
+    }
+  }
+}

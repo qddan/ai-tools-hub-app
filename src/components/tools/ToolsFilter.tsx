@@ -16,7 +16,6 @@ interface Category {
 interface ToolsFilterProps {
   categories: Category[];
   currentCategory: string;
-  currentPricing: string;
   currentSort: string;
   currentSearch: string;
 }
@@ -24,7 +23,6 @@ interface ToolsFilterProps {
 export function ToolsFilter({
   categories,
   currentCategory,
-  currentPricing,
   currentSort,
   currentSearch,
 }: ToolsFilterProps) {
@@ -43,7 +41,7 @@ export function ToolsFilter({
       params.delete("page");
       router.push(`/tools?${params.toString()}`);
     },
-    [router, searchParams]
+    [router, searchParams],
   );
 
   const handleSearch = (e: React.FormEvent) => {
@@ -56,7 +54,8 @@ export function ToolsFilter({
     setSearch("");
   };
 
-  const hasFilters = currentCategory || currentPricing || currentSearch || currentSort !== "popular";
+  const hasFilters =
+    currentCategory || currentSearch || currentSort !== "popular";
 
   return (
     <div className="space-y-4">
@@ -87,30 +86,12 @@ export function ToolsFilter({
           ].map((opt) => (
             <button
               key={opt.value}
-              onClick={() => updateParams("sort", opt.value === "popular" ? "" : opt.value)}
+              onClick={() =>
+                updateParams("sort", opt.value === "popular" ? "" : opt.value)
+              }
               className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
-                currentSort === opt.value || (!currentSort && opt.value === "popular")
-                  ? "bg-primary text-primary-foreground"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              {opt.label}
-            </button>
-          ))}
-        </div>
-
-        {/* Pricing */}
-        <div className="flex gap-1 rounded-lg border p-1">
-          {[
-            { label: "All", value: "" },
-            { label: "Free", value: "free" },
-            { label: "Paid", value: "paid" },
-          ].map((opt) => (
-            <button
-              key={opt.value}
-              onClick={() => updateParams("pricing", opt.value)}
-              className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
-                currentPricing === opt.value
+                currentSort === opt.value ||
+                (!currentSort && opt.value === "popular")
                   ? "bg-primary text-primary-foreground"
                   : "text-muted-foreground hover:text-foreground"
               }`}
@@ -121,7 +102,12 @@ export function ToolsFilter({
         </div>
 
         {hasFilters && (
-          <Button variant="ghost" size="sm" onClick={clearFilters} className="gap-1 text-muted-foreground">
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={clearFilters}
+            className="gap-1 text-muted-foreground"
+          >
             <X className="h-3.5 w-3.5" /> Clear filters
           </Button>
         )}
