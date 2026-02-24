@@ -1,24 +1,45 @@
 # AI Tools Hub
 
-A comprehensive directory for discovering, comparing, and choosing AI tools. Built with Next.js 15, TypeScript, Tailwind CSS, and Prisma.
+A searchable directory for AI tools and MCP servers — inspired by [reactnative.directory](https://reactnative.directory). Built with Next.js 16, TypeScript, Tailwind CSS, shadcn/ui, and Prisma.
 
-## 🚀 Features
+![Homepage](public/screenshots/homepage.png)
 
-- **94+ Real AI Tools** - Curated database of actual AI tools across 25 categories
-- **Advanced Search & Filtering** - Search by name, category, pricing, and more
-- **Tool Details** - Comprehensive information including features, pricing, pros/cons
-- **Category & Industry Pages** - Organized browsing experience
-- **SEO Optimized** - Dynamic metadata, sitemap, and structured data
-- **Responsive Design** - Works seamlessly on all devices
-- **Daily Data Freshness** - ISR with 24-hour revalidation
+## Features
 
-## 🛠 Tech Stack
+- **94 AI Tools + 98 MCP Servers** — comprehensive, searchable directory
+- **Directory-style UI** — data-dense list view with ratings, views, clicks
+- **Dark Mode** — system-aware theme toggle via next-themes
+- **MCP Servers Directory** — search, filter by category & difficulty
+- **Advanced Search & Filtering** — URL-driven, shareable filter states
+- **Category & Industry Pages** — organized browsing across 25 categories, 12 industries
+- **SEO Optimized** — dynamic metadata, sitemap, structured data
+- **Responsive** — mobile-first, works on all screen sizes
+- **E2E Tested** — 31 Playwright tests covering all routes
 
-- **Framework**: Next.js 15 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS + shadcn/ui
+## Screenshots
+
+| Light Mode                                         | Dark Mode                                              |
+| -------------------------------------------------- | ------------------------------------------------------ |
+| ![Homepage Light](public/screenshots/homepage.png) | ![Homepage Dark](public/screenshots/homepage-dark.png) |
+
+| MCP Servers Directory                              | Tool Detail Page                                   |
+| -------------------------------------------------- | -------------------------------------------------- |
+| ![MCP Servers](public/screenshots/mcp-servers.png) | ![Tool Detail](public/screenshots/tool-detail.png) |
+
+| Tools Directory                        | Categories                                       |
+| -------------------------------------- | ------------------------------------------------ |
+| ![Tools](public/screenshots/tools.png) | ![Categories](public/screenshots/categories.png) |
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router, React Server Components)
+- **Language**: TypeScript (strict mode)
+- **Styling**: Tailwind CSS 4 + shadcn/ui (Radix UI)
 - **Database**: Prisma ORM with SQLite (dev) / PostgreSQL (prod)
-- **Deployment**: Windsurf App Deploys
+- **Icons**: Lucide React
+- **Dark Mode**: next-themes
+- **Testing**: Playwright (31 E2E tests)
+- **Deployment**: Vercel
 
 ## 📋 Prerequisites
 
@@ -161,59 +182,35 @@ src/
 - `npm run db:seed` - Seed database with tools
 - `npm run db:studio` - Open Prisma Studio
 
-## 🌟 Features Overview
+## Pages Overview
 
-### Homepage
+### Homepage (`/`)
 
-- Hero section with call-to-action
-- Real-time statistics (tools count, categories, ratings)
-- Featured tools showcase
-- Trending tools section
-- Category grid with tool counts
+Unified search across AI tools and MCP servers, stats dashboard, featured tools list, trending + MCP side-by-side, category grid.
 
-### Tools Directory
+### AI Tools Directory (`/tools`)
 
-- Advanced search functionality
-- Filter by category, pricing, and sort options
-- Pagination for large datasets
-- Responsive grid layout
-- Tool cards with key information
+Directory-style list view with ratings, views, clicks. Search, category filters, sort options (Popular, Top Rated, Latest, A-Z). Pagination.
 
-### Tool Details
+### MCP Servers Directory (`/mcp`)
 
-- Comprehensive tool information
-- Features, pricing plans, and use cases
-- Pros and cons analysis
-- Related categories and tags
-- Visit website CTA
+98 MCP servers across 17 categories. Search, category & difficulty filter toggles. GitHub stars, popularity rank.
 
-### SEO Features
+### Tool/MCP Detail Pages (`/tools/[slug]`, `/mcp/[slug]`)
 
-- Dynamic metadata for all pages
-- XML sitemap generation
-- Robots.txt configuration
-- Open Graph tags
-- Structured data (JSON-LD)
+Comprehensive info: features, use cases, pros/cons, setup guides, similar tools. Dynamic SEO metadata.
 
-## 🤝 Contributing
+### Categories & Industries (`/categories`, `/industries`)
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+Organized browsing with tool counts per category/industry.
 
-## 📄 License
+## Testing
 
-This project is licensed under the MIT License.
+```bash
+npx playwright test          # Run all 31 E2E tests
+npx playwright test --ui     # Interactive test runner
+```
 
-## 🆘 Support
+## License
 
-If you encounter any issues during deployment:
-
-1. Check the deployment logs in Windsurf
-2. Verify environment variables are set correctly
-3. Ensure database connection is working
-4. Check that the build completes successfully
-
-For additional help, create an issue in the repository.
+MIT
