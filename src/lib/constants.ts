@@ -39,7 +39,7 @@ export const footerLinks = {
   ],
 } as const;
 
-export const TOOLS_PER_PAGE = 20;
+export const TOOLS_PER_PAGE = 30;
 
 export const SORT_OPTIONS = [
   { label: "Popular", value: "popular" },

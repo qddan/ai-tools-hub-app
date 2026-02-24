@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, Search, Sparkles } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -21,7 +22,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600">
@@ -44,18 +45,21 @@ export const Header = () => {
           ))}
         </nav>
 
-        <form onSubmit={handleSearch} className="hidden items-center gap-2 md:flex">
-          <div className="relative">
-            <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
-            <Input
-              type="search"
-              placeholder="Search AI tools..."
-              className="w-64 pl-9"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-          </div>
-        </form>
+        <div className="hidden items-center gap-2 md:flex">
+          <form onSubmit={handleSearch}>
+            <div className="relative">
+              <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
+              <Input
+                type="search"
+                placeholder="Search AI tools..."
+                className="w-64 pl-9"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </div>
+          </form>
+          <ThemeToggle />
+        </div>
 
         <Sheet>
           <SheetTrigger asChild className="md:hidden">
@@ -68,12 +72,22 @@ export const Header = () => {
               <form onSubmit={handleSearch}>
                 <div className="relative">
                   <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
-                  <Input type="search" placeholder="Search AI tools..." className="pl-9" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+                  <Input
+                    type="search"
+                    placeholder="Search AI tools..."
+                    className="pl-9"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                  />
                 </div>
               </form>
               <nav className="flex flex-col gap-4">
                 {navLinks.map((link) => (
-                  <Link key={link.href} href={link.href} className="text-lg font-medium transition-colors hover:text-blue-600">
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="text-lg font-medium transition-colors hover:text-blue-600"
+                  >
                     {link.label}
                   </Link>
                 ))}

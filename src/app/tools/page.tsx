@@ -92,29 +92,31 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       {/* Header */}
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold">Browse AI Tools</h1>
-        <p className="mt-2 text-muted-foreground">
-          {totalCount} tools found
-          {search && (
-            <>
-              {" "}
-              for &quot;
-              <span className="font-medium text-foreground">{search}</span>
-              &quot;
-            </>
-          )}
-          {categorySlug && (
-            <>
-              {" "}
-              in{" "}
-              <span className="font-medium text-foreground">
-                {categories.find((c) => c.slug === categorySlug)?.name ||
-                  categorySlug}
-              </span>
-            </>
-          )}
-        </p>
+      <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h1 className="text-2xl font-bold">Browse AI Tools</h1>
+          <p className="text-sm text-muted-foreground">
+            {totalCount} tools found
+            {search && (
+              <>
+                {" "}
+                for &quot;
+                <span className="font-medium text-foreground">{search}</span>
+                &quot;
+              </>
+            )}
+            {categorySlug && (
+              <>
+                {" "}
+                in{" "}
+                <span className="font-medium text-foreground">
+                  {categories.find((c) => c.slug === categorySlug)?.name ||
+                    categorySlug}
+                </span>
+              </>
+            )}
+          </p>
+        </div>
       </div>
 
       {/* Filters */}
@@ -125,7 +127,7 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
         currentSearch={search}
       />
 
-      {/* Results */}
+      {/* Results - Directory List */}
       {tools.length === 0 ? (
         <div className="py-20 text-center">
           <p className="text-lg text-muted-foreground">
@@ -137,7 +139,7 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
         </div>
       ) : (
         <>
-          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-4 rounded-lg border bg-card">
             {(tools as ToolWithRelations[]).map((tool) => (
               <ToolCard key={tool.id} tool={tool} />
             ))}
