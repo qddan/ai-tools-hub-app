@@ -5,32 +5,32 @@ test.describe("MCP Servers Page", () => {
     await page.goto("/mcp");
     await expect(page).toHaveTitle(/MCP Servers/);
     await expect(
-      page.getByRole("heading", { name: /MCP Servers Directory/ }),
+      page.getByRole("heading", { name: "MCP Servers" }),
     ).toBeVisible();
   });
 
-  test("should display server list items", async ({ page }) => {
+  test("should display server cards", async ({ page }) => {
     await page.goto("/mcp");
-    const links = page.locator('[href^="/mcp/"]');
-    await expect(links.first()).toBeVisible();
-    expect(await links.count()).toBeGreaterThanOrEqual(11);
+    const cards = page.locator('[href^="/mcp/"]');
+    await expect(cards.first()).toBeVisible();
+    expect(await cards.count()).toBeGreaterThanOrEqual(11);
   });
 
-  test("should have search input", async ({ page }) => {
+  test("should display MCP explanation section", async ({ page }) => {
     await page.goto("/mcp");
-    await expect(page.getByPlaceholder(/Search MCP/i)).toBeVisible();
+    await expect(page.getByText("MCP là gì?")).toBeVisible();
   });
 
-  test("should have category filter toggles", async ({ page }) => {
+  test("should display deployment types section", async ({ page }) => {
     await page.goto("/mcp");
     await expect(
-      page.getByRole("link", { name: "All", exact: true }),
+      page.getByRole("heading", { name: "Deployment Types" }),
     ).toBeVisible();
   });
 
-  test("should filter by category", async ({ page }) => {
-    await page.goto("/mcp?category=Database");
-    await expect(page).toHaveURL(/category=Database/);
+  test("should display category badges", async ({ page }) => {
+    await page.goto("/mcp");
+    await expect(page.getByText("Browse by Category")).toBeVisible();
   });
 });
 

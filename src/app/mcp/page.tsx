@@ -1,7 +1,17 @@
 import { prisma } from "@/lib/prisma";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { Star, ExternalLink, Github, Server, Search } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Star,
+  ExternalLink,
+  Github,
+  ArrowRight,
+  Server,
+  Cpu,
+  Globe,
+  Shield,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Metadata } from "next";
 
@@ -14,235 +24,257 @@ export const metadata: Metadata = {
 };
 
 const difficultyColor: Record<string, string> = {
-  Beginner: "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200",
-  "Beginner-Intermediate":
-    "bg-lime-100 text-lime-800 dark:bg-lime-900 dark:text-lime-200",
-  Intermediate:
-    "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200",
-  Advanced: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200",
+  Beginner: "bg-green-100 text-green-800",
+  "Beginner-Intermediate": "bg-lime-100 text-lime-800",
+  Intermediate: "bg-yellow-100 text-yellow-800",
+  Advanced: "bg-red-100 text-red-800",
 };
 
-interface McpPageProps {
-  searchParams: Promise<{
-    search?: string;
-    category?: string;
-    difficulty?: string;
-  }>;
-}
+const categoryIcon: Record<string, string> = {
+  "Local Development": "📁",
+  "Browser Automation": "🌐",
+  "Version Control": "🐙",
+  "Code Execution": "🐍",
+  "Web Search & Research": "🔍",
+  "AI Memory": "🧠",
+  Database: "🗄️",
+  Productivity: "📝",
+  Communication: "💬",
+  DevOps: "🐳",
+  Cloud: "☁️",
+  "Backend/Full-Stack": "🔧",
+};
 
-export default async function McpPage({ searchParams }: McpPageProps) {
-  const params = await searchParams;
-  const search = params.search || "";
-  const categoryFilter = params.category || "";
-  const difficultyFilter = params.difficulty || "";
-
-  const allServers = await prisma.mcpServer.findMany({
+export default async function McpPage() {
+  const servers = await prisma.mcpServer.findMany({
     where: { isActive: true },
     orderBy: { popularityRank: "asc" },
   });
 
-  let servers = allServers;
-  if (search) {
-    const q = search.toLowerCase();
-    servers = servers.filter(
-      (s) =>
-        s.name.toLowerCase().includes(q) ||
-        s.description.toLowerCase().includes(q) ||
-        s.category.toLowerCase().includes(q),
-    );
-  }
-  if (categoryFilter) {
-    servers = servers.filter((s) => s.category === categoryFilter);
-  }
-  if (difficultyFilter) {
-    servers = servers.filter((s) => s.difficulty === difficultyFilter);
-  }
-
-  const categories = [...new Set(allServers.map((s) => s.category))];
-  const difficulties = [...new Set(allServers.map((s) => s.difficulty))];
+  const categories = [...new Set(servers.map((s) => s.category))];
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      {/* Header */}
-      <div className="mb-6">
-        <div className="flex items-center gap-2">
-          <Server className="h-6 w-6 text-blue-600" />
-          <h1 className="text-2xl font-bold">MCP Servers Directory</h1>
+      {/* Hero */}
+      <div className="mb-12 text-center">
+        <div className="mb-4 flex items-center justify-center gap-2">
+          <Server className="h-8 w-8 text-blue-600" />
+          <h1 className="text-4xl font-bold">MCP Servers</h1>
         </div>
-        <p className="mt-1 text-sm text-muted-foreground">
-          {servers.length} of {allServers.length} MCP servers
-          {search && (
-            <>
-              {" "}
-              matching &quot;
-              <span className="font-medium text-foreground">{search}</span>
-              &quot;
-            </>
-          )}{" "}
-          &mdash; Model Context Protocol connects AI models to external tools
-          &amp; data sources.
+        <p className="mx-auto mt-3 max-w-2xl text-lg text-muted-foreground">
+          Model Context Protocol (MCP) chuẩn hóa cách AI models kết nối với
+          external tools, data sources và systems. Khám phá các MCP servers phổ
+          biến nhất.
         </p>
-      </div>
-
-      {/* Filters */}
-      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center">
-        <form className="relative flex-1 max-w-md" action="/mcp" method="get">
-          <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
-          <input
-            type="search"
-            name="search"
-            placeholder="Search MCP servers..."
-            defaultValue={search}
-            className="h-9 w-full rounded-md border bg-background pl-9 pr-3 text-sm outline-none focus:ring-2 focus:ring-ring"
-          />
-          {categoryFilter && (
-            <input type="hidden" name="category" value={categoryFilter} />
-          )}
-          {difficultyFilter && (
-            <input type="hidden" name="difficulty" value={difficultyFilter} />
-          )}
-        </form>
-        <div className="flex flex-wrap gap-1.5">
-          <Link
-            href="/mcp"
-            className={`rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
-              !categoryFilter && !difficultyFilter
-                ? "bg-primary text-primary-foreground"
-                : "bg-muted text-muted-foreground hover:text-foreground"
-            }`}
-          >
-            All
-          </Link>
-          {categories.map((cat) => (
-            <Link
-              key={cat}
-              href={`/mcp?category=${encodeURIComponent(cat)}${search ? `&search=${search}` : ""}`}
-              className={`rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
-                categoryFilter === cat
-                  ? "bg-primary text-primary-foreground"
-                  : "bg-muted text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              {cat}
-            </Link>
-          ))}
-        </div>
-        <div className="flex gap-1.5">
-          {difficulties.map((d) => (
-            <Link
-              key={d}
-              href={`/mcp?difficulty=${d}${search ? `&search=${search}` : ""}${categoryFilter ? `&category=${categoryFilter}` : ""}`}
-              className={`rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
-                difficultyFilter === d
-                  ? "bg-primary text-primary-foreground"
-                  : "bg-muted text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              {d}
-            </Link>
-          ))}
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground">
+          <span className="flex items-center gap-1.5">
+            <Cpu className="h-4 w-4" /> {servers.length} Servers
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Globe className="h-4 w-4" /> {categories.length} Categories
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Shield className="h-4 w-4" /> Open Protocol by Anthropic
+          </span>
         </div>
       </div>
 
-      {/* Directory List */}
-      <div className="rounded-lg border bg-card">
-        {servers.length === 0 ? (
-          <div className="py-12 text-center text-muted-foreground">
-            No MCP servers found.{" "}
-            <Link href="/mcp" className="text-blue-600 underline">
-              Clear filters
-            </Link>
+      {/* What is MCP */}
+      <Card className="mb-10">
+        <CardContent className="p-6 sm:p-8">
+          <h2 className="text-xl font-bold">MCP là gì?</h2>
+          <p className="mt-2 text-muted-foreground leading-relaxed">
+            <strong>Model Context Protocol (MCP)</strong> là giao thức mở do
+            Anthropic phát triển, chuẩn hóa cách AI models (Claude, ChatGPT,
+            Gemini...) kết nối với external tools và data sources. Trước MCP,
+            developers phải build custom connectors cho mỗi AI model × data
+            source (N×M problem). MCP cung cấp universal interface — chỉ cần
+            implement 1 lần.
+          </p>
+          <div className="mt-4 grid gap-4 sm:grid-cols-3">
+            <div className="rounded-lg border p-4">
+              <p className="font-semibold">🔌 Universal Interface</p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Kết nối bất kỳ AI model nào với bất kỳ tool nào qua 1 protocol
+              </p>
+            </div>
+            <div className="rounded-lg border p-4">
+              <p className="font-semibold">🔓 Open Protocol</p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Không vendor lock-in, được Linux Foundation quản lý
+              </p>
+            </div>
+            <div className="rounded-lg border p-4">
+              <p className="font-semibold">⚡ JSON-RPC 2.0</p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Client-Server architecture, tương tự Language Server Protocol
+              </p>
+            </div>
           </div>
-        ) : (
-          servers.map((server) => (
-            <Link
-              key={server.id}
-              href={`/mcp/${server.slug}`}
-              className="group flex items-start gap-4 border-b px-4 py-4 transition-colors hover:bg-muted/50 last:border-b-0"
-            >
-              <span className="text-2xl shrink-0">{server.icon || "📦"}</span>
+        </CardContent>
+      </Card>
 
-              <div className="min-w-0 flex-1">
-                <div className="flex items-center gap-2">
-                  <h3 className="font-semibold text-sm group-hover:text-blue-600 transition-colors">
-                    {server.name}
-                  </h3>
+      {/* Category Filter */}
+      <div className="mb-8">
+        <h2 className="mb-4 text-xl font-bold">Browse by Category</h2>
+        <div className="flex flex-wrap gap-2">
+          {categories.map((cat) => (
+            <Badge
+              key={cat}
+              variant="outline"
+              className="px-3 py-1.5 text-sm"
+            >
+              {categoryIcon[cat] || "📦"} {cat} (
+              {servers.filter((s) => s.category === cat).length})
+            </Badge>
+          ))}
+        </div>
+      </div>
+
+      {/* Server Grid */}
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {servers.map((server) => (
+          <Link key={server.id} href={`/mcp/${server.slug}`}>
+            <Card className="group h-full transition-all duration-200 hover:shadow-lg hover:border-blue-200">
+              <CardContent className="p-5">
+                <div className="flex items-start justify-between">
+                  <div className="flex items-center gap-3">
+                    <span className="text-3xl">{server.icon || "📦"}</span>
+                    <div>
+                      <h3 className="font-semibold group-hover:text-blue-600 transition-colors">
+                        {server.name}
+                      </h3>
+                      <p className="text-xs text-muted-foreground">
+                        {server.category}
+                      </p>
+                    </div>
+                  </div>
                   <Badge
-                    className={`text-[10px] px-1.5 py-0 ${
+                    className={
                       difficultyColor[server.difficulty] ||
                       "bg-gray-100 text-gray-800"
-                    }`}
+                    }
                   >
                     {server.difficulty}
                   </Badge>
-                  <span className="text-xs text-muted-foreground hidden sm:inline">
-                    {server.category}
-                  </span>
                 </div>
-                <p className="mt-0.5 text-xs text-muted-foreground line-clamp-1">
+
+                <p className="mt-3 text-sm text-muted-foreground line-clamp-2">
                   {server.description}
                 </p>
-                <div className="mt-1.5 flex flex-wrap gap-1.5">
+
+                <div className="mt-3 flex flex-wrap gap-1.5">
                   {server.useCases
                     ?.split("|")
-                    .slice(0, 4)
+                    .slice(0, 3)
                     .map((uc, i) => (
-                      <Badge
-                        key={i}
-                        variant="outline"
-                        className="text-[10px] px-1.5 py-0"
-                      >
+                      <Badge key={i} variant="outline" className="text-xs">
                         {uc.trim()}
                       </Badge>
                     ))}
                 </div>
-              </div>
 
-              <div className="hidden sm:flex items-center gap-3 shrink-0 text-xs text-muted-foreground">
-                {server.githubStars && (
-                  <span
-                    className="flex items-center gap-1"
-                    title="GitHub Stars"
-                  >
-                    <Star className="h-3.5 w-3.5" />
-                    {server.githubStars}
+                <div className="mt-4 flex items-center justify-between text-sm">
+                  <div className="flex items-center gap-3">
+                    {server.githubStars && (
+                      <span className="flex items-center gap-1 text-muted-foreground">
+                        <Star className="h-3.5 w-3.5" />
+                        {server.githubStars}
+                      </span>
+                    )}
+                    {server.githubUrl && (
+                      <span className="flex items-center gap-1 text-muted-foreground">
+                        <Github className="h-3.5 w-3.5" />
+                      </span>
+                    )}
+                  </div>
+                  <span className="flex items-center gap-1 text-blue-600 text-xs font-medium">
+                    View Details <ArrowRight className="h-3 w-3" />
                   </span>
-                )}
-                {server.githubUrl && <Github className="h-3.5 w-3.5" />}
-                <span className="text-[10px] font-medium">
-                  #{server.popularityRank}
-                </span>
-                <ExternalLink className="h-3.5 w-3.5 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </div>
-            </Link>
-          ))
-        )}
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
+        ))}
+      </div>
+
+      {/* Deployment Types */}
+      <div className="mt-16">
+        <h2 className="mb-6 text-2xl font-bold text-center">
+          Deployment Types
+        </h2>
+        <div className="grid gap-6 sm:grid-cols-3">
+          <Card>
+            <CardContent className="p-6">
+              <h3 className="flex items-center gap-2 text-lg font-semibold">
+                💻 Local
+              </h3>
+              <p className="mt-2 text-sm text-muted-foreground">
+                MCP server chạy trên máy local, giao tiếp qua STDIO. Bảo mật
+                cao, tốc độ nhanh, không cần internet.
+              </p>
+              <p className="mt-3 text-xs font-medium text-green-700">
+                Best for: Individual developers, privacy-sensitive tasks
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-6">
+              <h3 className="flex items-center gap-2 text-lg font-semibold">
+                🌍 Remote
+              </h3>
+              <p className="mt-2 text-sm text-muted-foreground">
+                MCP server host trên cloud, connect qua HTTP/HTTPS. Setup nhanh,
+                scalable, truy cập từ mọi device.
+              </p>
+              <p className="mt-3 text-xs font-medium text-blue-700">
+                Best for: SaaS integrations, team collaboration
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-6">
+              <h3 className="flex items-center gap-2 text-lg font-semibold">
+                🐳 Managed
+              </h3>
+              <p className="mt-2 text-sm text-muted-foreground">
+                MCP server chạy trong containers (Docker/K8s). Centralized
+                management, isolated environments.
+              </p>
+              <p className="mt-3 text-xs font-medium text-purple-700">
+                Best for: Enterprise deployments, team shared resources
+              </p>
+            </CardContent>
+          </Card>
+        </div>
       </div>
 
       {/* CTA */}
-      <div className="mt-10 rounded-xl bg-muted/50 p-6 text-center">
-        <p className="text-sm font-medium">
-          Learn more about Model Context Protocol
+      <div className="mt-16 rounded-2xl bg-muted/50 p-8 text-center">
+        <h2 className="text-2xl font-bold">Bắt đầu với MCP</h2>
+        <p className="mt-2 text-muted-foreground">
+          Tìm hiểu thêm về Model Context Protocol và cách kết nối AI với tools
+          của bạn.
         </p>
-        <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
-          <Button size="sm" asChild>
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+          <Button asChild>
             <a
               href="https://modelcontextprotocol.io"
               target="_blank"
               rel="noopener noreferrer"
-              className="gap-1.5"
+              className="gap-2"
             >
-              MCP Docs <ExternalLink className="h-3.5 w-3.5" />
+              MCP Official Docs <ExternalLink className="h-4 w-4" />
             </a>
           </Button>
-          <Button size="sm" variant="outline" asChild>
+          <Button variant="outline" asChild>
             <a
               href="https://github.com/modelcontextprotocol/servers"
               target="_blank"
               rel="noopener noreferrer"
-              className="gap-1.5"
+              className="gap-2"
             >
-              <Github className="h-3.5 w-3.5" /> GitHub
+              <Github className="h-4 w-4" /> GitHub Repository
             </a>
           </Button>
         </div>
