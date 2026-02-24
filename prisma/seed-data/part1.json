@@ -1,0 +1,727 @@
+[
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "developer": "OpenAI",
+    "description": "AI chatbot powered by GPT-4o that can understand and generate text, analyze images, and assist with coding, writing, and research.",
+    "longDescription": "ChatGPT is OpenAI's flagship conversational AI, built on the GPT-4o model. It excels at natural language understanding, code generation, creative writing, data analysis, and multimodal tasks including image understanding. With over 200 million weekly active users, it's the most widely used AI assistant globally.",
+    "website": "https://chat.openai.com",
+    "rating": 4.7,
+    "reviewCount": 12500,
+    "views": 985000,
+    "clicks": 245000,
+    "isFeatured": true,
+    "platforms": "Web, iOS, Android, Desktop, API",
+    "pros": "Extremely versatile and capable|Excellent code generation|Multimodal (text, image, voice)|Large plugin ecosystem|Regular model updates",
+    "cons": "Can hallucinate facts|Free tier has usage limits|Privacy concerns for sensitive data|Expensive API pricing at scale",
+    "categories": ["LLM & Chatbot", "Code Assistant", "Writing"],
+    "industries": ["Technology", "Education", "Marketing"],
+    "tags": ["chatbot", "gpt-4", "ai-assistant", "openai", "multimodal"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "GPT-4o mini access|Limited GPT-4o|Basic features", "isPopular": false },
+      { "name": "Plus", "price": 20, "period": "month", "features": "GPT-4o full access|DALL-E image generation|Advanced data analysis|Custom GPTs|Priority access", "isPopular": true },
+      { "name": "Team", "price": 25, "period": "month/user", "features": "Everything in Plus|Admin console|Team workspace|Higher usage caps", "isPopular": false },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Unlimited access|SSO & SCIM|Custom data retention|Dedicated support|Admin analytics", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Natural Language Chat", "description": "Conversational AI with context retention across messages" },
+      { "name": "Code Generation", "description": "Write, debug, and explain code in 50+ programming languages" },
+      { "name": "Image Understanding", "description": "Analyze and describe uploaded images with GPT-4o vision" },
+      { "name": "DALL-E Integration", "description": "Generate images from text descriptions" },
+      { "name": "Custom GPTs", "description": "Create and share custom AI assistants for specific tasks" },
+      { "name": "Advanced Data Analysis", "description": "Upload files for data analysis with code execution" }
+    ],
+    "useCases": [
+      { "title": "Content Creation", "description": "Draft blog posts, emails, social media content, and marketing copy in seconds", "icon": "PenTool" },
+      { "title": "Code Development", "description": "Write, review, and debug code with AI pair programming", "icon": "Code" },
+      { "title": "Research & Analysis", "description": "Summarize papers, analyze data, and extract insights from documents", "icon": "Search" }
+    ]
+  },
+  {
+    "name": "Claude",
+    "slug": "claude",
+    "developer": "Anthropic",
+    "description": "Advanced AI assistant known for safety, nuanced reasoning, and ability to handle long documents up to 200K tokens.",
+    "longDescription": "Claude by Anthropic is a next-generation AI assistant designed with a focus on safety and helpfulness. Claude 3.5 Sonnet offers best-in-class performance for coding, analysis, and creative tasks. Its 200K context window allows processing entire codebases and long documents in a single conversation.",
+    "website": "https://claude.ai",
+    "rating": 4.8,
+    "reviewCount": 8200,
+    "views": 620000,
+    "clicks": 178000,
+    "isFeatured": true,
+    "platforms": "Web, iOS, Android, API",
+    "pros": "Excellent at nuanced reasoning|200K token context window|Strong coding capabilities|Safer and more honest responses|Great at following complex instructions",
+    "cons": "Smaller ecosystem than ChatGPT|No image generation|Sometimes overly cautious|Limited free tier",
+    "categories": ["LLM & Chatbot", "Code Assistant", "Writing"],
+    "industries": ["Technology", "Education", "Legal"],
+    "tags": ["chatbot", "claude", "anthropic", "ai-assistant", "long-context"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Claude 3.5 Sonnet access|Limited usage|Basic features", "isPopular": false },
+      { "name": "Pro", "price": 20, "period": "month", "features": "5x more usage|Priority access|Claude 3.5 Opus|Projects feature|Early access to new features", "isPopular": true },
+      { "name": "Team", "price": 25, "period": "month/user", "features": "Everything in Pro|Team collaboration|Admin tools|Higher limits", "isPopular": false },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Unlimited access|SSO/SAML|Custom data retention|SLA guarantees|Dedicated support", "isPopular": false }
+    ],
+    "features": [
+      { "name": "200K Context Window", "description": "Process up to 200,000 tokens — entire books or codebases" },
+      { "name": "Artifacts", "description": "Create and iterate on documents, code, and diagrams in a side panel" },
+      { "name": "Projects", "description": "Organize conversations with custom instructions and knowledge bases" },
+      { "name": "Code Analysis", "description": "Debug, refactor, and write code with deep understanding" },
+      { "name": "Document Analysis", "description": "Upload and analyze PDFs, images, and spreadsheets" },
+      { "name": "Constitutional AI", "description": "Built-in safety alignment for more reliable outputs" }
+    ],
+    "useCases": [
+      { "title": "Legal Document Review", "description": "Analyze lengthy contracts and legal documents with full context", "icon": "FileText" },
+      { "title": "Codebase Analysis", "description": "Upload entire repositories for comprehensive code review", "icon": "Code" },
+      { "title": "Research Synthesis", "description": "Process and synthesize multiple research papers simultaneously", "icon": "BookOpen" }
+    ]
+  },
+  {
+    "name": "Google Gemini",
+    "slug": "google-gemini",
+    "developer": "Google DeepMind",
+    "description": "Google's most capable multimodal AI model, integrated across Google products with native image, audio, and video understanding.",
+    "longDescription": "Google Gemini is a family of multimodal AI models that can understand and generate text, code, images, audio, and video. Gemini Ultra leads benchmarks in reasoning tasks, while Gemini Pro offers an excellent balance of capability and speed. Deep integration with Google Workspace makes it uniquely powerful for productivity.",
+    "website": "https://gemini.google.com",
+    "rating": 4.5,
+    "reviewCount": 9800,
+    "views": 780000,
+    "clicks": 195000,
+    "isFeatured": true,
+    "platforms": "Web, iOS, Android, API",
+    "pros": "Native multimodal capabilities|Deep Google Workspace integration|1M token context window|Competitive pricing|Strong reasoning",
+    "cons": "Google ecosystem dependency|Inconsistent availability by region|Image generation controversies|Less flexible API than competitors",
+    "categories": ["LLM & Chatbot", "Productivity", "Code Assistant"],
+    "industries": ["Technology", "Education", "Marketing"],
+    "tags": ["chatbot", "gemini", "google", "multimodal", "ai-assistant"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Gemini Pro access|Basic features|Google integration", "isPopular": false },
+      { "name": "Advanced", "price": 19.99, "period": "month", "features": "Gemini Ultra|2TB Google storage|Google One AI Premium|Workspace integration|Priority access", "isPopular": true }
+    ],
+    "features": [
+      { "name": "Multimodal Understanding", "description": "Process text, images, audio, video, and code natively" },
+      { "name": "1M Token Context", "description": "Handle extremely long documents and conversations" },
+      { "name": "Google Workspace Integration", "description": "AI assistance in Gmail, Docs, Sheets, Slides" },
+      { "name": "Imagen 3", "description": "Generate high-quality images from text prompts" },
+      { "name": "Deep Research", "description": "Autonomous multi-step web research with comprehensive reports" }
+    ],
+    "useCases": [
+      { "title": "Workspace Productivity", "description": "Draft emails, create presentations, and analyze spreadsheets with AI", "icon": "Briefcase" },
+      { "title": "Visual Analysis", "description": "Upload images and videos for AI-powered analysis and insights", "icon": "Image" },
+      { "title": "Code Generation", "description": "Generate and debug code with multimodal context understanding", "icon": "Code" }
+    ]
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "developer": "Anysphere",
+    "description": "AI-first code editor built on VS Code that uses GPT-4 and Claude to help you write, edit, and debug code faster.",
+    "longDescription": "Cursor is an AI-powered code editor that reimagines software development. Built on VS Code, it integrates state-of-the-art AI models for code completion, multi-file editing, codebase understanding, and natural language coding. It understands your entire project context to provide relevant suggestions.",
+    "website": "https://cursor.com",
+    "rating": 4.8,
+    "reviewCount": 5600,
+    "views": 450000,
+    "clicks": 120000,
+    "isFeatured": true,
+    "platforms": "Desktop (Mac, Windows, Linux)",
+    "pros": "Best-in-class AI code completion|Understands full codebase context|Multi-file editing|VS Code compatible|Fast and responsive",
+    "cons": "Subscription required for full features|Resource intensive|Learning curve for AI features|Occasional incorrect suggestions",
+    "categories": ["Code Assistant", "Developer Tools"],
+    "industries": ["Technology"],
+    "tags": ["code-editor", "ai-coding", "developer-tools", "cursor", "ide"],
+    "pricingPlans": [
+      { "name": "Hobby", "price": 0, "period": "month", "features": "2000 completions|50 slow premium requests|VS Code extensions", "isPopular": false },
+      { "name": "Pro", "price": 20, "period": "month", "features": "Unlimited completions|500 fast premium requests|Unlimited slow requests|Custom AI models", "isPopular": true },
+      { "name": "Business", "price": 40, "period": "month/user", "features": "Everything in Pro|Admin dashboard|Centralized billing|SAML SSO|Enforce privacy mode", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Tab Completion", "description": "AI predicts your next edit across multiple lines and files" },
+      { "name": "Chat with Codebase", "description": "Ask questions about your code with full project context" },
+      { "name": "Composer", "description": "Multi-file AI editing with natural language instructions" },
+      { "name": "Bug Finder", "description": "AI scans your code to find and fix potential bugs" },
+      { "name": "Terminal Integration", "description": "AI-powered terminal with command suggestions" }
+    ],
+    "useCases": [
+      { "title": "Rapid Prototyping", "description": "Build features and prototypes faster with AI-assisted coding", "icon": "Zap" },
+      { "title": "Code Refactoring", "description": "Refactor code across multiple files with natural language", "icon": "RefreshCw" },
+      { "title": "Bug Fixing", "description": "Identify and fix bugs with AI understanding of your codebase", "icon": "Bug" }
+    ]
+  },
+  {
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "developer": "Midjourney Inc.",
+    "description": "Leading AI image generation tool that creates stunning, artistic images from text prompts via Discord or web interface.",
+    "longDescription": "Midjourney is one of the most popular AI image generators, known for producing highly aesthetic and artistic images. Version 6.1 brings photorealistic capabilities, improved text rendering, and better prompt understanding. It operates primarily through Discord but now also offers a web interface.",
+    "website": "https://midjourney.com",
+    "rating": 4.7,
+    "reviewCount": 15000,
+    "views": 890000,
+    "clicks": 280000,
+    "isFeatured": true,
+    "platforms": "Web, Discord",
+    "pros": "Best aesthetic quality among AI image generators|Highly detailed and artistic outputs|Active community|Regular model improvements|Web editor now available",
+    "cons": "No free tier|Discord-based workflow can be confusing|Limited editing capabilities|No API access for most users|Copyright concerns",
+    "categories": ["Image Generation", "Design"],
+    "industries": ["Design & Creative", "Marketing", "Entertainment"],
+    "tags": ["image-generation", "ai-art", "midjourney", "design", "creative"],
+    "pricingPlans": [
+      { "name": "Basic", "price": 10, "period": "month", "features": "~200 images/month|3 concurrent jobs|General commercial terms", "isPopular": false },
+      { "name": "Standard", "price": 30, "period": "month", "features": "15h fast GPU time|Unlimited relaxed|General commercial terms", "isPopular": true },
+      { "name": "Pro", "price": 60, "period": "month", "features": "30h fast GPU time|Stealth mode|Unlimited relaxed", "isPopular": false },
+      { "name": "Mega", "price": 120, "period": "month", "features": "60h fast GPU time|Stealth mode|Unlimited relaxed", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Text-to-Image", "description": "Generate high-quality images from natural language descriptions" },
+      { "name": "Image Upscaling", "description": "Enhance resolution up to 4x with detail preservation" },
+      { "name": "Style Transfer", "description": "Apply artistic styles and reference images to generations" },
+      { "name": "Vary & Remix", "description": "Create variations of generated images with fine control" },
+      { "name": "Pan & Zoom", "description": "Extend images beyond their original boundaries" }
+    ],
+    "useCases": [
+      { "title": "Marketing Visuals", "description": "Create unique marketing imagery and social media content", "icon": "Image" },
+      { "title": "Concept Art", "description": "Generate concept art for games, films, and creative projects", "icon": "Palette" },
+      { "title": "Product Mockups", "description": "Visualize product designs and packaging concepts", "icon": "Package" }
+    ]
+  },
+  {
+    "name": "DALL-E 3",
+    "slug": "dall-e-3",
+    "developer": "OpenAI",
+    "description": "OpenAI's latest image generation model with superior text rendering and prompt following, integrated into ChatGPT.",
+    "longDescription": "DALL-E 3 represents a major leap in AI image generation, particularly in understanding and following complex prompts. Natively integrated into ChatGPT, it excels at rendering text within images and following detailed instructions. The model produces high-quality, creative images suitable for professional use.",
+    "website": "https://openai.com/dall-e-3",
+    "rating": 4.5,
+    "reviewCount": 8900,
+    "views": 650000,
+    "clicks": 180000,
+    "isFeatured": true,
+    "platforms": "Web (via ChatGPT), API",
+    "pros": "Best text rendering in images|Excellent prompt following|ChatGPT integration|Safety features built-in|API available",
+    "cons": "Only available through ChatGPT Plus or API|Less artistic than Midjourney|Limited style control|Rate limits on generation",
+    "categories": ["Image Generation", "Design"],
+    "industries": ["Design & Creative", "Marketing"],
+    "tags": ["image-generation", "dall-e", "openai", "text-to-image"],
+    "pricingPlans": [
+      { "name": "Via ChatGPT Plus", "price": 20, "period": "month", "features": "Included with ChatGPT Plus|Unlimited generations|Edit and iterate", "isPopular": true },
+      { "name": "API Standard", "price": 0.04, "period": "per image", "features": "1024x1024 resolution|API access|Bulk generation", "isPopular": false },
+      { "name": "API HD", "price": 0.08, "period": "per image", "features": "1024x1792 resolution|HD quality|API access", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Text-to-Image", "description": "Generate images from detailed text descriptions" },
+      { "name": "Text Rendering", "description": "Accurately render text and typography within images" },
+      { "name": "ChatGPT Integration", "description": "Generate and refine images conversationally" },
+      { "name": "Inpainting", "description": "Edit specific regions of existing images" },
+      { "name": "Safety System", "description": "Built-in content policy and watermarking" }
+    ],
+    "useCases": [
+      { "title": "Social Media Content", "description": "Create eye-catching social media graphics with text overlays", "icon": "Share2" },
+      { "title": "Presentation Graphics", "description": "Generate custom illustrations for presentations and reports", "icon": "PresentationChart" },
+      { "title": "Blog Illustrations", "description": "Create unique header images and illustrations for articles", "icon": "Image" }
+    ]
+  },
+  {
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "developer": "GitHub (Microsoft)",
+    "description": "AI pair programmer that suggests code completions, entire functions, and tests directly in your IDE.",
+    "longDescription": "GitHub Copilot is the most widely adopted AI coding assistant, powered by OpenAI Codex. It integrates with VS Code, JetBrains, Neovim, and Visual Studio to provide real-time code suggestions. Copilot Chat adds conversational AI for code explanation, debugging, and generation directly in the editor.",
+    "website": "https://github.com/features/copilot",
+    "rating": 4.6,
+    "reviewCount": 18000,
+    "views": 920000,
+    "clicks": 310000,
+    "isFeatured": true,
+    "platforms": "VS Code, JetBrains, Neovim, Visual Studio, Web",
+    "pros": "Seamless IDE integration|Excellent code completion|Large training data from GitHub|Copilot Chat for conversations|Enterprise features",
+    "cons": "Subscription required|Sometimes suggests incorrect code|Privacy concerns|Dependent on internet connection|Code quality varies",
+    "categories": ["Code Assistant", "Developer Tools"],
+    "industries": ["Technology"],
+    "tags": ["code-assistant", "github", "copilot", "ai-coding", "developer-tools"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "2000 completions/month|50 chat messages/month|VS Code & JetBrains", "isPopular": false },
+      { "name": "Pro", "price": 10, "period": "month", "features": "Unlimited completions|Unlimited chat|Multiple models|Agent mode", "isPopular": true },
+      { "name": "Business", "price": 19, "period": "month/user", "features": "Everything in Pro|Organization policies|Audit logs|IP indemnity", "isPopular": false },
+      { "name": "Enterprise", "price": 39, "period": "month/user", "features": "Everything in Business|Fine-tuned models|Custom knowledge bases|SAML SSO", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Code Completion", "description": "Real-time AI code suggestions as you type" },
+      { "name": "Copilot Chat", "description": "Conversational AI for code questions and generation" },
+      { "name": "Code Explanation", "description": "Understand unfamiliar code with AI explanations" },
+      { "name": "Test Generation", "description": "Automatically generate unit tests for your code" },
+      { "name": "Multi-IDE Support", "description": "Works in VS Code, JetBrains, Neovim, and more" }
+    ],
+    "useCases": [
+      { "title": "Faster Development", "description": "Write code up to 55% faster with AI suggestions", "icon": "Zap" },
+      { "title": "Learning New Languages", "description": "Get contextual help when working with unfamiliar languages", "icon": "BookOpen" },
+      { "title": "Test Coverage", "description": "Generate comprehensive test suites automatically", "icon": "CheckCircle" }
+    ]
+  },
+  {
+    "name": "Sora",
+    "slug": "sora",
+    "developer": "OpenAI",
+    "description": "OpenAI's text-to-video AI model that generates realistic and creative videos from text descriptions.",
+    "longDescription": "Sora is OpenAI's groundbreaking text-to-video generation model that can create realistic videos up to 60 seconds long from text prompts. It understands complex scenes, physics, and motion, producing professional-quality video content. Available to ChatGPT Plus and Pro subscribers.",
+    "website": "https://sora.com",
+    "rating": 4.3,
+    "reviewCount": 3200,
+    "views": 520000,
+    "clicks": 145000,
+    "isFeatured": true,
+    "platforms": "Web",
+    "pros": "Revolutionary video generation quality|Understands physics and motion|Up to 60-second videos|Multiple aspect ratios|Storyboard feature",
+    "cons": "Limited availability|Slow generation times|High resource requirements|Content restrictions|No API yet",
+    "categories": ["Video Generation", "Design"],
+    "industries": ["Entertainment", "Marketing", "Design & Creative"],
+    "tags": ["video-generation", "sora", "openai", "text-to-video", "creative"],
+    "pricingPlans": [
+      { "name": "Via ChatGPT Plus", "price": 20, "period": "month", "features": "50 priority videos/month|720p resolution|5-second max duration", "isPopular": false },
+      { "name": "Via ChatGPT Pro", "price": 200, "period": "month", "features": "500 priority videos/month|1080p resolution|20-second max|Unlimited relaxed", "isPopular": true }
+    ],
+    "features": [
+      { "name": "Text-to-Video", "description": "Generate videos from natural language descriptions" },
+      { "name": "Image-to-Video", "description": "Animate still images into video content" },
+      { "name": "Storyboard", "description": "Plan multi-scene videos with a visual timeline" },
+      { "name": "Video Remix", "description": "Transform existing videos with new styles and elements" },
+      { "name": "Multiple Formats", "description": "Generate in 16:9, 9:16, and 1:1 aspect ratios" }
+    ],
+    "useCases": [
+      { "title": "Marketing Videos", "description": "Create promotional videos and ads without a production team", "icon": "Film" },
+      { "title": "Social Content", "description": "Generate engaging short-form video for TikTok and Reels", "icon": "Share2" },
+      { "title": "Concept Visualization", "description": "Bring creative concepts to life with AI-generated video", "icon": "Eye" }
+    ]
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "developer": "ElevenLabs",
+    "description": "Premier AI voice synthesis platform offering realistic text-to-speech, voice cloning, and audio content creation.",
+    "longDescription": "ElevenLabs is the industry leader in AI voice technology, offering lifelike text-to-speech synthesis, voice cloning from short audio samples, and multilingual support in 29 languages. Their technology powers podcasts, audiobooks, video narration, and accessibility solutions worldwide.",
+    "website": "https://elevenlabs.io",
+    "rating": 4.7,
+    "reviewCount": 6800,
+    "views": 380000,
+    "clicks": 95000,
+    "isFeatured": true,
+    "platforms": "Web, API",
+    "pros": "Most realistic AI voices available|Excellent voice cloning|29 languages supported|Low latency streaming|Professional-grade output",
+    "cons": "Expensive at scale|Voice cloning ethical concerns|Character limits on free tier|Some languages less polished",
+    "categories": ["Audio & Speech", "Content Creation"],
+    "industries": ["Entertainment", "Education", "Marketing"],
+    "tags": ["text-to-speech", "voice-cloning", "audio", "elevenlabs", "tts"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "10,000 characters/month|3 custom voices|Basic features", "isPopular": false },
+      { "name": "Starter", "price": 5, "period": "month", "features": "30,000 characters/month|10 custom voices|Commercial license", "isPopular": false },
+      { "name": "Creator", "price": 22, "period": "month", "features": "100,000 characters/month|30 custom voices|Professional voice cloning", "isPopular": true },
+      { "name": "Pro", "price": 99, "period": "month", "features": "500,000 characters/month|160 custom voices|48kHz audio|Priority support", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Text-to-Speech", "description": "Convert text to natural-sounding speech with emotional control" },
+      { "name": "Voice Cloning", "description": "Clone any voice from a short audio sample" },
+      { "name": "Multilingual", "description": "Generate speech in 29 languages with native accents" },
+      { "name": "Voice Library", "description": "Access thousands of pre-made voices" },
+      { "name": "Audio Projects", "description": "Create long-form audio content with multiple voices" }
+    ],
+    "useCases": [
+      { "title": "Podcast Production", "description": "Generate podcast intros, narration, and full episodes with AI voices", "icon": "Mic" },
+      { "title": "Audiobook Creation", "description": "Convert books and articles to professional audiobooks", "icon": "BookOpen" },
+      { "title": "Video Narration", "description": "Add voiceover to videos in multiple languages", "icon": "Film" }
+    ]
+  },
+  {
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "developer": "Stability AI",
+    "description": "Open-source AI image generation model that runs locally or in the cloud, offering maximum customization and control.",
+    "longDescription": "Stable Diffusion is the leading open-source image generation model, allowing users to run AI image generation locally on their own hardware. SDXL and SD3 offer competitive quality with commercial models while providing full customization through LoRA fine-tuning, ControlNet, and community extensions.",
+    "website": "https://stability.ai",
+    "rating": 4.5,
+    "reviewCount": 11000,
+    "views": 720000,
+    "clicks": 200000,
+    "isFeatured": true,
+    "platforms": "Web, Desktop, API, Self-hosted",
+    "pros": "Free and open-source|Run locally for privacy|Highly customizable|Large community and extensions|No usage limits when self-hosted",
+    "cons": "Requires technical knowledge|Needs powerful GPU for local use|Quality varies with settings|Less consistent than Midjourney",
+    "categories": ["Image Generation", "Design", "Open Source"],
+    "industries": ["Design & Creative", "Technology", "Entertainment"],
+    "tags": ["image-generation", "open-source", "stable-diffusion", "local-ai", "customizable"],
+    "pricingPlans": [
+      { "name": "Open Source", "price": 0, "period": null, "features": "Full model access|Local deployment|Community support|Unlimited generation", "isPopular": true },
+      { "name": "Stability API", "price": 0.002, "period": "per image", "features": "Cloud API access|SDXL & SD3|No GPU required|Pay-per-use", "isPopular": false },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Custom models|Priority support|SLA guarantees|Fine-tuning services", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Text-to-Image", "description": "Generate images from text prompts with fine-grained control" },
+      { "name": "ControlNet", "description": "Guide generation with pose, depth, and edge maps" },
+      { "name": "LoRA Fine-tuning", "description": "Train custom models on your own images" },
+      { "name": "Img2Img", "description": "Transform existing images with AI-guided modifications" },
+      { "name": "Inpainting", "description": "Edit specific areas of images seamlessly" }
+    ],
+    "useCases": [
+      { "title": "Custom Asset Generation", "description": "Create game assets, textures, and sprites with trained models", "icon": "Gamepad" },
+      { "title": "Photo Editing", "description": "Enhance and modify photos with AI-powered inpainting", "icon": "Image" },
+      { "title": "Batch Generation", "description": "Generate hundreds of variations for A/B testing and iteration", "icon": "Layers" }
+    ]
+  },
+  {
+    "name": "Perplexity AI",
+    "slug": "perplexity-ai",
+    "developer": "Perplexity AI",
+    "description": "AI-powered search engine that provides direct answers with cited sources, combining LLM capabilities with real-time web search.",
+    "longDescription": "Perplexity AI is an AI-powered answer engine that combines large language models with real-time web search to provide accurate, cited answers to complex questions. Unlike traditional search engines, Perplexity delivers direct answers with source citations, making it ideal for research and fact-checking.",
+    "website": "https://perplexity.ai",
+    "rating": 4.6,
+    "reviewCount": 7500,
+    "views": 510000,
+    "clicks": 135000,
+    "isFeatured": true,
+    "platforms": "Web, iOS, Android, API",
+    "pros": "Accurate answers with citations|Real-time web search|Great for research|Clean, focused interface|Free tier is generous",
+    "cons": "Can miss nuanced context|Limited creative tasks|Pro required for best models|Sometimes surfaces outdated sources",
+    "categories": ["Search & Research", "LLM & Chatbot"],
+    "industries": ["Education", "Technology", "Marketing"],
+    "tags": ["search", "research", "perplexity", "ai-search", "citations"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Unlimited Quick searches|5 Pro searches/day|Basic model access", "isPopular": false },
+      { "name": "Pro", "price": 20, "period": "month", "features": "600+ Pro searches/day|GPT-4o & Claude access|File upload & analysis|API credits", "isPopular": true },
+      { "name": "Enterprise", "price": 40, "period": "month/user", "features": "Everything in Pro|SSO & admin|Data privacy|Custom solutions", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Search", "description": "Get direct answers with cited sources from the web" },
+      { "name": "Pro Search", "description": "Multi-step research with follow-up questions" },
+      { "name": "Collections", "description": "Organize research into themed collections" },
+      { "name": "File Analysis", "description": "Upload and analyze documents, images, and data" },
+      { "name": "API Access", "description": "Integrate Perplexity search into your applications" }
+    ],
+    "useCases": [
+      { "title": "Academic Research", "description": "Find and cite academic sources with AI-powered search", "icon": "GraduationCap" },
+      { "title": "Market Research", "description": "Get up-to-date market data and competitor analysis", "icon": "TrendingUp" },
+      { "title": "Fact Checking", "description": "Verify claims with cited sources from reliable websites", "icon": "CheckCircle" }
+    ]
+  },
+  {
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "developer": "Notion Labs",
+    "description": "AI writing and productivity assistant integrated directly into Notion workspace for drafting, editing, and organizing content.",
+    "longDescription": "Notion AI brings artificial intelligence directly into your Notion workspace. It can draft content, summarize pages, extract action items, translate text, and help organize your knowledge base. Deeply integrated with Notion's database and page structure, it understands your workspace context.",
+    "website": "https://notion.so/product/ai",
+    "rating": 4.4,
+    "reviewCount": 5200,
+    "views": 340000,
+    "clicks": 88000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop, iOS, Android",
+    "pros": "Seamless Notion integration|Great for writing and editing|Understands workspace context|Q&A across all pages|Affordable add-on",
+    "cons": "Only works within Notion|Quality depends on workspace content|Limited compared to ChatGPT|Can be slow on large workspaces",
+    "categories": ["Productivity", "Writing", "Knowledge Management"],
+    "industries": ["Technology", "Education", "Marketing"],
+    "tags": ["notion", "productivity", "writing", "workspace", "ai-assistant"],
+    "pricingPlans": [
+      { "name": "AI Add-on", "price": 10, "period": "month/member", "features": "AI writing assistance|Q&A across workspace|Autofill databases|AI-powered search", "isPopular": true }
+    ],
+    "features": [
+      { "name": "AI Writing", "description": "Draft, edit, and improve content within Notion pages" },
+      { "name": "Q&A", "description": "Ask questions and get answers from your workspace content" },
+      { "name": "Summarization", "description": "Summarize lengthy pages and meeting notes instantly" },
+      { "name": "Translation", "description": "Translate content into multiple languages" },
+      { "name": "Autofill", "description": "Automatically fill database properties with AI" }
+    ],
+    "useCases": [
+      { "title": "Meeting Notes", "description": "Summarize meeting notes and extract action items automatically", "icon": "FileText" },
+      { "title": "Content Drafting", "description": "Draft blog posts, PRDs, and documentation within Notion", "icon": "PenTool" },
+      { "title": "Knowledge Base Q&A", "description": "Find answers across your team's entire knowledge base", "icon": "Search" }
+    ]
+  },
+  {
+    "name": "Runway",
+    "slug": "runway",
+    "developer": "Runway AI",
+    "description": "Creative AI platform for video generation, editing, and visual effects with Gen-3 Alpha model.",
+    "longDescription": "Runway is a leading AI creative platform that offers powerful tools for video generation, editing, and visual effects. Their Gen-3 Alpha model produces high-quality AI videos, while tools like Green Screen, Motion Tracking, and Inpainting bring professional VFX capabilities to everyone.",
+    "website": "https://runwayml.com",
+    "rating": 4.5,
+    "reviewCount": 4800,
+    "views": 380000,
+    "clicks": 95000,
+    "isFeatured": true,
+    "platforms": "Web, API",
+    "pros": "Best-in-class video AI tools|Gen-3 Alpha video generation|Professional VFX features|Intuitive web interface|Active development",
+    "cons": "Credit system is expensive|Free tier very limited|Video generation can be slow|Not suitable for long-form content",
+    "categories": ["Video Generation", "Video Editing", "Design"],
+    "industries": ["Entertainment", "Marketing", "Design & Creative"],
+    "tags": ["video-generation", "video-editing", "vfx", "runway", "creative"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "125 credits|3 projects|720p exports|Basic tools", "isPopular": false },
+      { "name": "Standard", "price": 12, "period": "month", "features": "625 credits/month|Unlimited projects|4K exports|All tools", "isPopular": true },
+      { "name": "Pro", "price": 28, "period": "month", "features": "2250 credits/month|Unlimited projects|4K exports|Priority generation", "isPopular": false },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Custom credits|API access|Custom models|Dedicated support", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Gen-3 Alpha", "description": "Generate high-quality videos from text or image prompts" },
+      { "name": "Video-to-Video", "description": "Transform existing videos with AI style transfer" },
+      { "name": "Green Screen", "description": "Remove backgrounds from video with one click" },
+      { "name": "Motion Tracking", "description": "Track objects in video for advanced editing" },
+      { "name": "Inpainting", "description": "Remove or replace objects in video scenes" }
+    ],
+    "useCases": [
+      { "title": "Music Videos", "description": "Create AI-powered music videos and visual content", "icon": "Music" },
+      { "title": "Ad Creative", "description": "Generate video ads and promotional content quickly", "icon": "Film" },
+      { "title": "VFX on Budget", "description": "Add professional visual effects without expensive software", "icon": "Wand2" }
+    ]
+  },
+  {
+    "name": "Jasper",
+    "slug": "jasper",
+    "developer": "Jasper AI",
+    "description": "Enterprise AI content platform for marketing teams to create on-brand content at scale across all channels.",
+    "longDescription": "Jasper is an enterprise-grade AI content platform designed specifically for marketing teams. It helps create blog posts, social media content, emails, ads, and more while maintaining brand voice consistency. With over 50 templates and brand voice training, Jasper accelerates content production.",
+    "website": "https://jasper.ai",
+    "rating": 4.4,
+    "reviewCount": 6200,
+    "views": 290000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Web, Chrome Extension, API",
+    "pros": "Built for marketing teams|Brand voice consistency|50+ content templates|SEO integration|Team collaboration features",
+    "cons": "Expensive for individuals|Quality varies by template|Requires good prompting|Content can be generic without customization",
+    "categories": ["Writing", "Content Creation", "Marketing"],
+    "industries": ["Marketing", "E-commerce"],
+    "tags": ["content-creation", "marketing", "jasper", "copywriting", "brand-voice"],
+    "pricingPlans": [
+      { "name": "Creator", "price": 49, "period": "month", "features": "1 seat|Brand voice|SEO mode|50+ templates|Browser extension", "isPopular": false },
+      { "name": "Pro", "price": 69, "period": "month", "features": "1 seat|Everything in Creator|AI image generation|Collaboration|Analytics", "isPopular": true },
+      { "name": "Business", "price": null, "period": "custom", "features": "Custom seats|Custom AI models|API access|SSO|Dedicated support", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Brand Voice", "description": "Train AI to write in your brand's unique voice and style" },
+      { "name": "50+ Templates", "description": "Pre-built templates for blogs, ads, emails, social posts" },
+      { "name": "SEO Mode", "description": "Optimize content for search engines with built-in SEO tools" },
+      { "name": "Art Generation", "description": "Create marketing images with AI" },
+      { "name": "Campaign Assistant", "description": "Generate full marketing campaigns from a brief" }
+    ],
+    "useCases": [
+      { "title": "Blog Production", "description": "Scale blog content production while maintaining quality", "icon": "FileText" },
+      { "title": "Ad Copy", "description": "Generate high-converting ad copy for multiple platforms", "icon": "Target" },
+      { "title": "Email Marketing", "description": "Create personalized email campaigns at scale", "icon": "Mail" }
+    ]
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "developer": "Grammarly Inc.",
+    "description": "AI-powered writing assistant that checks grammar, tone, clarity, and style across all writing platforms.",
+    "longDescription": "Grammarly is the most widely used AI writing assistant with over 30 million daily active users. It goes beyond basic grammar checking to offer tone detection, clarity improvements, plagiarism detection, and now generative AI writing features. It works across all major platforms through browser extensions and integrations.",
+    "website": "https://grammarly.com",
+    "rating": 4.6,
+    "reviewCount": 22000,
+    "views": 850000,
+    "clicks": 265000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop, iOS, Android, Browser Extension",
+    "pros": "Works everywhere you write|Excellent grammar correction|Tone and clarity suggestions|Wide platform support|Generative AI features",
+    "cons": "Premium is expensive|Sometimes overly aggressive suggestions|Privacy concerns with text analysis|Free tier is basic",
+    "categories": ["Writing", "Productivity"],
+    "industries": ["Education", "Marketing", "Technology"],
+    "tags": ["writing", "grammar", "grammarly", "editing", "productivity"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Basic grammar & spelling|Tone detection|Limited AI suggestions", "isPopular": false },
+      { "name": "Premium", "price": 12, "period": "month", "features": "Advanced grammar|Clarity & tone|Plagiarism detection|1000 AI prompts/month", "isPopular": true },
+      { "name": "Business", "price": 15, "period": "month/member", "features": "Everything in Premium|Brand tones|Style guides|Admin panel|SAML SSO", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Grammar Check", "description": "Catch grammar, spelling, and punctuation errors" },
+      { "name": "Tone Detection", "description": "Understand and adjust the tone of your writing" },
+      { "name": "Clarity Suggestions", "description": "Simplify complex sentences and improve readability" },
+      { "name": "Plagiarism Detection", "description": "Check text against billions of web pages" },
+      { "name": "Generative AI", "description": "Draft, rewrite, and ideate with AI writing assistance" }
+    ],
+    "useCases": [
+      { "title": "Professional Email", "description": "Write clear, professional emails with the right tone", "icon": "Mail" },
+      { "title": "Academic Writing", "description": "Ensure academic papers are polished and plagiarism-free", "icon": "GraduationCap" },
+      { "title": "Content Editing", "description": "Edit marketing copy for clarity and engagement", "icon": "PenTool" }
+    ]
+  },
+  {
+    "name": "Copilot (Microsoft)",
+    "slug": "microsoft-copilot",
+    "developer": "Microsoft",
+    "description": "Microsoft's AI assistant integrated across Windows, Edge, Office 365, and Bing for productivity and creative tasks.",
+    "longDescription": "Microsoft Copilot is an AI companion integrated across the Microsoft ecosystem. Built on GPT-4, it provides AI assistance in Windows, Edge browser, Office 365 applications, and Bing search. Copilot for Microsoft 365 transforms how users work in Word, Excel, PowerPoint, Outlook, and Teams.",
+    "website": "https://copilot.microsoft.com",
+    "rating": 4.3,
+    "reviewCount": 8500,
+    "views": 680000,
+    "clicks": 170000,
+    "isFeatured": false,
+    "platforms": "Web, Windows, iOS, Android",
+    "pros": "Deep Microsoft 365 integration|Free tier with GPT-4|Image generation included|Works in Office apps|Enterprise security",
+    "cons": "Best features require M365 subscription|Less capable than ChatGPT for complex tasks|Ecosystem lock-in|UI can be confusing",
+    "categories": ["LLM & Chatbot", "Productivity"],
+    "industries": ["Technology", "Education", "Finance"],
+    "tags": ["microsoft", "copilot", "productivity", "office", "ai-assistant"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "GPT-4 access|Image generation|Web browsing|Basic features", "isPopular": false },
+      { "name": "Copilot Pro", "price": 20, "period": "month", "features": "Priority GPT-4 access|Copilot in Office apps|100 image generations/day|Custom GPTs", "isPopular": true },
+      { "name": "Copilot for M365", "price": 30, "period": "month/user", "features": "AI in Word, Excel, PowerPoint|Teams integration|Enterprise security|Admin controls", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Office Integration", "description": "AI assistance in Word, Excel, PowerPoint, and Outlook" },
+      { "name": "Image Generation", "description": "Create images with DALL-E 3 built-in" },
+      { "name": "Web Browsing", "description": "Search and summarize web content in conversations" },
+      { "name": "Code Generation", "description": "Write and explain code with AI assistance" },
+      { "name": "Document Analysis", "description": "Summarize and analyze uploaded documents" }
+    ],
+    "useCases": [
+      { "title": "Office Productivity", "description": "Draft documents, create presentations, analyze data in Excel", "icon": "Briefcase" },
+      { "title": "Meeting Summaries", "description": "Get AI summaries and action items from Teams meetings", "icon": "Users" },
+      { "title": "Email Management", "description": "Draft and summarize emails in Outlook with AI", "icon": "Mail" }
+    ]
+  },
+  {
+    "name": "Windsurf",
+    "slug": "windsurf",
+    "developer": "Codeium",
+    "description": "Agentic AI-powered IDE that combines code editing with autonomous coding capabilities for full-stack development.",
+    "longDescription": "Windsurf by Codeium is an agentic IDE that goes beyond code completion to offer autonomous coding capabilities. It can understand your entire codebase, execute multi-step tasks, run terminal commands, and implement features end-to-end. Built on VS Code, it provides a familiar experience with powerful AI capabilities.",
+    "website": "https://codeium.com/windsurf",
+    "rating": 4.7,
+    "reviewCount": 3800,
+    "views": 280000,
+    "clicks": 85000,
+    "isFeatured": true,
+    "platforms": "Desktop (Mac, Windows, Linux)",
+    "pros": "Agentic coding capabilities|Full codebase understanding|Built on VS Code|Cascade multi-step AI|Competitive pricing",
+    "cons": "Newer than competitors|Smaller extension ecosystem|Resource intensive|Occasional agent errors",
+    "categories": ["Code Assistant", "Developer Tools"],
+    "industries": ["Technology"],
+    "tags": ["ide", "ai-coding", "codeium", "windsurf", "agentic"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Basic completions|Limited Cascade flows|Community support", "isPopular": false },
+      { "name": "Pro", "price": 15, "period": "month", "features": "Unlimited completions|Unlimited Cascade flows|Priority models|All features", "isPopular": true },
+      { "name": "Team", "price": 30, "period": "month/user", "features": "Everything in Pro|Admin controls|Team management|Priority support", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Cascade", "description": "Multi-step agentic AI that can implement features autonomously" },
+      { "name": "Supercomplete", "description": "AI code completion that understands your full codebase" },
+      { "name": "Terminal AI", "description": "AI-powered terminal for command suggestions and execution" },
+      { "name": "Codebase Search", "description": "Semantic search across your entire project" },
+      { "name": "Multi-file Editing", "description": "Edit multiple files simultaneously with AI assistance" }
+    ],
+    "useCases": [
+      { "title": "Feature Implementation", "description": "Describe a feature in natural language and let AI implement it", "icon": "Code" },
+      { "title": "Codebase Migration", "description": "Migrate codebases between frameworks with AI assistance", "icon": "RefreshCw" },
+      { "title": "Bug Resolution", "description": "Debug complex issues with full codebase context", "icon": "Bug" }
+    ]
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "developer": "Synthesia",
+    "description": "AI video generation platform that creates professional videos with realistic AI avatars from text scripts.",
+    "longDescription": "Synthesia is the leading AI video platform for creating professional training, marketing, and communication videos. It offers 230+ AI avatars, 140+ languages, and requires no camera or studio. Used by over 50,000 companies including Fortune 500 enterprises for scalable video production.",
+    "website": "https://synthesia.io",
+    "rating": 4.5,
+    "reviewCount": 4200,
+    "views": 310000,
+    "clicks": 78000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "pros": "Professional AI avatars|140+ languages|No camera needed|Custom avatar creation|Enterprise-grade security",
+    "cons": "Limited to talking-head style|Custom avatars are expensive|Video length limits|Avatar lip-sync occasionally off",
+    "categories": ["Video Generation", "Content Creation"],
+    "industries": ["Education", "Marketing", "HR & Recruitment"],
+    "tags": ["video-generation", "ai-avatars", "synthesia", "training-videos", "multilingual"],
+    "pricingPlans": [
+      { "name": "Starter", "price": 18, "period": "month", "features": "120 minutes/year|70+ AI avatars|Basic templates|Personal projects", "isPopular": false },
+      { "name": "Creator", "price": 64, "period": "month", "features": "360 minutes/year|90+ avatars|Custom branding|1 custom avatar", "isPopular": true },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Unlimited minutes|230+ avatars|Custom avatars|API access|SSO & SCIM", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Avatars", "description": "Choose from 230+ realistic AI presenters" },
+      { "name": "Text-to-Video", "description": "Create videos by simply typing a script" },
+      { "name": "140+ Languages", "description": "Generate videos in over 140 languages" },
+      { "name": "Custom Avatars", "description": "Create a digital twin of yourself or your brand ambassador" },
+      { "name": "Video Templates", "description": "Start from professional templates for various use cases" }
+    ],
+    "useCases": [
+      { "title": "Employee Training", "description": "Create scalable training videos in multiple languages", "icon": "GraduationCap" },
+      { "title": "Product Demos", "description": "Generate product walkthrough videos without a production team", "icon": "PlayCircle" },
+      { "title": "Internal Communications", "description": "Share company updates via engaging AI-presented videos", "icon": "Users" }
+    ]
+  },
+  {
+    "name": "Lovable",
+    "slug": "lovable",
+    "developer": "Lovable",
+    "description": "AI full-stack engineer that builds production-ready web applications from natural language descriptions.",
+    "longDescription": "Lovable (formerly GPT Engineer) is an AI-powered platform that transforms natural language descriptions into fully functional web applications. It generates complete full-stack apps with React, database integration, authentication, and deployment in minutes rather than weeks.",
+    "website": "https://lovable.dev",
+    "rating": 4.4,
+    "reviewCount": 2800,
+    "views": 220000,
+    "clicks": 68000,
+    "isFeatured": true,
+    "platforms": "Web",
+    "pros": "Full-stack app generation|Production-ready code|Visual editing|One-click deployment|Supabase integration",
+    "cons": "Limited customization for complex apps|Newer platform|Credit-based pricing|Generated code can be verbose",
+    "categories": ["Code Assistant", "Developer Tools", "No-Code/Low-Code"],
+    "industries": ["Technology"],
+    "tags": ["app-builder", "ai-coding", "lovable", "full-stack", "no-code"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "5 messages/day|Basic features|Community support", "isPopular": false },
+      { "name": "Starter", "price": 20, "period": "month", "features": "100 messages/month|GitHub integration|Deploy to Netlify", "isPopular": false },
+      { "name": "Launch", "price": 50, "period": "month", "features": "500 messages/month|Priority generation|All integrations", "isPopular": true },
+      { "name": "Scale", "price": 100, "period": "month", "features": "2000 messages/month|Priority support|Custom domains", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Natural Language to App", "description": "Describe your app and get a fully working prototype" },
+      { "name": "Visual Editor", "description": "Edit generated UI visually with drag and drop" },
+      { "name": "Database Integration", "description": "Automatic Supabase setup with auth and data" },
+      { "name": "One-Click Deploy", "description": "Deploy to Netlify or custom domains instantly" },
+      { "name": "Version Control", "description": "GitHub sync and version history for all changes" }
+    ],
+    "useCases": [
+      { "title": "MVP Development", "description": "Build minimum viable products in hours instead of weeks", "icon": "Rocket" },
+      { "title": "Internal Tools", "description": "Create custom internal tools without a development team", "icon": "Wrench" },
+      { "title": "Prototyping", "description": "Rapidly prototype ideas for stakeholder feedback", "icon": "Lightbulb" }
+    ]
+  },
+  {
+    "name": "v0 by Vercel",
+    "slug": "v0-vercel",
+    "developer": "Vercel",
+    "description": "AI-powered UI generation tool that creates React components and full pages from text descriptions and screenshots.",
+    "longDescription": "v0 by Vercel is an AI tool that generates production-ready React UI components from text prompts or screenshots. It outputs clean code using shadcn/ui, Tailwind CSS, and React, making it perfect for rapidly building modern web interfaces. The generated code can be copied directly into Next.js projects.",
+    "website": "https://v0.dev",
+    "rating": 4.5,
+    "reviewCount": 3500,
+    "views": 350000,
+    "clicks": 92000,
+    "isFeatured": true,
+    "platforms": "Web",
+    "pros": "Generates production-ready React code|Uses shadcn/ui and Tailwind|Screenshot-to-code|Fast iteration|Free tier available",
+    "cons": "Limited to UI components|React/Next.js focused|Credits system|Complex layouts may need manual tweaking",
+    "categories": ["Code Assistant", "Design", "Developer Tools"],
+    "industries": ["Technology", "Design & Creative"],
+    "tags": ["ui-generation", "react", "vercel", "v0", "frontend"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "200 credits/month|Basic features|Community access", "isPopular": false },
+      { "name": "Premium", "price": 20, "period": "month", "features": "5000 credits/month|Priority generation|Private projects|Advanced models", "isPopular": true },
+      { "name": "Team", "price": 30, "period": "month/user", "features": "Everything in Premium|Team workspace|Shared components|Admin tools", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Text-to-UI", "description": "Generate React components from natural language descriptions" },
+      { "name": "Screenshot-to-Code", "description": "Convert design screenshots into functional code" },
+      { "name": "shadcn/ui Integration", "description": "Uses shadcn/ui components for professional, accessible UI" },
+      { "name": "Code Export", "description": "Copy generated code directly into your projects" },
+      { "name": "Iterative Refinement", "description": "Refine generated UI through conversation" }
+    ],
+    "useCases": [
+      { "title": "Rapid UI Prototyping", "description": "Convert design ideas to working React components instantly", "icon": "Layout" },
+      { "title": "Design-to-Code", "description": "Turn Figma designs or screenshots into functional code", "icon": "Code" },
+      { "title": "Component Library", "description": "Build custom component libraries with AI assistance", "icon": "Package" }
+    ]
+  }
+]

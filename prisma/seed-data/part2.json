@@ -1,0 +1,858 @@
+[
+  {
+    "name": "Zapier",
+    "slug": "zapier",
+    "developer": "Zapier Inc.",
+    "description": "No-code automation platform connecting 7,000+ apps with AI-powered workflows to automate repetitive business tasks.",
+    "website": "https://zapier.com",
+    "rating": 4.5,
+    "reviewCount": 14000,
+    "views": 620000,
+    "clicks": 185000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": ["Automation", "Productivity"],
+    "industries": ["Technology", "Marketing", "E-commerce"],
+    "tags": ["automation", "no-code", "zapier", "workflow", "integration"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "100 tasks/month|5 Zaps|Single-step Zaps", "isPopular": false },
+      { "name": "Starter", "price": 19.99, "period": "month", "features": "750 tasks/month|20 Zaps|Multi-step Zaps|Filters", "isPopular": false },
+      { "name": "Professional", "price": 49, "period": "month", "features": "2,000 tasks/month|Unlimited Zaps|Custom logic|Webhooks", "isPopular": true },
+      { "name": "Team", "price": 69, "period": "month", "features": "2,000 tasks/month|Shared workspace|Premier support|SSO", "isPopular": false }
+    ],
+    "features": [
+      { "name": "7,000+ App Integrations", "description": "Connect virtually any business app" },
+      { "name": "AI Actions", "description": "Use AI to transform data within workflows" },
+      { "name": "Multi-step Zaps", "description": "Build complex multi-step automation workflows" },
+      { "name": "Conditional Logic", "description": "Add filters and paths for conditional automation" }
+    ],
+    "useCases": [
+      { "title": "Lead Management", "description": "Automatically route leads from forms to CRM and email sequences", "icon": "Users" },
+      { "title": "Content Distribution", "description": "Auto-publish content across multiple platforms simultaneously", "icon": "Share2" }
+    ],
+    "pros": "Massive app ecosystem|Easy to use|AI-powered features|Reliable execution",
+    "cons": "Expensive at scale|Task limits on all plans|Complex workflows can be slow|Limited error handling"
+  },
+  {
+    "name": "Canva",
+    "slug": "canva",
+    "developer": "Canva Pty Ltd",
+    "description": "All-in-one design platform with AI-powered tools for creating graphics, presentations, videos, and social media content.",
+    "website": "https://canva.com",
+    "rating": 4.7,
+    "reviewCount": 28000,
+    "views": 950000,
+    "clicks": 320000,
+    "isFeatured": true,
+    "platforms": "Web, Desktop, iOS, Android",
+    "categories": ["Design", "Content Creation", "Image Generation"],
+    "industries": ["Marketing", "Education", "Design & Creative"],
+    "tags": ["design", "canva", "graphic-design", "social-media", "templates"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "250,000+ templates|5GB storage|Basic AI tools", "isPopular": false },
+      { "name": "Pro", "price": 12.99, "period": "month", "features": "All premium templates|1TB storage|Magic Eraser|Brand Kit|Background Remover", "isPopular": true },
+      { "name": "Teams", "price": 14.99, "period": "month/person", "features": "Everything in Pro|Brand controls|Team folders|Workflow approvals", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Magic Studio", "description": "AI-powered design tools including text-to-image and magic eraser" },
+      { "name": "Templates", "description": "250,000+ professionally designed templates" },
+      { "name": "Brand Kit", "description": "Maintain brand consistency across all designs" },
+      { "name": "Video Editor", "description": "Create and edit videos with AI assistance" }
+    ],
+    "useCases": [
+      { "title": "Social Media Graphics", "description": "Create professional social posts, stories, and ads in minutes", "icon": "Image" },
+      { "title": "Presentations", "description": "Build beautiful presentations with AI-suggested layouts", "icon": "PresentationChart" }
+    ],
+    "pros": "Incredibly easy to use|Massive template library|AI-powered features|Affordable pricing",
+    "cons": "Limited advanced design features|Export quality varies|Some AI features in paid tier only|Can feel restrictive for pros"
+  },
+  {
+    "name": "Gamma",
+    "slug": "gamma",
+    "developer": "Gamma Tech Inc.",
+    "description": "AI-powered presentation and document creation tool that generates beautiful slides and pages from text prompts.",
+    "website": "https://gamma.app",
+    "rating": 4.5,
+    "reviewCount": 3800,
+    "views": 280000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": ["Productivity", "Content Creation", "Design"],
+    "industries": ["Marketing", "Education", "Technology"],
+    "tags": ["presentations", "gamma", "slides", "ai-design", "documents"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "400 AI credits|Basic templates|Gamma branding", "isPopular": false },
+      { "name": "Plus", "price": 8, "period": "month", "features": "Unlimited AI credits|No branding|Export to PDF/PPT|Custom fonts", "isPopular": true },
+      { "name": "Pro", "price": 15, "period": "month", "features": "Everything in Plus|Priority AI|Advanced analytics|Custom domains", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Presentation Generation", "description": "Create full presentations from a text prompt or outline" },
+      { "name": "Smart Templates", "description": "AI-suggested layouts and design themes" },
+      { "name": "Export Options", "description": "Export to PDF, PowerPoint, or share as web page" },
+      { "name": "Embedded Content", "description": "Embed videos, charts, and interactive elements" }
+    ],
+    "useCases": [
+      { "title": "Sales Decks", "description": "Generate polished sales presentations in minutes", "icon": "TrendingUp" },
+      { "title": "Course Materials", "description": "Create educational content and lesson plans with AI", "icon": "GraduationCap" }
+    ],
+    "pros": "Fast presentation creation|Beautiful AI-generated designs|Easy to use|Web-based sharing",
+    "cons": "Limited customization vs PowerPoint|AI credits system|Export formatting issues|Fewer templates than Canva"
+  },
+  {
+    "name": "Fireflies.ai",
+    "slug": "fireflies-ai",
+    "developer": "Fireflies.ai",
+    "description": "AI meeting assistant that automatically records, transcribes, and summarizes meetings across video conferencing platforms.",
+    "website": "https://fireflies.ai",
+    "rating": 4.4,
+    "reviewCount": 5200,
+    "views": 260000,
+    "clicks": 65000,
+    "isFeatured": false,
+    "platforms": "Web, Chrome Extension",
+    "categories": ["Productivity", "Audio & Speech"],
+    "industries": ["Technology", "HR & Recruitment", "Sales"],
+    "tags": ["meeting-assistant", "transcription", "fireflies", "note-taking", "ai-meetings"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "800 min storage|Limited transcription|AI summaries", "isPopular": false },
+      { "name": "Pro", "price": 10, "period": "month", "features": "8,000 min storage|Unlimited transcription|AI search|CRM integration", "isPopular": true },
+      { "name": "Business", "price": 19, "period": "month", "features": "Unlimited storage|Custom vocabulary|Conversation intelligence|API access", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Auto Transcription", "description": "Automatically transcribe meetings with 95%+ accuracy" },
+      { "name": "AI Summaries", "description": "Get instant meeting summaries with action items" },
+      { "name": "Smart Search", "description": "Search across all meeting transcripts with AI" },
+      { "name": "CRM Integration", "description": "Auto-log meeting notes to Salesforce, HubSpot, etc." }
+    ],
+    "useCases": [
+      { "title": "Sales Calls", "description": "Record and analyze sales calls for coaching and follow-ups", "icon": "Phone" },
+      { "title": "Team Meetings", "description": "Automatically capture meeting notes and action items", "icon": "Users" }
+    ],
+    "pros": "Excellent transcription accuracy|Great integrations|Affordable pricing|AI-powered insights",
+    "cons": "Bot joining meetings can be awkward|Free tier is limited|Speaker identification varies|Occasional sync issues"
+  },
+  {
+    "name": "Surfer SEO",
+    "slug": "surfer-seo",
+    "developer": "Surfer",
+    "description": "AI-powered SEO optimization platform that helps create content ranking on Google with data-driven recommendations.",
+    "website": "https://surferseo.com",
+    "rating": 4.5,
+    "reviewCount": 3600,
+    "views": 220000,
+    "clicks": 58000,
+    "isFeatured": false,
+    "platforms": "Web, Chrome Extension",
+    "categories": ["SEO", "Content Creation", "Marketing"],
+    "industries": ["Marketing", "E-commerce"],
+    "tags": ["seo", "content-optimization", "surfer", "ranking", "keyword-research"],
+    "pricingPlans": [
+      { "name": "Essential", "price": 89, "period": "month", "features": "30 articles/month|Content Editor|SERP Analyzer|Keyword Research", "isPopular": false },
+      { "name": "Scale", "price": 129, "period": "month", "features": "100 articles/month|Everything in Essential|Auto Internal Linking|AI Writing", "isPopular": true },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Custom limits|API access|Dedicated support|Custom training", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Content Editor", "description": "Real-time content optimization with scoring" },
+      { "name": "SERP Analyzer", "description": "Analyze top-ranking pages for any keyword" },
+      { "name": "AI Writing", "description": "Generate SEO-optimized content with AI" },
+      { "name": "Keyword Research", "description": "Find keyword clusters and content gaps" }
+    ],
+    "useCases": [
+      { "title": "Blog Optimization", "description": "Optimize blog posts to rank higher on Google", "icon": "TrendingUp" },
+      { "title": "Content Strategy", "description": "Plan content calendars based on keyword opportunities", "icon": "Calendar" }
+    ],
+    "pros": "Data-driven SEO recommendations|Real-time content scoring|Good SERP analysis|AI writing integration",
+    "cons": "Expensive for small businesses|Learning curve|Article limits on all plans|AI writing quality varies"
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "developer": "Otter.ai",
+    "description": "AI-powered meeting transcription and note-taking tool that joins your meetings to capture and organize conversations.",
+    "website": "https://otter.ai",
+    "rating": 4.3,
+    "reviewCount": 6800,
+    "views": 310000,
+    "clicks": 82000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": ["Productivity", "Audio & Speech"],
+    "industries": ["Education", "Technology", "Sales"],
+    "tags": ["transcription", "otter", "meeting-notes", "voice-to-text", "productivity"],
+    "pricingPlans": [
+      { "name": "Basic", "price": 0, "period": "month", "features": "300 minutes/month|AI chat|30-min per conversation", "isPopular": false },
+      { "name": "Pro", "price": 8.33, "period": "month", "features": "1,200 minutes/month|90-min conversations|Advanced search|Export", "isPopular": true },
+      { "name": "Business", "price": 20, "period": "month/user", "features": "6,000 minutes/month|4-hour conversations|Admin controls|SSO", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Live Transcription", "description": "Real-time transcription during meetings" },
+      { "name": "OtterPilot", "description": "AI assistant that joins and records meetings automatically" },
+      { "name": "AI Chat", "description": "Ask questions about your meeting transcripts" },
+      { "name": "Action Items", "description": "Automatically extract action items from conversations" }
+    ],
+    "useCases": [
+      { "title": "Lecture Notes", "description": "Transcribe and summarize class lectures automatically", "icon": "GraduationCap" },
+      { "title": "Client Meetings", "description": "Capture every detail from client conversations", "icon": "Briefcase" }
+    ],
+    "pros": "Excellent real-time transcription|Good free tier|AI-powered summaries|Cross-platform",
+    "cons": "Accuracy drops with accents|Limited language support|Can miss cross-talk|Export options limited on free"
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copy-ai",
+    "developer": "Copy.ai",
+    "description": "AI-powered GTM platform for marketing teams to create content, automate workflows, and accelerate go-to-market execution.",
+    "website": "https://copy.ai",
+    "rating": 4.3,
+    "reviewCount": 4500,
+    "views": 240000,
+    "clicks": 62000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": ["Writing", "Marketing", "Automation"],
+    "industries": ["Marketing", "E-commerce", "Sales"],
+    "tags": ["copywriting", "copy-ai", "marketing", "content", "gtm"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "2,000 words/month|1 seat|Chat and 90+ tools", "isPopular": false },
+      { "name": "Starter", "price": 36, "period": "month", "features": "Unlimited words|1 seat|Brand voices|25+ languages", "isPopular": true },
+      { "name": "Advanced", "price": 186, "period": "month", "features": "5 seats|Workflow automation|API access|Custom workflows", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Copywriting", "description": "Generate marketing copy with 90+ templates" },
+      { "name": "Workflows", "description": "Automate multi-step marketing processes" },
+      { "name": "Brand Voices", "description": "Train AI to write in your brand's tone" },
+      { "name": "GTM Playbooks", "description": "Pre-built go-to-market automation playbooks" }
+    ],
+    "useCases": [
+      { "title": "Ad Copy", "description": "Generate high-converting ad copy for multiple platforms", "icon": "Target" },
+      { "title": "Product Descriptions", "description": "Create compelling product descriptions at scale", "icon": "ShoppingBag" }
+    ],
+    "pros": "Good for marketing teams|Workflow automation|90+ content tools|Brand voice training",
+    "cons": "Free tier very limited|Expensive for small teams|Content can be generic|Learning curve for workflows"
+  },
+  {
+    "name": "Descript",
+    "slug": "descript",
+    "developer": "Descript",
+    "description": "AI-powered video and podcast editor that lets you edit media as easily as editing a text document.",
+    "website": "https://descript.com",
+    "rating": 4.5,
+    "reviewCount": 5800,
+    "views": 290000,
+    "clicks": 75000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop (Mac, Windows)",
+    "categories": ["Video Editing", "Audio & Speech", "Content Creation"],
+    "industries": ["Entertainment", "Marketing", "Education"],
+    "tags": ["video-editing", "podcast", "descript", "transcription", "audio-editing"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "1 hour transcription|Basic editing|720p export", "isPopular": false },
+      { "name": "Hobbyist", "price": 24, "period": "month", "features": "10 hours transcription|AI tools|4K export|Filler word removal", "isPopular": false },
+      { "name": "Pro", "price": 33, "period": "month", "features": "30 hours transcription|All AI features|Studio sound|Green screen", "isPopular": true }
+    ],
+    "features": [
+      { "name": "Text-Based Editing", "description": "Edit video by editing the transcript text" },
+      { "name": "AI Voice Clone", "description": "Clone your voice to fix or add narration" },
+      { "name": "Filler Word Removal", "description": "Automatically remove ums, ahs, and filler words" },
+      { "name": "Studio Sound", "description": "AI-powered audio enhancement for professional sound" }
+    ],
+    "useCases": [
+      { "title": "Podcast Editing", "description": "Edit podcasts by editing text instead of waveforms", "icon": "Mic" },
+      { "title": "YouTube Content", "description": "Create and edit YouTube videos with AI assistance", "icon": "Youtube" }
+    ],
+    "pros": "Revolutionary text-based editing|Excellent AI features|Great for podcasts|Voice cloning is impressive",
+    "cons": "Expensive for casual use|Large file sizes|Some features feel beta|Learning curve"
+  },
+  {
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "developer": "Writesonic",
+    "description": "AI writing and SEO platform that generates marketing content, blog posts, and ad copy with real-time data.",
+    "website": "https://writesonic.com",
+    "rating": 4.3,
+    "reviewCount": 3800,
+    "views": 200000,
+    "clicks": 52000,
+    "isFeatured": false,
+    "platforms": "Web, Chrome Extension, API",
+    "categories": ["Writing", "SEO", "Marketing"],
+    "industries": ["Marketing", "E-commerce"],
+    "tags": ["writing", "seo", "writesonic", "content", "ai-writer"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "10,000 words/month|Basic features|1 user", "isPopular": false },
+      { "name": "Individual", "price": 16, "period": "month", "features": "100,000 words/month|All features|GPT-4 access", "isPopular": true },
+      { "name": "Team", "price": 13, "period": "month/user", "features": "Everything in Individual|Team collaboration|Brand voice|API access", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Article Writer", "description": "Generate SEO-optimized long-form articles" },
+      { "name": "Chatsonic", "description": "AI chatbot with real-time Google data" },
+      { "name": "Brand Voice", "description": "Train AI to match your writing style" },
+      { "name": "Factual Content", "description": "Content generation with Google search integration" }
+    ],
+    "useCases": [
+      { "title": "Blog Writing", "description": "Generate SEO-optimized blog posts with real-time data", "icon": "FileText" },
+      { "title": "Landing Pages", "description": "Create high-converting landing page copy", "icon": "Globe" }
+    ],
+    "pros": "Good SEO integration|Real-time data access|Affordable pricing|Multiple content types",
+    "cons": "Quality inconsistent|Brand voice needs training|Word limits on all plans|UI could be cleaner"
+  },
+  {
+    "name": "Luma AI",
+    "slug": "luma-ai",
+    "developer": "Luma AI",
+    "description": "AI platform for creating photorealistic 3D models and videos from text descriptions or reference images.",
+    "website": "https://lumalabs.ai",
+    "rating": 4.4,
+    "reviewCount": 2200,
+    "views": 180000,
+    "clicks": 48000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, API",
+    "categories": ["Video Generation", "3D & AR/VR", "Design"],
+    "industries": ["Entertainment", "E-commerce", "Design & Creative"],
+    "tags": ["3d", "video-generation", "luma", "neural-radiance", "photogrammetry"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "30 generations/month|720p video|Basic features", "isPopular": false },
+      { "name": "Standard", "price": 9.99, "period": "month", "features": "150 generations/month|1080p video|Priority generation", "isPopular": true },
+      { "name": "Pro", "price": 29.99, "period": "month", "features": "500 generations/month|4K video|API access|Commercial license", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Dream Machine", "description": "Generate realistic videos from text or images" },
+      { "name": "3D Capture", "description": "Create photorealistic 3D models from photos" },
+      { "name": "Interactive 3D", "description": "View and interact with generated 3D content" },
+      { "name": "API Access", "description": "Integrate video generation into your applications" }
+    ],
+    "useCases": [
+      { "title": "Product Visualization", "description": "Create 3D product models from smartphone photos", "icon": "Box" },
+      { "title": "Creative Content", "description": "Generate unique video content for social media", "icon": "Film" }
+    ],
+    "pros": "Impressive 3D capabilities|Good video quality|Easy to use|Affordable pricing",
+    "cons": "Free tier limited|3D quality varies|Longer generation times|Limited editing options"
+  },
+  {
+    "name": "HubSpot AI",
+    "slug": "hubspot-ai",
+    "developer": "HubSpot",
+    "description": "AI-powered CRM platform with built-in AI tools for marketing, sales, customer service, and content management.",
+    "website": "https://hubspot.com/artificial-intelligence",
+    "rating": 4.4,
+    "reviewCount": 12000,
+    "views": 520000,
+    "clicks": 145000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": ["Marketing", "Sales", "CRM"],
+    "industries": ["Marketing", "Sales", "E-commerce"],
+    "tags": ["crm", "hubspot", "marketing-automation", "sales", "ai-crm"],
+    "pricingPlans": [
+      { "name": "Free CRM", "price": 0, "period": "month", "features": "Contact management|Email marketing|Basic AI features", "isPopular": false },
+      { "name": "Starter", "price": 20, "period": "month", "features": "1,000 contacts|All free features|Email automation|AI content assistant", "isPopular": false },
+      { "name": "Professional", "price": 890, "period": "month", "features": "2,000 contacts|Marketing automation|AI tools|Custom reporting", "isPopular": true },
+      { "name": "Enterprise", "price": 3600, "period": "month", "features": "10,000 contacts|Advanced AI|Custom objects|Revenue attribution", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Content Assistant", "description": "Generate marketing content, emails, and blog posts" },
+      { "name": "Predictive Lead Scoring", "description": "AI identifies most likely to convert leads" },
+      { "name": "ChatSpot", "description": "AI chatbot for CRM queries and actions" },
+      { "name": "Campaign Assistant", "description": "AI-powered marketing campaign creation" }
+    ],
+    "useCases": [
+      { "title": "Lead Nurturing", "description": "Automate personalized email sequences with AI", "icon": "Mail" },
+      { "title": "Sales Pipeline", "description": "AI-scored leads and automated follow-ups", "icon": "TrendingUp" }
+    ],
+    "pros": "Comprehensive CRM + AI|Great free tier|Excellent integrations|Strong marketing automation",
+    "cons": "Very expensive at scale|Complex pricing|Steep learning curve|AI features require paid plans"
+  },
+  {
+    "name": "Airtable",
+    "slug": "airtable",
+    "developer": "Airtable",
+    "description": "Low-code platform combining spreadsheet simplicity with database power, now enhanced with AI-powered automation.",
+    "website": "https://airtable.com",
+    "rating": 4.5,
+    "reviewCount": 8500,
+    "views": 380000,
+    "clicks": 98000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android, Desktop",
+    "categories": ["Productivity", "No-Code/Low-Code", "Automation"],
+    "industries": ["Technology", "Marketing", "Education"],
+    "tags": ["database", "airtable", "no-code", "spreadsheet", "automation"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "1,000 records/base|1GB attachments|100 automations/month", "isPopular": false },
+      { "name": "Team", "price": 20, "period": "month/seat", "features": "50,000 records/base|20GB attachments|25,000 automations", "isPopular": true },
+      { "name": "Business", "price": 45, "period": "month/seat", "features": "125,000 records/base|100GB attachments|100,000 automations|AI features", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Field", "description": "Auto-generate content in table fields using AI" },
+      { "name": "Automations", "description": "Build automated workflows without code" },
+      { "name": "Interface Designer", "description": "Create custom interfaces for your data" },
+      { "name": "Extensions", "description": "Add charts, maps, scripts, and more" }
+    ],
+    "useCases": [
+      { "title": "Project Management", "description": "Track projects with flexible views and automations", "icon": "CheckSquare" },
+      { "title": "Content Calendar", "description": "Plan and manage content across channels", "icon": "Calendar" }
+    ],
+    "pros": "Flexible and powerful|Great AI integration|Beautiful interface|Strong automation",
+    "cons": "Expensive at scale|Record limits|Learning curve|Performance with large datasets"
+  },
+  {
+    "name": "Pictory",
+    "slug": "pictory",
+    "developer": "Pictory AI",
+    "description": "AI video creation tool that converts text articles, blog posts, and scripts into professional short videos.",
+    "website": "https://pictory.ai",
+    "rating": 4.2,
+    "reviewCount": 2800,
+    "views": 160000,
+    "clicks": 42000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": ["Video Generation", "Content Creation", "Marketing"],
+    "industries": ["Marketing", "Education"],
+    "tags": ["video-creation", "pictory", "text-to-video", "content-repurpose"],
+    "pricingPlans": [
+      { "name": "Starter", "price": 19, "period": "month", "features": "30 videos/month|10-min videos|AI voices|Stock media", "isPopular": false },
+      { "name": "Professional", "price": 39, "period": "month", "features": "60 videos/month|20-min videos|Custom branding|Priority support", "isPopular": true },
+      { "name": "Teams", "price": 99, "period": "month", "features": "90 videos/month|Team features|API access|Custom templates", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Article to Video", "description": "Convert blog posts into engaging videos" },
+      { "name": "Script to Video", "description": "Turn scripts into professional video content" },
+      { "name": "AI Voiceover", "description": "Add natural AI narration to videos" },
+      { "name": "Auto-Highlight", "description": "Automatically identify key moments in long videos" }
+    ],
+    "useCases": [
+      { "title": "Blog Repurposing", "description": "Turn blog posts into video content for social media", "icon": "RefreshCw" },
+      { "title": "Training Videos", "description": "Create training content from documentation", "icon": "GraduationCap" }
+    ],
+    "pros": "Easy blog-to-video conversion|Good stock library|Affordable pricing|AI voiceover included",
+    "cons": "Limited customization|Video quality varies|Template-driven design|No advanced editing"
+  },
+  {
+    "name": "Tome",
+    "slug": "tome",
+    "developer": "Tome",
+    "description": "AI-native presentation and storytelling platform that generates complete slide decks with visuals from text prompts.",
+    "website": "https://tome.app",
+    "rating": 4.3,
+    "reviewCount": 3200,
+    "views": 210000,
+    "clicks": 55000,
+    "isFeatured": false,
+    "platforms": "Web, iOS",
+    "categories": ["Productivity", "Design", "Content Creation"],
+    "industries": ["Marketing", "Education", "Technology"],
+    "tags": ["presentations", "tome", "storytelling", "ai-slides", "design"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Unlimited tomes|AI generation|Basic themes|Sharing", "isPopular": false },
+      { "name": "Pro", "price": 16, "period": "month", "features": "Remove branding|Custom themes|Export to PDF|Analytics", "isPopular": true }
+    ],
+    "features": [
+      { "name": "AI Generation", "description": "Generate full presentations from a prompt or document" },
+      { "name": "DALL-E Integration", "description": "AI-generated images built into slides" },
+      { "name": "Interactive Elements", "description": "Embed 3D, video, and interactive content" },
+      { "name": "Analytics", "description": "Track who views your presentations" }
+    ],
+    "useCases": [
+      { "title": "Pitch Decks", "description": "Generate investor pitch decks from your business plan", "icon": "Presentation" },
+      { "title": "Project Updates", "description": "Create visual status reports with AI", "icon": "BarChart" }
+    ],
+    "pros": "Beautiful AI-generated presentations|Fast creation|Interactive elements|Good sharing features",
+    "cons": "Limited customization|Less polished than PowerPoint|Export options limited|Pro required for no branding"
+  },
+  {
+    "name": "Beautiful.ai",
+    "slug": "beautiful-ai",
+    "developer": "Beautiful.ai",
+    "description": "AI-powered presentation software that automatically applies design rules to create professional-looking slides.",
+    "website": "https://beautiful.ai",
+    "rating": 4.4,
+    "reviewCount": 2600,
+    "views": 180000,
+    "clicks": 46000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop",
+    "categories": ["Design", "Productivity"],
+    "industries": ["Marketing", "Education", "Technology"],
+    "tags": ["presentations", "beautiful-ai", "design", "slides", "automation"],
+    "pricingPlans": [
+      { "name": "Pro", "price": 12, "period": "month", "features": "Unlimited slides|AI design|Export to PPT/PDF|Brand controls", "isPopular": true },
+      { "name": "Team", "price": 40, "period": "month/user", "features": "Everything in Pro|Shared library|Collaboration|Analytics", "isPopular": false },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Everything in Team|SSO|Custom training|Dedicated support", "isPopular": false }
+    ],
+    "features": [
+      { "name": "DesignAI", "description": "Automatically applies professional design principles" },
+      { "name": "Smart Templates", "description": "AI-powered templates that adapt to your content" },
+      { "name": "Brand Controls", "description": "Lock brand colors, fonts, and logos across all slides" },
+      { "name": "Team Library", "description": "Shared asset and template library for teams" }
+    ],
+    "useCases": [
+      { "title": "Client Presentations", "description": "Create on-brand client presentations quickly", "icon": "Briefcase" },
+      { "title": "Company Templates", "description": "Build and enforce branded presentation templates", "icon": "Layout" }
+    ],
+    "pros": "Beautiful auto-designed slides|Easy to use|Good brand controls|Professional output",
+    "cons": "Less flexible than PowerPoint|No free tier|Limited AI generation|Export can lose formatting"
+  },
+  {
+    "name": "Murf AI",
+    "slug": "murf-ai",
+    "developer": "Murf AI",
+    "description": "AI voice generator with 120+ realistic voices in 20+ languages for voiceovers, presentations, and video narration.",
+    "website": "https://murf.ai",
+    "rating": 4.3,
+    "reviewCount": 3100,
+    "views": 190000,
+    "clicks": 48000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": ["Audio & Speech", "Content Creation"],
+    "industries": ["Marketing", "Education", "Entertainment"],
+    "tags": ["text-to-speech", "voiceover", "murf", "ai-voice", "narration"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "10 minutes generation|Basic voices|No downloads", "isPopular": false },
+      { "name": "Creator", "price": 23, "period": "month", "features": "2 hours/year|48 voices|Download audio|Commercial license", "isPopular": false },
+      { "name": "Business", "price": 79, "period": "month", "features": "8 hours/year|120+ voices|Voice cloning|Priority support", "isPopular": true }
+    ],
+    "features": [
+      { "name": "120+ AI Voices", "description": "Natural-sounding voices across 20+ languages" },
+      { "name": "Voice Cloning", "description": "Create a digital clone of your voice" },
+      { "name": "Pitch & Speed Control", "description": "Fine-tune voice output parameters" },
+      { "name": "Video Integration", "description": "Add voiceover directly to video projects" }
+    ],
+    "useCases": [
+      { "title": "E-learning", "description": "Create narrated course content in multiple languages", "icon": "GraduationCap" },
+      { "title": "YouTube Videos", "description": "Add professional voiceover to video content", "icon": "Youtube" }
+    ],
+    "pros": "Realistic voice quality|Good language variety|Video integration|Affordable plans",
+    "cons": "Hour limits feel restrictive|Voice cloning only on Business|Some voices less natural|Limited free tier"
+  },
+  {
+    "name": "Loom AI",
+    "slug": "loom-ai",
+    "developer": "Loom (Atlassian)",
+    "description": "Video messaging platform with AI-powered features for recording, editing, and sharing quick video messages.",
+    "website": "https://loom.com",
+    "rating": 4.5,
+    "reviewCount": 7200,
+    "views": 340000,
+    "clicks": 88000,
+    "isFeatured": false,
+    "platforms": "Web, Desktop, iOS, Android, Chrome Extension",
+    "categories": ["Productivity", "Video Editing", "Content Creation"],
+    "industries": ["Technology", "Education", "Sales"],
+    "tags": ["video-messaging", "loom", "screen-recording", "async-video", "productivity"],
+    "pricingPlans": [
+      { "name": "Starter", "price": 0, "period": "month", "features": "25 videos|5-min limit|Basic AI features", "isPopular": false },
+      { "name": "Business", "price": 12.50, "period": "month/user", "features": "Unlimited videos|No time limit|AI summaries|Custom branding|Analytics", "isPopular": true },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Everything in Business|SSO/SAML|Advanced security|Dedicated support", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Summary", "description": "Automatic video summaries with key points" },
+      { "name": "Auto Chapters", "description": "AI generates chapter markers for easy navigation" },
+      { "name": "Filler Word Removal", "description": "Remove ums and ahs from recordings" },
+      { "name": "Auto Titles", "description": "AI generates titles and descriptions for videos" }
+    ],
+    "useCases": [
+      { "title": "Async Communication", "description": "Replace meetings with quick video messages", "icon": "MessageSquare" },
+      { "title": "Product Demos", "description": "Record and share product demonstrations", "icon": "PlayCircle" }
+    ],
+    "pros": "Easy screen recording|Great AI features|Good integrations|Replaced many meetings",
+    "cons": "Free tier very limited|Can't replace all meetings|Video quality varies|Mobile app basic"
+  },
+  {
+    "name": "Anthropic API",
+    "slug": "anthropic-api",
+    "developer": "Anthropic",
+    "description": "API access to Claude models for building AI-powered applications with industry-leading safety and capabilities.",
+    "website": "https://docs.anthropic.com",
+    "rating": 4.7,
+    "reviewCount": 2800,
+    "views": 310000,
+    "clicks": 92000,
+    "isFeatured": false,
+    "platforms": "API",
+    "categories": ["LLM & Chatbot", "Developer Tools"],
+    "industries": ["Technology"],
+    "tags": ["api", "anthropic", "claude-api", "llm-api", "developer"],
+    "pricingPlans": [
+      { "name": "Claude 3.5 Sonnet", "price": 3, "period": "per 1M input tokens", "features": "Best balance of speed & quality|200K context|Vision capable", "isPopular": true },
+      { "name": "Claude 3 Opus", "price": 15, "period": "per 1M input tokens", "features": "Most capable model|200K context|Complex reasoning", "isPopular": false },
+      { "name": "Claude 3.5 Haiku", "price": 0.25, "period": "per 1M input tokens", "features": "Fastest model|200K context|Cost-effective", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Messages API", "description": "Build conversational AI with structured message format" },
+      { "name": "Tool Use", "description": "Let Claude call functions and use external tools" },
+      { "name": "Vision", "description": "Process images alongside text in API calls" },
+      { "name": "Batch Processing", "description": "Process large volumes of requests efficiently" }
+    ],
+    "useCases": [
+      { "title": "AI Applications", "description": "Build customer-facing AI assistants and chatbots", "icon": "Code" },
+      { "title": "Document Processing", "description": "Extract and analyze data from documents at scale", "icon": "FileText" }
+    ],
+    "pros": "Best-in-class reasoning|Excellent safety|200K context|Great developer docs",
+    "cons": "Expensive for high-volume|Rate limits|No fine-tuning yet|Smaller ecosystem than OpenAI"
+  },
+  {
+    "name": "OpenAI API",
+    "slug": "openai-api",
+    "developer": "OpenAI",
+    "description": "Comprehensive API platform providing access to GPT-4, DALL-E, Whisper, and other AI models for developers.",
+    "website": "https://platform.openai.com",
+    "rating": 4.6,
+    "reviewCount": 15000,
+    "views": 780000,
+    "clicks": 220000,
+    "isFeatured": false,
+    "platforms": "API",
+    "categories": ["LLM & Chatbot", "Developer Tools", "Image Generation"],
+    "industries": ["Technology"],
+    "tags": ["api", "openai", "gpt-4-api", "developer", "llm-api"],
+    "pricingPlans": [
+      { "name": "GPT-4o", "price": 2.50, "period": "per 1M input tokens", "features": "Most capable model|128K context|Multimodal|Function calling", "isPopular": true },
+      { "name": "GPT-4o mini", "price": 0.15, "period": "per 1M input tokens", "features": "Fast & affordable|128K context|Great for simple tasks", "isPopular": false },
+      { "name": "GPT-3.5 Turbo", "price": 0.50, "period": "per 1M input tokens", "features": "Legacy model|16K context|Lowest cost option", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Chat Completions", "description": "Build conversational applications with GPT models" },
+      { "name": "Function Calling", "description": "Let models call your functions for structured outputs" },
+      { "name": "Assistants API", "description": "Build AI assistants with code execution and retrieval" },
+      { "name": "Fine-tuning", "description": "Customize models on your own training data" }
+    ],
+    "useCases": [
+      { "title": "Chatbot Development", "description": "Build intelligent customer service chatbots", "icon": "MessageSquare" },
+      { "title": "Content Generation", "description": "Generate content at scale for applications", "icon": "PenTool" }
+    ],
+    "pros": "Largest AI API ecosystem|Multiple models available|Excellent documentation|Fine-tuning available",
+    "cons": "Can be expensive|Rate limits|Model changes can break apps|Privacy considerations"
+  },
+  {
+    "name": "Framer",
+    "slug": "framer",
+    "developer": "Framer B.V.",
+    "description": "AI-powered website builder that generates and deploys professional websites from text descriptions.",
+    "website": "https://framer.com",
+    "rating": 4.6,
+    "reviewCount": 4200,
+    "views": 280000,
+    "clicks": 72000,
+    "isFeatured": false,
+    "platforms": "Web",
+    "categories": ["Design", "No-Code/Low-Code", "Developer Tools"],
+    "industries": ["Design & Creative", "Technology", "Marketing"],
+    "tags": ["website-builder", "framer", "no-code", "web-design", "ai-website"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Framer subdomain|1,000 visitors|Basic features", "isPopular": false },
+      { "name": "Mini", "price": 5, "period": "month", "features": "Custom domain|150 pages|1,000 form submissions", "isPopular": false },
+      { "name": "Basic", "price": 15, "period": "month", "features": "150 pages|No Framer badge|10,000 visitors", "isPopular": true },
+      { "name": "Pro", "price": 25, "period": "month", "features": "300 pages|Password protection|Advanced analytics", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Website Generation", "description": "Generate complete websites from text descriptions" },
+      { "name": "Visual Editor", "description": "Drag-and-drop website builder with animations" },
+      { "name": "CMS", "description": "Built-in content management system" },
+      { "name": "Responsive Design", "description": "Automatic responsive breakpoints" }
+    ],
+    "useCases": [
+      { "title": "Portfolio Sites", "description": "Create stunning portfolio websites with AI", "icon": "Globe" },
+      { "title": "Landing Pages", "description": "Build high-converting landing pages quickly", "icon": "Layout" }
+    ],
+    "pros": "Beautiful design output|AI website generation|Great animations|No-code friendly",
+    "cons": "Limited e-commerce|Not for complex apps|Learning curve for advanced features|CMS is basic"
+  },
+  {
+    "name": "Semantic Scholar",
+    "slug": "semantic-scholar",
+    "developer": "Allen Institute for AI",
+    "description": "AI-powered academic search engine that uses NLP to help researchers find and understand scientific papers.",
+    "website": "https://semanticscholar.org",
+    "rating": 4.5,
+    "reviewCount": 4500,
+    "views": 320000,
+    "clicks": 85000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": ["Search & Research", "Education"],
+    "industries": ["Education", "Healthcare", "Technology"],
+    "tags": ["research", "academic", "semantic-scholar", "papers", "science"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": null, "features": "Full search access|Paper recommendations|Citation analysis|API access", "isPopular": true }
+    ],
+    "features": [
+      { "name": "AI-Powered Search", "description": "Find relevant papers using natural language queries" },
+      { "name": "TLDR Summaries", "description": "AI-generated one-sentence paper summaries" },
+      { "name": "Citation Analysis", "description": "Track paper influence and citation networks" },
+      { "name": "Research Feeds", "description": "Personalized paper recommendations" }
+    ],
+    "useCases": [
+      { "title": "Literature Review", "description": "Efficiently review existing research on any topic", "icon": "BookOpen" },
+      { "title": "Citation Tracking", "description": "Track citations and impact of research papers", "icon": "TrendingUp" }
+    ],
+    "pros": "Completely free|Excellent AI search|TLDR summaries|Great API",
+    "cons": "Academic papers only|Coverage gaps in some fields|UI could be better|Not for general research"
+  },
+  {
+    "name": "Tidio",
+    "slug": "tidio",
+    "developer": "Tidio",
+    "description": "AI-powered customer service platform with chatbots, live chat, and email marketing for e-commerce businesses.",
+    "website": "https://tidio.com",
+    "rating": 4.4,
+    "reviewCount": 5600,
+    "views": 240000,
+    "clicks": 62000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": ["Customer Support", "Marketing", "Automation"],
+    "industries": ["E-commerce", "Sales"],
+    "tags": ["chatbot", "customer-service", "tidio", "live-chat", "e-commerce"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "50 live chat conversations|100 chatbot triggers|Email support", "isPopular": false },
+      { "name": "Starter", "price": 29, "period": "month", "features": "100 conversations|500 chatbot triggers|Live analytics", "isPopular": false },
+      { "name": "Growth", "price": 59, "period": "month", "features": "2,000 conversations|Unlimited chatbot|Advanced analytics|Lyro AI", "isPopular": true }
+    ],
+    "features": [
+      { "name": "Lyro AI", "description": "AI chatbot trained on your business data" },
+      { "name": "Live Chat", "description": "Real-time customer chat with operator tools" },
+      { "name": "Chatbot Builder", "description": "Visual chatbot builder for automated responses" },
+      { "name": "Email Marketing", "description": "Automated email campaigns and newsletters" }
+    ],
+    "useCases": [
+      { "title": "E-commerce Support", "description": "Automate customer support for online stores", "icon": "ShoppingCart" },
+      { "title": "Lead Generation", "description": "Capture leads with AI-powered chat widgets", "icon": "Users" }
+    ],
+    "pros": "Easy to set up|AI chatbot is effective|Good e-commerce integration|Affordable",
+    "cons": "Limited on free tier|Lyro AI needs training|Complex for larger businesses|Email features basic"
+  },
+  {
+    "name": "Photoroom",
+    "slug": "photoroom",
+    "developer": "Photoroom",
+    "description": "AI photo editing tool specializing in background removal, product photography enhancement, and marketing visuals.",
+    "website": "https://photoroom.com",
+    "rating": 4.5,
+    "reviewCount": 6200,
+    "views": 310000,
+    "clicks": 82000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android",
+    "categories": ["Image Generation", "Design", "E-commerce Tools"],
+    "industries": ["E-commerce", "Marketing", "Design & Creative"],
+    "tags": ["photo-editing", "background-removal", "photoroom", "product-photos", "e-commerce"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Background removal|Basic editing|Watermarked exports", "isPopular": false },
+      { "name": "Pro", "price": 9.99, "period": "month", "features": "No watermark|Batch editing|HD exports|1,000 AI edits/month", "isPopular": true },
+      { "name": "Business", "price": 19.99, "period": "month", "features": "Everything in Pro|5,000 AI edits|API access|Team features", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Instant Background Removal", "description": "Remove backgrounds in one click with AI" },
+      { "name": "AI Backgrounds", "description": "Generate professional product backgrounds" },
+      { "name": "Batch Editing", "description": "Edit hundreds of photos simultaneously" },
+      { "name": "Magic Retouch", "description": "Remove unwanted objects from photos" }
+    ],
+    "useCases": [
+      { "title": "Product Photography", "description": "Create professional product photos for e-commerce listings", "icon": "Camera" },
+      { "title": "Social Media Content", "description": "Create branded social media visuals quickly", "icon": "Share2" }
+    ],
+    "pros": "Best background removal|Great for e-commerce|Batch processing|Mobile app is excellent",
+    "cons": "Watermark on free tier|AI generation credits limited|Advanced features paid only|Template variety limited"
+  },
+  {
+    "name": "Speechify",
+    "slug": "speechify",
+    "developer": "Speechify Inc.",
+    "description": "AI text-to-speech app that reads any text aloud with natural-sounding voices, supporting PDFs, emails, and web pages.",
+    "website": "https://speechify.com",
+    "rating": 4.4,
+    "reviewCount": 8500,
+    "views": 350000,
+    "clicks": 92000,
+    "isFeatured": false,
+    "platforms": "Web, iOS, Android, Chrome Extension, Desktop",
+    "categories": ["Audio & Speech", "Productivity", "Education"],
+    "industries": ["Education", "Technology"],
+    "tags": ["text-to-speech", "speechify", "accessibility", "reading", "tts"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "Basic voices|Limited features|Web reader", "isPopular": false },
+      { "name": "Premium", "price": 11.58, "period": "month", "features": "30+ natural voices|Unlimited listening|OCR scanning|All platforms", "isPopular": true },
+      { "name": "Enterprise", "price": null, "period": "custom", "features": "Custom voices|API access|Admin dashboard|SSO", "isPopular": false }
+    ],
+    "features": [
+      { "name": "Natural Voices", "description": "30+ AI voices that sound human-like" },
+      { "name": "Any Format", "description": "Read PDFs, websites, emails, Google Docs, and more" },
+      { "name": "Speed Control", "description": "Listen at up to 4.5x speed" },
+      { "name": "OCR Scanning", "description": "Scan and read physical documents and books" }
+    ],
+    "useCases": [
+      { "title": "Accessibility", "description": "Make written content accessible to visually impaired users", "icon": "Eye" },
+      { "title": "Speed Reading", "description": "Consume articles and books faster with audio", "icon": "Zap" }
+    ],
+    "pros": "Natural voice quality|Multi-platform|Great for accessibility|OCR scanning",
+    "cons": "Expensive premium tier|Free voices basic|Battery drain on mobile|Occasional pronunciation errors"
+  },
+  {
+    "name": "Replicate",
+    "slug": "replicate",
+    "developer": "Replicate Inc.",
+    "description": "Cloud platform for running open-source AI models via API, from image generation to language models.",
+    "website": "https://replicate.com",
+    "rating": 4.5,
+    "reviewCount": 2400,
+    "views": 190000,
+    "clicks": 52000,
+    "isFeatured": false,
+    "platforms": "API, Web",
+    "categories": ["Developer Tools", "Image Generation", "LLM & Chatbot"],
+    "industries": ["Technology"],
+    "tags": ["api", "replicate", "open-source", "model-hosting", "developer"],
+    "pricingPlans": [
+      { "name": "Pay-per-use", "price": null, "period": "per second", "features": "Pay only for compute|No minimum|All models available", "isPopular": true }
+    ],
+    "features": [
+      { "name": "Model Library", "description": "Access thousands of open-source AI models" },
+      { "name": "Custom Models", "description": "Deploy your own fine-tuned models" },
+      { "name": "Streaming", "description": "Stream model outputs in real-time" },
+      { "name": "Webhooks", "description": "Async processing with webhook notifications" }
+    ],
+    "useCases": [
+      { "title": "AI Application Backend", "description": "Power AI features in apps without managing infrastructure", "icon": "Server" },
+      { "title": "Model Experimentation", "description": "Test different AI models quickly without setup", "icon": "Beaker" }
+    ],
+    "pros": "Easy API access to many models|Pay-per-use pricing|No infrastructure management|Great documentation",
+    "cons": "Cold start latency|Expensive for high volume|Limited model customization|No free tier"
+  },
+  {
+    "name": "Heygen",
+    "slug": "heygen",
+    "developer": "HeyGen",
+    "description": "AI video platform for creating professional spokesperson videos with customizable AI avatars and voice cloning.",
+    "website": "https://heygen.com",
+    "rating": 4.4,
+    "reviewCount": 3500,
+    "views": 250000,
+    "clicks": 65000,
+    "isFeatured": false,
+    "platforms": "Web, API",
+    "categories": ["Video Generation", "Content Creation"],
+    "industries": ["Marketing", "Education", "Sales"],
+    "tags": ["video-generation", "ai-avatars", "heygen", "spokesperson", "marketing-video"],
+    "pricingPlans": [
+      { "name": "Free", "price": 0, "period": "month", "features": "1 credit|1-min videos|Basic avatars", "isPopular": false },
+      { "name": "Creator", "price": 24, "period": "month", "features": "15 credits/month|Custom avatars|Voice cloning|Brand kit", "isPopular": true },
+      { "name": "Team", "price": 69, "period": "month", "features": "30 credits/month|Instant avatars|Priority support|API access", "isPopular": false }
+    ],
+    "features": [
+      { "name": "AI Avatars", "description": "100+ realistic AI avatars for video content" },
+      { "name": "Voice Cloning", "description": "Clone your voice for consistent narration" },
+      { "name": "Video Translation", "description": "Translate videos into 40+ languages with lip-sync" },
+      { "name": "Instant Avatar", "description": "Create your own AI avatar from a 5-min video" }
+    ],
+    "useCases": [
+      { "title": "Marketing Videos", "description": "Create professional marketing videos at scale", "icon": "Film" },
+      { "title": "Localization", "description": "Translate video content into multiple languages", "icon": "Globe" }
+    ],
+    "pros": "Realistic avatars|Great video translation|Easy to use|Multiple language support",
+    "cons": "Credit system is limiting|Avatar quality varies|Lip-sync not always perfect|Expensive for volume"
+  }
+]
